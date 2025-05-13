@@ -34,7 +34,7 @@ g_studierende.bind("destatisstudierende", DESTATIS_STUD)
 
 
 # Mapping configuration
-MATCH_THRESHOLD = 85
+MATCH_THRESHOLD = 95
 
 
 # Track unmatched concepts
@@ -88,7 +88,7 @@ for c_stud in g_studierende.subjects(SKOS.prefLabel, None):
                 print(
                     f"exactMatch (Mid): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
                 )
-            else:
+            elif len(str(notation_pers)) == 4 and len(str(notation_stud)) == 3:
                 g_studierende.add((c_stud, SKOS.closeMatch, c_pers))
                 g_personal.add((c_pers, SKOS.closeMatch, c_stud))
                 print(

@@ -74,7 +74,6 @@ destatisstudierende:01.03.545 a skos:Concept ;
 
 destatisstudierende:01.04.127 a skos:Concept ;
     skos:broader destatisstudierende:01.04 ;
-    skos:closeMatch destatispersonal:01.040 ;
     skos:exactMatch isced:0226 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "127" ;
@@ -109,7 +108,6 @@ destatisstudierende:01.05.012 a skos:Concept ;
 
 destatisstudierende:01.05.068 a skos:Concept ;
     skos:broader destatisstudierende:01.05 ;
-    skos:closeMatch destatispersonal:08.730.7350 ;
     skos:exactMatch isced:0225 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "068" ;
@@ -118,7 +116,6 @@ destatisstudierende:01.05.068 a skos:Concept ;
 
 destatisstudierende:01.05.183 a skos:Concept ;
     skos:broader destatisstudierende:01.05 ;
-    skos:closeMatch destatispersonal:01.050.0560 ;
     skos:exactMatch isced:0225 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "183" ;
@@ -204,7 +201,6 @@ destatisstudierende:01.07.160 a skos:Concept ;
 
 destatisstudierende:01.07.188 a skos:Concept ;
     skos:broader destatisstudierende:01.07 ;
-    skos:closeMatch destatispersonal:01.160.1650 ;
     skos:exactMatch isced:0223 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "188" ;
@@ -247,7 +243,6 @@ destatisstudierende:01.08.043 a skos:Concept ;
 
 destatisstudierende:01.08.070 a skos:Concept ;
     skos:broader destatisstudierende:01.08 ;
-    skos:closeMatch destatispersonal:01.090.0940 ;
     skos:exactMatch isced:0222 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "070" ;
@@ -455,7 +450,7 @@ destatisstudierende:01.13.001 a skos:Concept ;
 
 destatisstudierende:01.13.002 a skos:Concept ;
     skos:broader destatisstudierende:01.13 ;
-    skos:closeMatch destatispersonal:01.110.1110 ;
+    skos:closeMatch destatispersonal:01.140.1420 ;
     skos:exactMatch isced:0222 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "002" ;
@@ -730,7 +725,6 @@ destatisstudierende:03.27.245 a skos:Concept ;
 
 destatisstudierende:03.27.253 a skos:Concept ;
     skos:broader destatisstudierende:03.27 ;
-    skos:closeMatch destatispersonal:03.240 ;
     skos:exactMatch isced:0762 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "253" ;
@@ -748,7 +742,6 @@ destatisstudierende:03.28.042 a skos:Concept ;
 
 destatisstudierende:03.28.135 a skos:Concept ;
     skos:broader destatisstudierende:03.28 ;
-    skos:closeMatch destatispersonal:03.250 ;
     skos:exactMatch isced:0380 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "135" ;
@@ -766,7 +759,6 @@ destatisstudierende:03.29.168 a skos:Concept ;
 
 destatisstudierende:03.29.172 a skos:Concept ;
     skos:broader destatisstudierende:03.29 ;
-    skos:closeMatch destatispersonal:03.270 ;
     skos:exactMatch isced:0345 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "172" ;
@@ -959,7 +951,6 @@ destatisstudierende:03.30.182 a skos:Concept ;
 
 destatisstudierende:03.30.184 a skos:Concept ;
     skos:broader destatisstudierende:03.30 ;
-    skos:closeMatch destatispersonal:03.290 ;
     skos:exactMatch isced:0340 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "184" ;
@@ -1013,7 +1004,6 @@ destatisstudierende:03.31.464 a skos:Concept ;
 
 destatisstudierende:03.32.132 a skos:Concept ;
     skos:broader destatisstudierende:03.32 ;
-    skos:closeMatch destatispersonal:03.315 ;
     skos:exactMatch isced:0311 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "132" ;
@@ -1030,7 +1020,6 @@ destatisstudierende:03.33.052 a skos:Concept ;
 
 destatisstudierende:03.33.115 a skos:Concept ;
     skos:broader destatisstudierende:03.33 ;
-    skos:closeMatch destatispersonal:03.320.1803 ;
     skos:exactMatch isced:0144 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "115" ;
@@ -1039,7 +1028,6 @@ destatisstudierende:03.33.115 a skos:Concept ;
 
 destatisstudierende:03.33.117 a skos:Concept ;
     skos:broader destatisstudierende:03.33 ;
-    skos:closeMatch destatispersonal:03.320.1806 ;
     skos:exactMatch isced:0142 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "117" ;
@@ -1143,7 +1131,6 @@ destatisstudierende:04.36.312 a skos:Concept ;
 
 destatisstudierende:04.37.105 a skos:Concept ;
     skos:broader destatisstudierende:04.37 ;
-    skos:closeMatch destatispersonal:04.340 ;
     skos:exactMatch isced:0461 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "105" ;
@@ -1194,7 +1181,6 @@ destatisstudierende:04.40.025 a skos:Concept ;
 
 destatisstudierende:04.40.032 a skos:Concept ;
     skos:broader destatisstudierende:04.40 ;
-    skos:closeMatch destatispersonal:04.370 ;
     skos:exactMatch isced:0442 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "032" ;
@@ -1212,7 +1198,6 @@ destatisstudierende:04.40.096 a skos:Concept ;
 
 destatisstudierende:04.41.126 a skos:Concept ;
     skos:broader destatisstudierende:04.41 ;
-    skos:closeMatch destatispersonal:04.390 ;
     skos:exactMatch isced:0727 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "126" ;
@@ -1230,7 +1215,6 @@ destatisstudierende:04.42.009 a skos:Concept ;
 
 destatisstudierende:04.42.026 a skos:Concept ;
     skos:broader destatisstudierende:04.42 ;
-    skos:closeMatch destatispersonal:04.400 ;
     skos:exactMatch isced:0421 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "026" ;
@@ -1255,7 +1239,7 @@ destatisstudierende:04.42.300 a skos:Concept ;
 
 destatisstudierende:04.43.039 a skos:Concept ;
     skos:broader destatisstudierende:04.43 ;
-    skos:closeMatch destatispersonal:01.010.0100 ;
+    skos:closeMatch destatispersonal:04.410.4100 ;
     skos:exactMatch isced:0443 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "039" ;
@@ -1308,7 +1292,7 @@ destatisstudierende:04.43.124 a skos:Concept ;
 
 destatisstudierende:04.43.385 a skos:Concept ;
     skos:broader destatisstudierende:04.43 ;
-    skos:closeMatch destatispersonal:04.410.4110 ;
+    skos:closeMatch destatispersonal:04.410.4190 ;
     skos:exactMatch isced:0443 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "385" ;
@@ -1325,7 +1309,6 @@ destatisstudierende:04.44.050 a skos:Concept ;
 
 destatisstudierende:04.44.178 a skos:Concept ;
     skos:broader destatisstudierende:04.44 ;
-    skos:closeMatch destatispersonal:04.420.4215 ;
     skos:exactMatch isced:0443 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "178" ;
@@ -1437,7 +1420,6 @@ destatisstudierende:07.58.003 a skos:Concept ;
 
 destatisstudierende:07.58.028 a skos:Concept ;
     skos:broader destatisstudierende:07.58 ;
-    skos:closeMatch destatispersonal:07.620.6260 ;
     skos:exactMatch isced:0541 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "028" ;
@@ -1516,7 +1498,6 @@ destatisstudierende:07.58.371 a skos:Concept ;
 
 destatisstudierende:07.59.058 a skos:Concept ;
     skos:broader destatisstudierende:07.59 ;
-    skos:closeMatch destatispersonal:07.640 ;
     skos:exactMatch isced:0623 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "058" ;
@@ -1560,7 +1541,6 @@ destatisstudierende:07.60.333 a skos:Concept ;
 
 destatisstudierende:08.61.072 a skos:Concept ;
     skos:broader destatisstudierende:08.61 ;
-    skos:closeMatch destatispersonal:01.010.0120 ;
     skos:exactMatch isced:0520 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "072" ;
@@ -1569,7 +1549,6 @@ destatisstudierende:08.61.072 a skos:Concept ;
 
 destatisstudierende:08.61.140 a skos:Concept ;
     skos:broader destatisstudierende:08.61 ;
-    skos:closeMatch destatispersonal:07.610.6107 ;
     skos:exactMatch isced:0460 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "140" ;
@@ -1794,7 +1773,6 @@ destatisstudierende:08.63.225 a skos:Concept ;
 
 destatisstudierende:08.63.226 a skos:Concept ;
     skos:broader destatisstudierende:08.63 ;
-    skos:closeMatch destatispersonal:08.690.6905 ;
     skos:exactMatch isced:0524 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "226" ;
@@ -1916,7 +1894,6 @@ destatisstudierende:08.65.235 a skos:Concept ;
 
 destatisstudierende:08.66.013 a skos:Concept ;
     skos:broader destatisstudierende:08.66 ;
-    skos:closeMatch destatispersonal:08.730 ;
     skos:exactMatch isced:0581 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "013" ;
@@ -1934,7 +1911,6 @@ destatisstudierende:08.66.242 a skos:Concept ;
 
 destatisstudierende:08.67.134 a skos:Concept ;
     skos:broader destatisstudierende:08.67 ;
-    skos:closeMatch destatispersonal:08.740 ;
     skos:exactMatch isced:0581 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "134" ;
@@ -2019,7 +1995,6 @@ destatisstudierende:08.70.370 a skos:Concept ;
 
 destatisstudierende:08.71.079 a skos:Concept ;
     skos:broader destatisstudierende:08.71 ;
-    skos:closeMatch destatispersonal:08.750.7580 ;
     skos:exactMatch isced:0481 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "079" ;
@@ -2054,7 +2029,7 @@ destatisstudierende:08.71.200 a skos:Concept ;
 
 destatisstudierende:08.71.221 a skos:Concept ;
     skos:broader destatisstudierende:08.71 ;
-    skos:closeMatch destatispersonal:08.750.7580 ;
+    skos:closeMatch destatispersonal:08.765.3540 ;
     skos:exactMatch isced:0481 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "221" ;
@@ -2097,7 +2072,6 @@ destatisstudierende:08.72.294 a skos:Concept ;
 
 destatisstudierende:09.74.040 a skos:Concept ;
     skos:broader destatisstudierende:09.74 ;
-    skos:closeMatch destatispersonal:04.330.3320 ;
     skos:exactMatch isced:0145 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:notation "040" ;
@@ -2401,7 +2375,6 @@ destatisstudierende:20 a skos:Concept ;
 
 destatisstudierende:01.18 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.195.1950 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.18.292 ;
     skos:notation "18" ;
@@ -2410,7 +2383,6 @@ destatisstudierende:01.18 a skos:Concept ;
 
 destatisstudierende:01.19 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.197.0130 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.19.302 ;
     skos:notation "19" ;
@@ -2446,7 +2418,6 @@ destatisstudierende:03.32 a skos:Concept ;
 
 destatisstudierende:03.34 a skos:Concept ;
     skos:broader destatisstudierende:03 ;
-    skos:closeMatch destatispersonal:03.325.2240 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:03.34.303 ;
     skos:notation "34" ;
@@ -2488,7 +2459,6 @@ destatisstudierende:07.51 a skos:Concept ;
 
 destatisstudierende:08.70 a skos:Concept ;
     skos:broader destatisstudierende:08 ;
-    skos:closeMatch destatispersonal:08.675.6755 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:08.70.370 ;
     skos:notation "70" ;
@@ -2506,7 +2476,6 @@ destatisstudierende:10 a skos:Concept ;
 
 destatisstudierende:01.01 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.010.0100 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.01.004,
         destatisstudierende:01.01.090 ;
@@ -2516,7 +2485,7 @@ destatisstudierende:01.01 a skos:Concept ;
 
 destatisstudierende:01.06 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.070.0700 ;
+    skos:exactMatch destatispersonal:01.070 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.06.022,
         destatisstudierende:01.06.037 ;
@@ -2555,7 +2524,6 @@ destatisstudierende:03.28 a skos:Concept ;
 
 destatisstudierende:03.31 a skos:Concept ;
     skos:broader destatisstudierende:03 ;
-    skos:closeMatch destatispersonal:03.310.3100 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:03.31.179,
         destatisstudierende:03.31.464 ;
@@ -2575,7 +2543,7 @@ destatisstudierende:04.39 a skos:Concept ;
 
 destatisstudierende:07.59 a skos:Concept ;
     skos:broader destatisstudierende:07 ;
-    skos:closeMatch destatispersonal:07.640.6400 ;
+    skos:exactMatch destatispersonal:07.640 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:07.59.058,
         destatisstudierende:07.59.075 ;
@@ -2666,7 +2634,6 @@ destatisstudierende:01.14 a skos:Concept ;
 
 destatisstudierende:03.23 a skos:Concept ;
     skos:broader destatisstudierende:03 ;
-    skos:closeMatch destatispersonal:03.220.2200 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:03.23.030,
         destatisstudierende:03.23.055,
@@ -2688,7 +2655,7 @@ destatisstudierende:03.24 a skos:Concept ;
 
 destatisstudierende:03.26 a skos:Concept ;
     skos:broader destatisstudierende:03 ;
-    skos:closeMatch destatispersonal:03.235.2320 ;
+    skos:exactMatch destatispersonal:03.235 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:03.26.147,
         destatisstudierende:03.26.148,
@@ -2765,7 +2732,7 @@ destatisstudierende:07.57 a skos:Concept ;
 
 destatisstudierende:07.60 a skos:Concept ;
     skos:broader destatisstudierende:07 ;
-    skos:closeMatch destatispersonal:07.650.6500 ;
+    skos:exactMatch destatispersonal:07.650 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:07.60.071,
         destatisstudierende:07.60.320,
@@ -2786,7 +2753,6 @@ destatisstudierende:10.83 a skos:Concept ;
 
 destatisstudierende:04.36 a skos:Concept ;
     skos:broader destatisstudierende:04 ;
-    skos:closeMatch destatispersonal:04.330.3300 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:04.36.019,
         destatisstudierende:04.36.049,
@@ -2810,7 +2776,6 @@ destatisstudierende:04.42 a skos:Concept ;
 
 destatisstudierende:05.48 a skos:Concept ;
     skos:broader destatisstudierende:05 ;
-    skos:closeMatch destatispersonal:01.010.0100 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:05.48.195,
         destatisstudierende:05.48.232,
@@ -2834,7 +2799,6 @@ destatisstudierende:08.62 a skos:Concept ;
 
 destatisstudierende:09.74 a skos:Concept ;
     skos:broader destatisstudierende:09 ;
-    skos:closeMatch destatispersonal:09.780.7800 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:09.74.040,
         destatisstudierende:09.74.091,
@@ -2858,7 +2822,7 @@ destatisstudierende:09.75 a skos:Concept ;
 
 destatisstudierende:01.07 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.080.0800 ;
+    skos:exactMatch destatispersonal:01.080 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.07.018,
         destatisstudierende:01.07.152,
@@ -2948,7 +2912,6 @@ destatisstudierende:09 a skos:Concept ;
 
 destatisstudierende:09.77 a skos:Concept ;
     skos:broader destatisstudierende:09 ;
-    skos:closeMatch destatispersonal:09.820.8200 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:09.77.035,
         destatisstudierende:09.77.054,
@@ -2961,7 +2924,7 @@ destatisstudierende:09.77 a skos:Concept ;
 
 destatisstudierende:01.09 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.100.1000 ;
+    skos:exactMatch destatispersonal:01.100 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.09.034,
         destatisstudierende:01.09.067,
@@ -3003,7 +2966,7 @@ destatisstudierende:09.76 a skos:Concept ;
 
 destatisstudierende:01.05 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:08.730.7350 ;
+    skos:exactMatch destatispersonal:01.050 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.05.012,
         destatisstudierende:01.05.068,
@@ -3033,7 +2996,6 @@ destatisstudierende:04.43 a skos:Concept ;
 
 destatisstudierende:08.61 a skos:Concept ;
     skos:broader destatisstudierende:08 ;
-    skos:closeMatch destatispersonal:08.750.7500 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:08.61.072,
         destatisstudierende:08.61.140,
@@ -3048,7 +3010,7 @@ destatisstudierende:08.61 a skos:Concept ;
 
 destatisstudierende:08.71 a skos:Concept ;
     skos:broader destatisstudierende:08 ;
-    skos:closeMatch destatispersonal:08.750.7580 ;
+    skos:exactMatch destatispersonal:08.765 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:08.71.079,
         destatisstudierende:08.71.121,
@@ -3062,7 +3024,7 @@ destatisstudierende:08.71 a skos:Concept ;
         "Computer Science"@en .
 
 destatisstudierende:04 a skos:Concept ;
-    skos:closeMatch destatispersonal:04.330.3300 ;
+    skos:exactMatch destatispersonal:04 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:04.36,
         destatisstudierende:04.37,
@@ -3079,7 +3041,7 @@ destatisstudierende:04 a skos:Concept ;
 
 destatisstudierende:01.12 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.130.1300 ;
+    skos:exactMatch destatispersonal:01.130 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.12.016,
         destatisstudierende:01.12.056,
@@ -3096,7 +3058,7 @@ destatisstudierende:01.12 a skos:Concept ;
 
 destatisstudierende:03.33 a skos:Concept ;
     skos:broader destatisstudierende:03 ;
-    skos:closeMatch destatispersonal:07.650.6520 ;
+    skos:exactMatch destatispersonal:03.320 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:03.33.052,
         destatisstudierende:03.33.115,
@@ -3168,7 +3130,7 @@ destatisstudierende:09.78 a skos:Concept ;
         "Music, Musicology"@en .
 
 destatisstudierende:03 a skos:Concept ;
-    skos:closeMatch destatispersonal:03.220.2200 ;
+    skos:exactMatch destatispersonal:03 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:03.23,
         destatisstudierende:03.24,
@@ -3209,7 +3171,7 @@ destatisstudierende:08 a skos:Concept ;
 
 destatisstudierende:01.13 a skos:Concept ;
     skos:broader destatisstudierende:01 ;
-    skos:closeMatch destatispersonal:01.140.1400 ;
+    skos:exactMatch destatispersonal:01.140 ;
     skos:inScheme destatisstudierende:scheme ;
     skos:narrower destatisstudierende:01.13.001,
         destatisstudierende:01.13.002,

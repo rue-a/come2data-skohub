@@ -1,7 +1,7 @@
 ---
 # see https://github.com/nextapps-de/flexsearch#tokenizer-prefix-search for options
 tokenizer: "full" # strict, forward, reverse, full
-custom_domain: ""
+custom_domain: "https://rue-a.github.io/destatis-personal-vocab/"
 fail_on_validation: false
 searchableAttributes:
   - "prefLabel" # you should not delete this one
@@ -10,8 +10,10 @@ searchableAttributes:
   - "hiddenLabel"
   - "example"
   - "definition"
+  - "broader"
+  - "narrower"
 ui:
-  title: "SkoHub Vocabs" # Title is mandatory
+  title: "Destatis Fächersystematiken (Come2Data Version)" # Title is mandatory
   logo: "skohub-signet-color.svg" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"

@@ -1,0 +1,277 @@
+id,label,parent_id,isced_id
+4,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),1,220
+90,Lernbereich Geisteswissenschaften,1,145
+161,Diakoniewissenschaft,2,221
+544,"Evang. Religionspädagogik, kirchliche Bildungsarbeit",2,221
+53,"Evang. Theologie, -Religionslehre",2,221
+162,Caritaswissenschaft,3,221
+545,"Kath. Religionspädagogik, kirchliche Bildungsarbeit",3,221
+86,"Kath. Theologie, -Religionslehre",3,221
+169,Ethik,4,226
+127,Philosophie,4,226
+136,Religionswissenschaft,4,221
+272,Alte Geschichte,5,225
+12,Archäologie,5,225
+68,Geschichte,5,225
+273,Mittlere und neuere Geschichte,5,225
+548,Ur- und Frühgeschichte,5,225
+183,Wirtschafts-/Sozialgeschichte,5,225
+275,Wissenschaftsgeschichte/Technikgeschichte,5,225
+22,Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen),6,322
+37,Archiv- und Dokumentationswissenschaft,6,322
+188,Allgemeine Literaturwissenschaft,7,223
+152,Allgemeine Sprachwissenschaft/Indogermanistik,7,223
+284,Angewandte Sprachwissenschaft,7,223
+18,Berufsbezogene Fremdsprachenausbildung,7,222
+160,Computerlinguistik,7,220
+31,Byzantinistik,8,222
+70,Griechisch,8,222
+5,Klassische Philologie,8,222
+95,Latein,8,222
+43,Neugriechisch,8,222
+34,Dänisch,9,223
+271,Deutsch als Fremdsprache oder als Zweitsprache,9,222
+67,Germanistik/Deutsch,9,223
+189,Niederdeutsch,9,223
+119,Niederländisch,9,223
+120,"Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)",9,222
+6,Amerikanistik/Amerikakunde,10,222
+8,Anglistik/Englisch,10,222
+59,Französisch,11,222
+84,Italienisch,11,222
+131,Portugiesisch,11,222
+137,"Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)",11,222
+150,Spanisch,11,222
+16,Baltistik,12,222
+56,Finno-Ugristik,12,222
+206,Polnisch,12,222
+139,Russisch,12,222
+146,Slawistik (Slaw. Philologie),12,222
+207,Sorabistik,12,222
+153,"Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)",12,222
+209,Tschechisch,12,222
+130,Westslawisch (allgemein und a.n.g.),12,222
+1,Ägyptologie,13,225
+2,Afrikanistik,13,222
+10,Arabisch/Arabistik,13,222
+15,Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika,13,222
+73,Judaistik/Hebräisch ,13,222
+78,Indologie,13,222
+81,Iranistik,13,310
+83,Islamwissenschaft,13,310
+85,Japanologie,13,222
+180,Kaukasistik,13,222
+122,"Orientalistik, Altorientalistik",13,222
+145,Sinologie/Koreanistik,13,222
+158,Turkologie,13,222
+187,Asiatische Sprachen und Kulturen/Asienwissenschaften,13,222
+24,Europäische Ethnologie und Kulturwissenschaft,14,312
+173,Ethnologie,14,312
+174,Volkskunde,14,312
+292,Islamische Studien/Islamische Theologie,18,222
+302,Medienwissenschaft,19,321
+98,Sportpädagogik/Sportpsychologie,22,142
+29,Sportwissenschaft,22,813
+30,"Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)",23,310
+154,Lernbereich Gesellschaftslehre,23,145
+55,Orientierungsstudium Gesellschaftswissenschaften,23,145
+38,Lateinamerika-Studien,24,310
+44,Ost- und Südosteuropa-Studien,24,310
+36,Sonstige Regionalwissenschaften,24,310
+129,Politikwissenschaft/Politologie,25,313
+147,Sozialkunde,26,145
+148,Sozialwissenschaften,26,312
+149,Soziologie,26,312
+208,Soziale Arbeit,27,762
+245,Sozialpädagogik,27,761
+253,Sozialwesen,27,762
+135,Rechtswissenschaft,28,380
+42,Wirtschaftsrecht,28,380
+257,Arbeits- und Berufsberatung,29,762
+258,Arbeitsverwaltung,29,345
+255,Archivwesen,29,322
+259,Auswärtige Angelegenheiten,29,345
+265,Bankwesen,29,343
+262,Bibliothekswesen,29,322
+260,Bundeswehrverwaltung,29,345
+266,Finanzverwaltung,29,344
+261,Innere Verwaltung,29,345
+168,Justizvollzug,29,861
+263,Polizei/Verfassungsschutz,29,861
+256,Rechtspflege,29,380
+264,Sozialversicherung,29,343
+268,Verkehrswesen,29,840
+172,Verwaltungswissenschaft/-wesen,29,345
+269,Zoll- und Steuerverwaltung,29,344
+11,Arbeitslehre/Wirtschaftslehre,30,145
+21,Betriebswirtschaftslehre,30,340
+167,Europäische Wirtschaft,30,340
+304,Medienwirtschaft/Medienmanagement,30,340
+182,Intern. Betriebswirtschaft/Management,30,340
+166,Sportmanagement/Sportökonomie,30,345
+274,Tourismuswirtschaft,30,812
+210,Verkehrswirtschaft,30,840
+175,Volkswirtschaftslehre,30,314
+181,Wirtschaftspädagogik,30,145
+184,Wirtschaftswissenschaften,30,340
+464,Facility Management,31,341
+179,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,31,340
+132,Psychologie,32,311
+117,Ausländerpädagogik,33,142
+270,Berufs- und Wirtschaftspädagogik,33,142
+321,Erwachsenenbildung und außerschulische Jugendbildung,33,142
+52,Erziehungswissenschaft (Pädagogik),33,142
+365,Pädagogik der frühen Kindheit,33,142
+115,Grundschul-/Primarstufenpädagogik,33,144
+254,Sachunterricht (einschl. Schulgarten),33,144
+361,Schulpädagogik,33,142
+190,Sonderpädagogik,33,144
+303,Kommunikationswissenschaft/Publizistik,34,321
+49,Interdisziplin. Studien (Schwerpunkt Naturwissenschaften),36,440
+186,Lernbereich Naturwissenschaft/Sachunterricht,36,145
+19,Orientierungsstudium MINT,36,145
+312,Statistik,36,462
+105,Mathematik,37,461
+118,Technomathematik,37,461
+276,Wirtschaftsmathematik,37,461
+14,Astrophysik und Astronomie,39,441
+128,Physik,39,441
+25,Biochemie,40,421
+32,Chemie,40,442
+96,Lebensmittelchemie,40,442
+126,Pharmazie,41,727
+9,Anthropologie (Humanbiologie),42,421
+26,Biologie,42,421
+300,Biomedizin,42,421
+282,Biotechnologie,42,421
+65,Geologie/Paläontologie,43,443
+385,Geoökologie,43,443
+66,Geophysik,43,443
+39,Geowissenschaften allgemein,43,443
+110,Meteorologie,43,443
+111,Mineralogie,43,443
+124,Ozeanographie,43,443
+50,Geographie/Erdkunde,44,443
+283,Landschaftsökologie/Biogeographie,44,443
+178,Wirtschafts-/Sozialgeographie,44,443
+195,Gesundheitspädagogik,48,142
+232,Gesundheitswissenschaften/-management,48,345
+233,Nichtärztliche Heilberufe/Therapien,48,723
+234,Pflegewissenschaft/-management,48,723
+107,Medizin (Allgemein-Medizin),49,721
+185,Zahnmedizin,50,724
+156,Tiermedizin/Veterinärmedizin,51,640
+93,Landespflege/Landschaftsgestaltung,57,581
+61,Meliorationswesen,57,581
+64,Naturschutz,57,851
+138,Agrarbiologie,58,621
+125,Agrarökonomie,58,621
+3,Agrarwissenschaft/Landwirtschaft,58,621
+28,Brauwesen/Getränketechnologie,58,541
+60,Gartenbau,58,622
+97,Lebensmitteltechnologie,58,541
+220,Milch- und Molkereiwirtschaft,58,541
+353,Pflanzenproduktion,58,621
+371,Tierproduktion,58,621
+227,Weinbau und Kellerwirtschaft,58,541
+58,"Forstwissenschaft, -wirtschaft",59,623
+75,Holzwirtschaft,59,623
+320,Ernährungswissenschaft,60,726
+71,Haushalts- und Ernährungswissenschaft,60,814
+333,Haushaltswissenschaft,60,814
+140,Angewandte Systemwissenschaften,61,460
+72,Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften),61,520
+199,Lernbereich Technik,61,145
+380,Mechatronik,61,520
+201,Werken (technisch)/Technologie,61,145
+305,Medientechnik,61,213
+310,Regenerative Energien,61,523
+390,Archäometrie (Ingenieurarchäologie),62,225
+20,Bergbau/Bergtechnik,62,544
+76,Hütten- und Gießereiwesen,62,521
+103,Markscheidewesen,62,544
+141,Abfallwirtschaft,63,851
+143,Augenoptik,63,521
+33,Chemie-Ingenieurwesen/Chemieverfahrenstechnik,63,524
+231,Druck- und Reproduktionstechnik,63,213
+211,Energieverfahrenstechnik,63,522
+212,Feinwerktechnik,63,521
+202,Fertigungs-/Produktionstechnik,63,520
+215,Gesundheitstechnik,63,521
+216,Glastechnik/Keramik,63,543
+82,Holz-/Fasertechnik,63,543
+219,Kunststofftechnik,63,543
+104,Maschinenbau/-wesen,63,520
+108,Metalltechnik,63,521
+224,Physikalische Technik/Mechanische Verfahrenstechnik,63,520
+144,Technische Kybernetik,63,520
+225,Textil- und Bekleidungstechnik/-gewerbe,63,542
+74,Transport-/Fördertechnik,63,544
+457,Umwelttechnik (einschl. Recycling),63,851
+226,Verfahrenstechnik,63,524
+213,Versorgungstechnik,63,522
+316,Elektrische Energietechnik,64,523
+48,Elektrotechnik/Elektronik,64,523
+157,Mikroelektronik,64,523
+286,Mikrosystemtechnik,64,523
+222,Kommunikations- und Informationstechnik,64,523
+88,Optoelektronik,64,523
+235,Fahrzeugtechnik,65,525
+57,Luft- und Raumfahrttechnik,65,525
+223,Nautik/Seefahrt,65,840
+142,Schiffbau/Schiffstechnik,65,525
+89,Verkehrsingenieurwesen,65,525
+13,Architektur,66,581
+242,Innenarchitektur,66,214
+134,Raumplanung,67,581
+458,Umweltschutz,67,851
+17,Bauingenieurwesen/Ingenieurbau,68,582
+197,Holzbau,68,582
+429,Stahlbau,68,582
+94,Wasserbau,68,582
+77,Wasserwirtschaft,68,582
+280,Kartographie,69,581
+171,Vermessungswesen (Geodäsie),69,581
+370,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,70,520
+221,Bioinformatik,71,481
+200,Computer- und Kommunikationstechniken,71,481
+79,Informatik,71,481
+123,Ingenieurinformatik/Technische Informatik,71,481
+121,Medieninformatik,71,481
+247,Medizinische Informatik,71,481
+277,Wirtschaftsinformatik,71,481
+294,Materialwissenschaft,72,543
+177,Werkstofftechnik,72,543
+40,"Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)",74,145
+91,Kunsterziehung,74,145
+92,"Kunstgeschichte, Kunstwissenschaft",74,211
+101,Restaurierungskunde,74,211
+23,Bildende Kunst/Graphik,75,211
+205,Bildhauerei/Plastik,75,211
+204,Malerei,75,211
+287,Neue Medien,75,213
+7,Angewandte Kunst,76,214
+159,Edelstein- und Schmuckdesign,76,214
+69,Graphikdesign/Kommunikationsgestaltung,76,213
+203,Industriedesign/Produktgestaltung,76,214
+116,Textilgestaltung,76,214
+176,Werkerziehung,76,145
+35,Darstellende Kunst/Bühnenkunst/Regie,77,212
+54,Film und Fernsehen,77,212
+102,Schauspiel,77,212
+106,Tanzpädagogik,77,212
+155,Theaterwissenschaft,77,212
+192,Dirigieren,78,212
+230,Gesang,78,212
+80,Instrumentalmusik,78,212
+164,Jazz und Popularmusik,78,212
+193,Kirchenmusik,78,212
+191,Komposition,78,212
+113,Musikerziehung,78,145
+114,Musikwissenschaft/-geschichte,78,212
+165,Orchestermusik,78,212
+163,Rhythmik,78,212
+194,Tonmeister,78,212
+41,Sonstiges Orientierungsstudium,83,999
+196,Studienkolleg,83,999
+290,Sonstige Fächer,83,999

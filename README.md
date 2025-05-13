@@ -1,59 +1,60 @@
-# SkoHub Pages
+# Destatis Fächersystematiken -- Come2Data Version
 
-This is an example repository (formerly named `skohub-docker-vocabs`) to show how you can publish your SKOS vocabulary using GitHub infrastructure (Actions and Pages).
+In diesem Repositorium werden die Come2Data Versionen der Destatis Fächersystematiken verwaltet. Die Systematiken werden mit [SkoHub-Pages](https://github.com/skohub-io/skohub-pages) als interaktive Webseiten zur Erkundung unter https://rue-a.github.io/destatis-personal-vocab/ bereitgestellt.
 
-Every time a change is made to a vocabulary a GitHub-workflow-action is triggered to publish the most recent vocabulary to the `gh-pages`-branch, which is used by GitHub pages.
-It spins up a Docker container made from [SkoHub Vocabs](https://github.com/hbz/skohub-vocabs).
+## Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete (`personal_23`)
 
-## Usage
+Referenz: https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik
 
-If you want to reuse this repo and have your vocabulary automatically pushed und published via GitHub-Pages, follow these steps:
+Die Fächersystematik hat 3 Hierarchielevel:
+1) Fächergruppe (FG), 2-stellige Id
+2) Lehr- und Forschungsbereiche (LuF), 3-stellige Id
+3) Fachgebiet (FGB), 4-stellige Id
 
-1. Fork this repo. **Uncheck the box to only fork the main branch**.
-1. Go to "Actions" tab and if not already activated, activate GitHub Actions.
-1. Go to "Settings", navigate to the "Pages" setting and select `gh-pages` as the branch your site is being built from. 
-1. Go back to the main page of your repo and click the little gear icon in the top right of the "About" section. Check the box at "Use your GitHub Pages website".
-1. Add a commit to the main branch and your vocabulary will be automatically published (sometimes it takes a little to see the changes, remember to do some hard refreshing).
+Eine maschinenlesbare Version der Fächersystematik wurde von Destatis auf Anfrage in Form von Excel Workbooks bereitgestellt.
 
-Any issues? Please open up a issue [here](https://github.com/skohub-io/skohub-pages/issues)
+### Erstellung des SKOS Dokuments `destatis_personal_skos.ttl`
 
-## Custom Domain
+Das SKOS Dokument wurde mithile der Python Scripts `pers_tables2skos.py` 
 
-If you want to host your vocabularies under your GitHub pages domain (so no W3 perma-id or purl.org redirect), you have to provide that domain in the [`config.yaml`](./config.yaml).
+#### 1) Konvertierung der Originaldaten zu SKOS
 
-Example:
 
-Your GitHub Pages domain is: `https://skohub-io.github.io/skohub-pages/`
-Then provide `https://skohub-io.github.io/skohub-pages/` as `custom_domain` in your `config.yaml`.
+Als Eingangsdaten wurden CSV-Versionen der Originaldaten (Excel Workbooks) verwendent, bei denen einige händische Änderung vorgenommen wurden:
+1) Etwaige Header mit Metainformationen wurden entfernt
+2) Die zweite Spalte jeder Datei wurde gelöscht (da etwas unklar ist was sie bedeutet oder leer ist)
+3) die verbleibenden Spalten wurden umbenannt in `id`, `label` und `parent_id` (`parent_id` kommt nur bei LuF und FGB vor)
 
-The base of your concept scheme could then be something like: `https://skohub-io.github.io/skohub-pages/colours/`
 
-Notice that this will apply to all your hosted vocabularies.
+#### 2) Übersetzung
 
-## Troubleshooting
+Unter https://doi.org/10.5281/zenodo.10401074 ist eine englische Übersetzung der Vorgängerversion der Fächersystematik veröffentlicht (Guescini, R. (2023). DESTATIS Fächerklassifikation Translation Service (2.2). Zenodo. https://doi.org/10.5281/zenodo.10401074); sie liegt in der Datei `faecherklassifikation_skos_en.ttl` vor. Übersetzungen für Konzepte die nicht in dieser Vorgängerversion enthalten waren, wurden in `missing_translations.csv` mittels ChatGPT ergänzt. 
 
-### There is no `gh-pages` branch to select for GitHub Pages
+## Systematik der Fächergruppen, Studienbereiche und Studienfächer (`studierende_23`)
 
-You probably only forked the main branch.
-You have two options:
+Referenz: https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik
 
-- Delete the repo and fork it again, but make sure to uncheck the box to only fork the main branch
-- Make sure the GitHub Action is activated ➡️ Go to "Actions" tab and activate it. After that commit changes to a vocabulary in the main branch. This should trigger the build and create a `gh-pages` branch.
+Die Fächersystematik hat 3 Hierarchielevel:
+1) Fächergruppe (FG), 2-stellige Id
+2) Studienbereiche (STB), 2-stellige Id
+3) Studienfächer (STF), 3-stellige Id
 
-### I push changes, but they seem to have no effect. My vocabulary stays the same
+Eine maschinenlesbare Version der Fächersystematik wurde von Destatis auf Anfrage in Form von Excel Workbooks bereitgestellt.
 
-Maybe your GitHub Action is not activated yet.
-Go to the "Actions" tab and activate GitHub Actions for your repository.
+### Erstellung des Dokuments `destatis_studierende_skos.ttl`
 
-### During the build I get an error saying `The requested URL returned error: 403`
+Das SKOS Dokument wurde mithile der Python Scripts `stud_tables2skos.py` 
 
-You maybe need to update permissions like described here: https://github.com/peaceiris/actions-gh-pages/issues/744
-Go to `Settings` > `Actions` > `General` > `Workflow permissions` and toggle the Read and write permissions.
+#### 1) Konvertierung der Originaldaten zu SKOS
 
-## CHANGELOG
 
-09.02.2021:
+Als Eingangsdaten wurden CSV-Versionen der Originaldaten (Excel Workbooks) verwendent, bei denen einige händische Änderung vorgenommen wurden:
+1) Etwaige Header mit Metainformationen wurden entfernt
+2) Die zweite Spalte jeder Datei wurde gelöscht (da etwas unklar ist was sie bedeutet oder leer ist)
+3) Die verbleibenden Spalten wurden umbenannt in `id`, `label` und `parent_id` (`parent_id` kommt nur bei STB und STF vor)
 
-- In an earlier version, there was the .env variable `PATH_PREFIX` set to point to the repository the vocabulary is hosted at. To align with rest of code, this was changed to `BASEURL`.
-- The docker image now also support i18n
+Die Tabelle mit den Studienfächern (`Studienfach_WS2024.xlsx`/`stf.csv`) enthält ein Mapping der Studienfächer zum International Standard Classification of Education (ISCED). Die Konzepte des ISCED auf der Studienfachebene sind veröffentlicht unter der URL https://publications.europa.eu/resource/authority/snb/isced-f/<4-stellige-isced-id> (z.B.: https://publications.europa.eu/resource/authority/snb/isced-f/0220). Dieses Mapping wird mittel `skos:exactMatch` erfasst.
 
+#### 2) Übersetzung
+
+Eine SKOS-Version der *Systematik der Fächergruppen, Studienbereiche und Studienfächer* wird von der [DINI (Deutsche Initiative für Netzwerkinformation)](https://dini.de/) Arbeitsgruppe [KIM (Das Kompetenzzentrum Interoperable Metadaten)](https://dini.de/standards) unter https://github.com/dini-ag-kim/hochschulfaechersystematik gepflegt. Diese Version beinhaltet auch Übersetzungen der Konzeptlabels ins Englische und Ukrainische. Die Version wurde diesem Repositorium in der Version `v2025-02-03` als `hochschulfaechersystematik.ttl` hinzugefügt. 

@@ -1,0 +1,64 @@
+id,label,parent_id
+1,Geisteswissenschaften allgemein,1
+2,"Evangelische Theologie, -Religionslehre",1
+3,"Katholische Theologie, -Religionslehre",1
+4,Philosophie,1
+5,Geschichte,1
+6,Informations- und Bibliothekswissenschaften,1
+7,Allgemeine und vergleichende Literatur- und Sprachwissenschaft,1
+8,"Altphilologie (klassische Philologie), Neugriechisch",1
+9,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",1
+10,"Anglistik, Amerikanistik",1
+11,Romanistik,1
+12,"Slawistik, Baltistik, Finno-Ugristik",1
+13,Sonstige Sprach- und Kulturwissenschaften,1
+14,Kulturwissenschaften i.e.S.,1
+18,Islamische Studien/Islamische Theologie,1
+19,Medienwissenschaft,1
+22,"Sport, Sportwissenschaft",2
+23,"Rechts-, Wirtschafts- und Sozialwissenschaften allgemein",3
+24,Regionalwissenschaften,3
+25,Politikwissenschaft,3
+26,Sozialwissenschaften/Soziologie,3
+27,Sozialwesen,3
+28,Rechtswissenschaften,3
+29,Verwaltungswissenschaften,3
+30,Wirtschaftswissenschaften,3
+31,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,3
+32,Psychologie,3
+33,Erziehungswissenschaften,3
+34,Kommunikationswissenschaft/Publizistik,3
+36,"Mathematik, Naturwissenschaften allgemein",4
+37,Mathematik,4
+39,"Physik, Astronomie",4
+40,Chemie,4
+41,Pharmazie,4
+42,Biologie,4
+43,Geowissenschaften (ohne Geographie),4
+44,Geographie,4
+48,Gesundheitswissenschaften allgemein,5
+49,Humanmedizin (ohne Zahnmedizin),5
+50,Zahnmedizin,5
+51,Veterinärmedizin,7
+57,"Landespflege, Umweltgestaltung",7
+58,"Agrarwissenschaften, Lebensmittel- und Getränketechnologie",7
+59,"Forstwissenschaft, Holzwirtschaft",7
+60,Ernährungs- und Haushaltswissenschaften,7
+61,Ingenieurwesen allgemein,8
+62,"Bergbau, Hüttenwesen",8
+63,Maschinenbau/Verfahrenstechnik,8
+64,Elektrotechnik und Informationstechnik,8
+65,"Verkehrstechnik, Nautik",8
+66,"Architektur, Innenarchitektur",8
+67,Raumplanung,8
+68,Bauingenieurwesen,8
+69,Vermessungswesen,8
+70,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,8
+71,Informatik,8
+72,Materialwissenschaft und Werkstofftechnik,8
+74,"Kunst, Kunstwissenschaft allgemein",9
+75,Bildende Kunst,9
+76,Gestaltung,9
+77,"Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft",9
+78,"Musik, Musikwissenschaft",9
+83,Außerhalb der Studienbereichsgliederung,10

@@ -1,0 +1,3089 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix destatis: <https://rue-a.github.io/destatis-personal-vocab/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/> .
+@prefix isced: <https://publications.europa.eu/resource/authority/snb/isced-f/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+destatis:01.01.004 a skos:Concept ;
+    skos:broader destatis:01.01 ;
+    skos:exactMatch isced:0220 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "004" ;
+    skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de,
+        "Interdisciplinary Studies (specialising in Humanities)"@en .
+
+destatis:01.01.090 a skos:Concept ;
+    skos:broader destatis:01.01 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "090" ;
+    skos:prefLabel "Lernbereich Geisteswissenschaften"@de,
+        "Area of study: Humanities"@en .
+
+destatis:01.02.053 a skos:Concept ;
+    skos:broader destatis:01.02 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "053" ;
+    skos:prefLabel "Evang. Theologie, -Religionslehre"@de,
+        "Protestant Theology, Protestant Religious Education"@en .
+
+destatis:01.02.161 a skos:Concept ;
+    skos:broader destatis:01.02 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "161" ;
+    skos:prefLabel "Diakoniewissenschaft"@de,
+        "Pastoral Care Studies"@en .
+
+destatis:01.02.544 a skos:Concept ;
+    skos:broader destatis:01.02 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "544" ;
+    skos:prefLabel "Evang. Religionspädagogik, kirchliche Bildungsarbeit"@de,
+        "Protestant Religious Pedagogy, Church Educational Work"@en .
+
+destatis:01.03.086 a skos:Concept ;
+    skos:broader destatis:01.03 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "086" ;
+    skos:prefLabel "Kath. Theologie, -Religionslehre"@de,
+        "Catholic Theology, Catholic Religious Education"@en .
+
+destatis:01.03.162 a skos:Concept ;
+    skos:broader destatis:01.03 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "162" ;
+    skos:prefLabel "Caritaswissenschaft"@de,
+        "Caritas Science"@en .
+
+destatis:01.03.545 a skos:Concept ;
+    skos:broader destatis:01.03 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "545" ;
+    skos:prefLabel "Kath. Religionspädagogik, kirchliche Bildungsarbeit"@de,
+        "Catholic Religious Pedagogy, Church Educational Work"@en .
+
+destatis:01.04.127 a skos:Concept ;
+    skos:broader destatis:01.04 ;
+    skos:exactMatch isced:0226 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "127" ;
+    skos:prefLabel "Philosophie"@de,
+        "Philosophy"@en .
+
+destatis:01.04.136 a skos:Concept ;
+    skos:broader destatis:01.04 ;
+    skos:exactMatch isced:0221 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "136" ;
+    skos:prefLabel "Religionswissenschaft"@de,
+        "Religious Studies"@en .
+
+destatis:01.04.169 a skos:Concept ;
+    skos:broader destatis:01.04 ;
+    skos:exactMatch isced:0226 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "169" ;
+    skos:prefLabel "Ethik"@de,
+        "Ethics"@en .
+
+destatis:01.05.012 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "012" ;
+    skos:prefLabel "Archäologie"@de,
+        "Archaeology"@en .
+
+destatis:01.05.068 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "068" ;
+    skos:prefLabel "Geschichte"@de,
+        "History"@en .
+
+destatis:01.05.183 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "183" ;
+    skos:prefLabel "Wirtschafts-/Sozialgeschichte"@de,
+        "Economic/Social History"@en .
+
+destatis:01.05.272 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "272" ;
+    skos:prefLabel "Alte Geschichte"@de,
+        "Ancient History"@en .
+
+destatis:01.05.273 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "273" ;
+    skos:prefLabel "Mittlere und neuere Geschichte"@de,
+        "Medieval and Modern History"@en .
+
+destatis:01.05.275 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "275" ;
+    skos:prefLabel "Wissenschaftsgeschichte/Technikgeschichte"@de,
+        "History of Science/History of Technology"@en .
+
+destatis:01.05.548 a skos:Concept ;
+    skos:broader destatis:01.05 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "548" ;
+    skos:prefLabel "Ur- und Frühgeschichte"@de,
+        "Prehistory and Early History"@en .
+
+destatis:01.06.022 a skos:Concept ;
+    skos:broader destatis:01.06 ;
+    skos:exactMatch isced:0322 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "022" ;
+    skos:prefLabel "Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen)"@de,
+        "Information and Library Sciences"@en .
+
+destatis:01.06.037 a skos:Concept ;
+    skos:broader destatis:01.06 ;
+    skos:exactMatch isced:0322 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "037" ;
+    skos:prefLabel "Archiv- und Dokumentationswissenschaft"@de,
+        "Archival and Documentation Science"@en .
+
+destatis:01.07.018 a skos:Concept ;
+    skos:broader destatis:01.07 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "018" ;
+    skos:prefLabel "Berufsbezogene Fremdsprachenausbildung"@de,
+        "Occupation-specific Foreign Language Training"@en .
+
+destatis:01.07.152 a skos:Concept ;
+    skos:broader destatis:01.07 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "152" ;
+    skos:prefLabel "Allgemeine Sprachwissenschaft/Indogermanistik"@de,
+        "General Linguistics/Indo-European Studies"@en .
+
+destatis:01.07.160 a skos:Concept ;
+    skos:broader destatis:01.07 ;
+    skos:exactMatch isced:0220 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "160" ;
+    skos:prefLabel "Computerlinguistik"@de,
+        "Computer Linguistics"@en .
+
+destatis:01.07.188 a skos:Concept ;
+    skos:broader destatis:01.07 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "188" ;
+    skos:prefLabel "Allgemeine Literaturwissenschaft"@de,
+        "General Literary Studies"@en .
+
+destatis:01.07.284 a skos:Concept ;
+    skos:broader destatis:01.07 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "284" ;
+    skos:prefLabel "Angewandte Sprachwissenschaft"@de,
+        "Applied Linguistics"@en .
+
+destatis:01.08.005 a skos:Concept ;
+    skos:broader destatis:01.08 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "005" ;
+    skos:prefLabel "Klassische Philologie"@de,
+        "Classical Philology"@en .
+
+destatis:01.08.031 a skos:Concept ;
+    skos:broader destatis:01.08 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "031" ;
+    skos:prefLabel "Byzantinistik"@de,
+        "Byzantine Studies"@en .
+
+destatis:01.08.043 a skos:Concept ;
+    skos:broader destatis:01.08 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "043" ;
+    skos:prefLabel "Neugriechisch"@de,
+        "Modern Greek"@en .
+
+destatis:01.08.070 a skos:Concept ;
+    skos:broader destatis:01.08 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "070" ;
+    skos:prefLabel "Griechisch"@de,
+        "Greek"@en .
+
+destatis:01.08.095 a skos:Concept ;
+    skos:broader destatis:01.08 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "095" ;
+    skos:prefLabel "Latein"@de,
+        "Latin"@en .
+
+destatis:01.09.034 a skos:Concept ;
+    skos:broader destatis:01.09 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "034" ;
+    skos:prefLabel "Dänisch"@de,
+        "Danish"@en .
+
+destatis:01.09.067 a skos:Concept ;
+    skos:broader destatis:01.09 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "067" ;
+    skos:prefLabel "Germanistik/Deutsch"@de,
+        "German Studies/German"@en .
+
+destatis:01.09.119 a skos:Concept ;
+    skos:broader destatis:01.09 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "119" ;
+    skos:prefLabel "Niederländisch"@de,
+        "Dutch"@en .
+
+destatis:01.09.120 a skos:Concept ;
+    skos:broader destatis:01.09 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "120" ;
+    skos:prefLabel "Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)"@de,
+        "Nordic/Scand. St. (Nord. Phil., ind. lang. n.e.c.)"@en .
+
+destatis:01.09.189 a skos:Concept ;
+    skos:broader destatis:01.09 ;
+    skos:exactMatch isced:0223 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "189" ;
+    skos:prefLabel "Niederdeutsch"@de,
+        "Low German"@en .
+
+destatis:01.09.271 a skos:Concept ;
+    skos:broader destatis:01.09 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "271" ;
+    skos:prefLabel "Deutsch als Fremdsprache oder als Zweitsprache"@de,
+        "German as a Foreign or Second Language"@en .
+
+destatis:01.10.006 a skos:Concept ;
+    skos:broader destatis:01.10 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "006" ;
+    skos:prefLabel "Amerikanistik/Amerikakunde"@de,
+        "American Studies"@en .
+
+destatis:01.10.008 a skos:Concept ;
+    skos:broader destatis:01.10 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "008" ;
+    skos:prefLabel "Anglistik/Englisch"@de,
+        "English Studies"@en .
+
+destatis:01.11.059 a skos:Concept ;
+    skos:broader destatis:01.11 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "059" ;
+    skos:prefLabel "Französisch"@de,
+        "French"@en .
+
+destatis:01.11.084 a skos:Concept ;
+    skos:broader destatis:01.11 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "084" ;
+    skos:prefLabel "Italienisch"@de,
+        "Italian"@en .
+
+destatis:01.11.131 a skos:Concept ;
+    skos:broader destatis:01.11 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "131" ;
+    skos:prefLabel "Portugiesisch"@de,
+        "Portuguese"@en .
+
+destatis:01.11.137 a skos:Concept ;
+    skos:broader destatis:01.11 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "137" ;
+    skos:prefLabel "Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)"@de,
+        "Romance Studies (Rom. Phil., indiv. lang. n.e.c.)"@en .
+
+destatis:01.11.150 a skos:Concept ;
+    skos:broader destatis:01.11 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "150" ;
+    skos:prefLabel "Spanisch"@de,
+        "Spanish"@en .
+
+destatis:01.12.016 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "016" ;
+    skos:prefLabel "Baltistik"@de,
+        "Baltic Studies"@en .
+
+destatis:01.12.056 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "056" ;
+    skos:prefLabel "Finno-Ugristik"@de,
+        "Finno-Ugrian Studies"@en .
+
+destatis:01.12.130 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "130" ;
+    skos:prefLabel "Westslawisch (allgemein und a.n.g.)"@de,
+        "Western Slavic (general and n.e.c.)"@en .
+
+destatis:01.12.139 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "139" ;
+    skos:prefLabel "Russisch"@de,
+        "Russian"@en .
+
+destatis:01.12.146 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "146" ;
+    skos:prefLabel "Slawistik (Slaw. Philologie)"@de,
+        "Slavic Studies (Slavic Philology)"@en .
+
+destatis:01.12.153 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "153" ;
+    skos:prefLabel "Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)"@de,
+        "South Slavic (Bulgar., Serbo-Croat., Slovene etc.)"@en .
+
+destatis:01.12.206 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "206" ;
+    skos:prefLabel "Polnisch"@de,
+        "Polish"@en .
+
+destatis:01.12.207 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "207" ;
+    skos:prefLabel "Sorabistik"@de,
+        "Sorbian Studies"@en .
+
+destatis:01.12.209 a skos:Concept ;
+    skos:broader destatis:01.12 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "209" ;
+    skos:prefLabel "Tschechisch"@de,
+        "Czech"@en .
+
+destatis:01.13.001 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "001" ;
+    skos:prefLabel "Ägyptologie"@de,
+        "Egyptology"@en .
+
+destatis:01.13.002 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "002" ;
+    skos:prefLabel "Afrikanistik"@de,
+        "African Studies"@en .
+
+destatis:01.13.010 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "010" ;
+    skos:prefLabel "Arabisch/Arabistik"@de,
+        "Arabic/Arabic Studies"@en .
+
+destatis:01.13.015 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "015" ;
+    skos:prefLabel "Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika"@de,
+        "Non-European Languages and Cultures in Oceania and America"@en .
+
+destatis:01.13.073 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "073" ;
+    skos:prefLabel "Judaistik/Hebräisch "@de,
+        "Judaic Studies/Hebrew"@en .
+
+destatis:01.13.078 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "078" ;
+    skos:prefLabel "Indologie"@de,
+        "Indology"@en .
+
+destatis:01.13.081 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0310 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "081" ;
+    skos:prefLabel "Iranistik"@de,
+        "Iranian Studies"@en .
+
+destatis:01.13.083 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0310 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "083" ;
+    skos:prefLabel "Islamwissenschaft"@de,
+        "Islamic Studies"@en .
+
+destatis:01.13.085 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "085" ;
+    skos:prefLabel "Japanologie"@de,
+        "Japanese Studies"@en .
+
+destatis:01.13.122 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "122" ;
+    skos:prefLabel "Orientalistik, Altorientalistik"@de,
+        "Oriental Studies, Ancient Oriental Studies"@en .
+
+destatis:01.13.145 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "145" ;
+    skos:prefLabel "Sinologie/Koreanistik"@de,
+        "Sinology/Korean Studies"@en .
+
+destatis:01.13.158 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "158" ;
+    skos:prefLabel "Turkologie"@de,
+        "Turkish Studies"@en .
+
+destatis:01.13.180 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "180" ;
+    skos:prefLabel "Kaukasistik"@de,
+        "Caucasian Studies"@en .
+
+destatis:01.13.187 a skos:Concept ;
+    skos:broader destatis:01.13 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "187" ;
+    skos:prefLabel "Asiatische Sprachen und Kulturen/Asienwissenschaften"@de,
+        "Asian Languages and Cultures/Asian Studies"@en .
+
+destatis:01.14.024 a skos:Concept ;
+    skos:broader destatis:01.14 ;
+    skos:exactMatch isced:0312 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "024" ;
+    skos:prefLabel "Europäische Ethnologie und Kulturwissenschaft"@de,
+        "European Ethnology and Cultural Studies"@en .
+
+destatis:01.14.173 a skos:Concept ;
+    skos:broader destatis:01.14 ;
+    skos:exactMatch isced:0312 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "173" ;
+    skos:prefLabel "Ethnologie"@de,
+        "Ethnology"@en .
+
+destatis:01.14.174 a skos:Concept ;
+    skos:broader destatis:01.14 ;
+    skos:exactMatch isced:0312 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "174" ;
+    skos:prefLabel "Volkskunde"@de,
+        "Folklore"@en .
+
+destatis:01.18.292 a skos:Concept ;
+    skos:broader destatis:01.18 ;
+    skos:exactMatch isced:0222 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "292" ;
+    skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
+        "Islamic Studies/Islamic Theology"@en .
+
+destatis:01.19.302 a skos:Concept ;
+    skos:broader destatis:01.19 ;
+    skos:exactMatch isced:0321 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "302" ;
+    skos:prefLabel "Medienwissenschaft"@de,
+        "Media Science"@en .
+
+destatis:02.22.029 a skos:Concept ;
+    skos:broader destatis:02.22 ;
+    skos:exactMatch isced:0813 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "029" ;
+    skos:prefLabel "Sportwissenschaft"@de,
+        "Sports Science"@en .
+
+destatis:02.22.098 a skos:Concept ;
+    skos:broader destatis:02.22 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "098" ;
+    skos:prefLabel "Sportpädagogik/Sportpsychologie"@de,
+        "Sports Education/Sports Psychology"@en .
+
+destatis:03.23.030 a skos:Concept ;
+    skos:broader destatis:03.23 ;
+    skos:exactMatch isced:0310 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "030" ;
+    skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)"@de,
+        "Interdisc. St. (spec. in Law, Econ. and Soc. Sci.)"@en .
+
+destatis:03.23.055 a skos:Concept ;
+    skos:broader destatis:03.23 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "055" ;
+    skos:prefLabel "Orientierungsstudium Gesellschaftswissenschaften"@de,
+        "Social sciences orientation studies"@en .
+
+destatis:03.23.154 a skos:Concept ;
+    skos:broader destatis:03.23 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "154" ;
+    skos:prefLabel "Lernbereich Gesellschaftslehre"@de,
+        "Area of study: Social Studies"@en .
+
+destatis:03.24.036 a skos:Concept ;
+    skos:broader destatis:03.24 ;
+    skos:exactMatch isced:0310 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "036" ;
+    skos:prefLabel "Sonstige Regionalwissenschaften"@de,
+        "Other regional studies"@en .
+
+destatis:03.24.038 a skos:Concept ;
+    skos:broader destatis:03.24 ;
+    skos:exactMatch isced:0310 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "038" ;
+    skos:prefLabel "Lateinamerika-Studien"@de,
+        "Latin American Studies"@en .
+
+destatis:03.24.044 a skos:Concept ;
+    skos:broader destatis:03.24 ;
+    skos:exactMatch isced:0310 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "044" ;
+    skos:prefLabel "Ost- und Südosteuropa-Studien"@de,
+        "East and Southeast European Studies"@en .
+
+destatis:03.25.129 a skos:Concept ;
+    skos:broader destatis:03.25 ;
+    skos:exactMatch isced:0313 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "129" ;
+    skos:prefLabel "Politikwissenschaft/Politologie"@de,
+        "Political Science"@en .
+
+destatis:03.26.147 a skos:Concept ;
+    skos:broader destatis:03.26 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "147" ;
+    skos:prefLabel "Sozialkunde"@de,
+        "Social Studies"@en .
+
+destatis:03.26.148 a skos:Concept ;
+    skos:broader destatis:03.26 ;
+    skos:exactMatch isced:0312 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "148" ;
+    skos:prefLabel "Sozialwissenschaften"@de,
+        "Social Sciences"@en .
+
+destatis:03.26.149 a skos:Concept ;
+    skos:broader destatis:03.26 ;
+    skos:exactMatch isced:0312 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "149" ;
+    skos:prefLabel "Soziologie"@de,
+        "Sociology"@en .
+
+destatis:03.27.208 a skos:Concept ;
+    skos:broader destatis:03.27 ;
+    skos:exactMatch isced:0762 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "208" ;
+    skos:prefLabel "Soziale Arbeit"@de,
+        "Social Work"@en .
+
+destatis:03.27.245 a skos:Concept ;
+    skos:broader destatis:03.27 ;
+    skos:exactMatch isced:0761 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "245" ;
+    skos:prefLabel "Sozialpädagogik"@de,
+        "Social Pedagogy"@en .
+
+destatis:03.27.253 a skos:Concept ;
+    skos:broader destatis:03.27 ;
+    skos:exactMatch isced:0762 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "253" ;
+    skos:prefLabel "Sozialwesen"@de,
+        "Applied Social Science"@en .
+
+destatis:03.28.042 a skos:Concept ;
+    skos:broader destatis:03.28 ;
+    skos:exactMatch isced:0380 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "042" ;
+    skos:prefLabel "Wirtschaftsrecht"@de,
+        "Business Law"@en .
+
+destatis:03.28.135 a skos:Concept ;
+    skos:broader destatis:03.28 ;
+    skos:exactMatch isced:0380 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "135" ;
+    skos:prefLabel "Rechtswissenschaft"@de,
+        "Law"@en .
+
+destatis:03.29.168 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0861 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "168" ;
+    skos:prefLabel "Justizvollzug"@de,
+        "Law Enforcement"@en .
+
+destatis:03.29.172 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "172" ;
+    skos:prefLabel "Verwaltungswissenschaft/-wesen"@de,
+        "Administrative Science/Public Administration"@en .
+
+destatis:03.29.255 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0322 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "255" ;
+    skos:prefLabel "Archivwesen"@de,
+        "Archive Studies"@en .
+
+destatis:03.29.256 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0380 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "256" ;
+    skos:prefLabel "Rechtspflege"@de,
+        "Administration of Justice"@en .
+
+destatis:03.29.257 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0762 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "257" ;
+    skos:prefLabel "Arbeits- und Berufsberatung"@de,
+        "Occupational Guidance and Career Counselling"@en .
+
+destatis:03.29.258 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "258" ;
+    skos:prefLabel "Arbeitsverwaltung"@de,
+        "Labour Administration"@en .
+
+destatis:03.29.259 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "259" ;
+    skos:prefLabel "Auswärtige Angelegenheiten"@de,
+        "Foreign Affairs Administration"@en .
+
+destatis:03.29.260 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "260" ;
+    skos:prefLabel "Bundeswehrverwaltung"@de,
+        "Armed Forces Administration"@en .
+
+destatis:03.29.261 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "261" ;
+    skos:prefLabel "Innere Verwaltung"@de,
+        "Internal Administration"@en .
+
+destatis:03.29.262 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0322 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "262" ;
+    skos:prefLabel "Bibliothekswesen"@de,
+        "Librarianship"@en .
+
+destatis:03.29.263 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0861 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "263" ;
+    skos:prefLabel "Polizei/Verfassungsschutz"@de,
+        "Police/Protection of the Constitution"@en .
+
+destatis:03.29.264 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0343 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "264" ;
+    skos:prefLabel "Sozialversicherung"@de,
+        "Social Security Administration"@en .
+
+destatis:03.29.265 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0343 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "265" ;
+    skos:prefLabel "Bankwesen"@de,
+        "Banking"@en .
+
+destatis:03.29.266 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0344 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "266" ;
+    skos:prefLabel "Finanzverwaltung"@de,
+        "Financial Administration"@en .
+
+destatis:03.29.268 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0840 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "268" ;
+    skos:prefLabel "Verkehrswesen"@de,
+        "Transportation Systems"@en .
+
+destatis:03.29.269 a skos:Concept ;
+    skos:broader destatis:03.29 ;
+    skos:exactMatch isced:0344 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "269" ;
+    skos:prefLabel "Zoll- und Steuerverwaltung"@de,
+        "Customs and Tax Administration"@en .
+
+destatis:03.30.011 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "011" ;
+    skos:prefLabel "Arbeitslehre/Wirtschaftslehre"@de,
+        "Work Studies/Business Studies"@en .
+
+destatis:03.30.021 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0340 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "021" ;
+    skos:prefLabel "Betriebswirtschaftslehre"@de,
+        "Business Administration"@en .
+
+destatis:03.30.166 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "166" ;
+    skos:prefLabel "Sportmanagement/Sportökonomie"@de,
+        "Sports Management/Sports Economics"@en .
+
+destatis:03.30.167 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0340 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "167" ;
+    skos:prefLabel "Europäische Wirtschaft"@de,
+        "European Economic Studies"@en .
+
+destatis:03.30.175 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0314 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "175" ;
+    skos:prefLabel "Volkswirtschaftslehre"@de,
+        "Economics"@en .
+
+destatis:03.30.181 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "181" ;
+    skos:prefLabel "Wirtschaftspädagogik"@de,
+        "Business and Economics Education"@en .
+
+destatis:03.30.182 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0340 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "182" ;
+    skos:prefLabel "Intern. Betriebswirtschaft/Management"@de,
+        "International Business Studies/Management"@en .
+
+destatis:03.30.184 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0340 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "184" ;
+    skos:prefLabel "Wirtschaftswissenschaften"@de,
+        "Business and Economics"@en .
+
+destatis:03.30.210 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0840 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "210" ;
+    skos:prefLabel "Verkehrswirtschaft"@de,
+        "Transport Economics"@en .
+
+destatis:03.30.274 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0812 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "274" ;
+    skos:prefLabel "Tourismuswirtschaft"@de,
+        "Tourism Management"@en .
+
+destatis:03.30.304 a skos:Concept ;
+    skos:broader destatis:03.30 ;
+    skos:exactMatch isced:0340 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "304" ;
+    skos:prefLabel "Medienwirtschaft/Medienmanagement"@de,
+        "Media Economics/Media Management"@en .
+
+destatis:03.31.179 a skos:Concept ;
+    skos:broader destatis:03.31 ;
+    skos:exactMatch isced:0340 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "179" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Economics"@en .
+
+destatis:03.31.464 a skos:Concept ;
+    skos:broader destatis:03.31 ;
+    skos:exactMatch isced:0341 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "464" ;
+    skos:prefLabel "Facility Management"@de,
+        "Facility Management"@en .
+
+destatis:03.32.132 a skos:Concept ;
+    skos:broader destatis:03.32 ;
+    skos:exactMatch isced:0311 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "132" ;
+    skos:prefLabel "Psychologie"@de,
+        "Psychology"@en .
+
+destatis:03.33.052 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "052" ;
+    skos:prefLabel "Erziehungswissenschaft (Pädagogik)"@de,
+        "Educational Science (Pedagogy)"@en .
+
+destatis:03.33.115 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0144 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "115" ;
+    skos:prefLabel "Grundschul-/Primarstufenpädagogik"@de,
+        "Primary School Education/Primary Level Education"@en .
+
+destatis:03.33.117 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "117" ;
+    skos:prefLabel "Ausländerpädagogik"@de,
+        "Immigrant Education"@en .
+
+destatis:03.33.190 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0144 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "190" ;
+    skos:prefLabel "Sonderpädagogik"@de,
+        "Special Needs Education"@en .
+
+destatis:03.33.254 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0144 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "254" ;
+    skos:prefLabel "Sachunterricht (einschl. Schulgarten)"@de,
+        "General Studies (including School Garden)"@en .
+
+destatis:03.33.270 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "270" ;
+    skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de,
+        "Vocational, Business and Economics Education"@en .
+
+destatis:03.33.321 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "321" ;
+    skos:prefLabel "Erwachsenenbildung und außerschulische Jugendbildung"@de,
+        "Adult Education and Extracurricular Youth Educat."@en .
+
+destatis:03.33.361 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "361" ;
+    skos:prefLabel "Schulpädagogik"@de,
+        "School Pedagogy"@en .
+
+destatis:03.33.365 a skos:Concept ;
+    skos:broader destatis:03.33 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "365" ;
+    skos:prefLabel "Pädagogik der frühen Kindheit"@de,
+        "Early Childhood Education"@en .
+
+destatis:03.34.303 a skos:Concept ;
+    skos:broader destatis:03.34 ;
+    skos:exactMatch isced:0321 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "303" ;
+    skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
+        "Communication Science/Journalism"@en .
+
+destatis:04.36.019 a skos:Concept ;
+    skos:broader destatis:04.36 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "019" ;
+    skos:prefLabel "Orientierungsstudium MINT"@de,
+        "STEM orientation studies"@en .
+
+destatis:04.36.049 a skos:Concept ;
+    skos:broader destatis:04.36 ;
+    skos:exactMatch isced:0440 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "049" ;
+    skos:prefLabel "Interdisziplin. Studien (Schwerpunkt Naturwissenschaften)"@de,
+        "Interdisc. Studies (special. in Natural Sciences)"@en .
+
+destatis:04.36.186 a skos:Concept ;
+    skos:broader destatis:04.36 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "186" ;
+    skos:prefLabel "Lernbereich Naturwissenschaft/Sachunterricht"@de,
+        "Area of study: Natural Sciences/General Studies"@en .
+
+destatis:04.36.312 a skos:Concept ;
+    skos:broader destatis:04.36 ;
+    skos:exactMatch isced:0462 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "312" ;
+    skos:prefLabel "Statistik"@de,
+        "Statistics"@en .
+
+destatis:04.37.105 a skos:Concept ;
+    skos:broader destatis:04.37 ;
+    skos:exactMatch isced:0461 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "105" ;
+    skos:prefLabel "Mathematik"@de,
+        "Mathematics"@en .
+
+destatis:04.37.118 a skos:Concept ;
+    skos:broader destatis:04.37 ;
+    skos:exactMatch isced:0461 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "118" ;
+    skos:prefLabel "Technomathematik"@de,
+        "Technomathematics"@en .
+
+destatis:04.37.276 a skos:Concept ;
+    skos:broader destatis:04.37 ;
+    skos:exactMatch isced:0461 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "276" ;
+    skos:prefLabel "Wirtschaftsmathematik"@de,
+        "Business Mathematics"@en .
+
+destatis:04.39.014 a skos:Concept ;
+    skos:broader destatis:04.39 ;
+    skos:exactMatch isced:0441 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "014" ;
+    skos:prefLabel "Astrophysik und Astronomie"@de,
+        "Astrophysics, Astronomy"@en .
+
+destatis:04.39.128 a skos:Concept ;
+    skos:broader destatis:04.39 ;
+    skos:exactMatch isced:0441 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "128" ;
+    skos:prefLabel "Physik"@de,
+        "Physics"@en .
+
+destatis:04.40.025 a skos:Concept ;
+    skos:broader destatis:04.40 ;
+    skos:exactMatch isced:0421 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "025" ;
+    skos:prefLabel "Biochemie"@de,
+        "Biochemistry"@en .
+
+destatis:04.40.032 a skos:Concept ;
+    skos:broader destatis:04.40 ;
+    skos:exactMatch isced:0442 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "032" ;
+    skos:prefLabel "Chemie"@de,
+        "Chemistry"@en .
+
+destatis:04.40.096 a skos:Concept ;
+    skos:broader destatis:04.40 ;
+    skos:exactMatch isced:0442 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "096" ;
+    skos:prefLabel "Lebensmittelchemie"@de,
+        "Food Chemistry"@en .
+
+destatis:04.41.126 a skos:Concept ;
+    skos:broader destatis:04.41 ;
+    skos:exactMatch isced:0727 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "126" ;
+    skos:prefLabel "Pharmazie"@de,
+        "Pharmacy"@en .
+
+destatis:04.42.009 a skos:Concept ;
+    skos:broader destatis:04.42 ;
+    skos:exactMatch isced:0421 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "009" ;
+    skos:prefLabel "Anthropologie (Humanbiologie)"@de,
+        "Anthropology (Human Biology)"@en .
+
+destatis:04.42.026 a skos:Concept ;
+    skos:broader destatis:04.42 ;
+    skos:exactMatch isced:0421 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "026" ;
+    skos:prefLabel "Biologie"@de,
+        "Biology"@en .
+
+destatis:04.42.282 a skos:Concept ;
+    skos:broader destatis:04.42 ;
+    skos:exactMatch isced:0421 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "282" ;
+    skos:prefLabel "Biotechnologie"@de,
+        "Biotechnology"@en .
+
+destatis:04.42.300 a skos:Concept ;
+    skos:broader destatis:04.42 ;
+    skos:exactMatch isced:0421 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "300" ;
+    skos:prefLabel "Biomedizin"@de,
+        "Biomedicine"@en .
+
+destatis:04.43.039 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "039" ;
+    skos:prefLabel "Geowissenschaften allgemein"@de,
+        "Geosciences (general)"@en .
+
+destatis:04.43.065 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "065" ;
+    skos:prefLabel "Geologie/Paläontologie"@de,
+        "Geology/Palaeontology"@en .
+
+destatis:04.43.066 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "066" ;
+    skos:prefLabel "Geophysik"@de,
+        "Geophysics"@en .
+
+destatis:04.43.110 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "110" ;
+    skos:prefLabel "Meteorologie"@de,
+        "Meteorology"@en .
+
+destatis:04.43.111 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "111" ;
+    skos:prefLabel "Mineralogie"@de,
+        "Mineralogy"@en .
+
+destatis:04.43.124 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "124" ;
+    skos:prefLabel "Ozeanographie"@de,
+        "Oceanography"@en .
+
+destatis:04.43.385 a skos:Concept ;
+    skos:broader destatis:04.43 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "385" ;
+    skos:prefLabel "Geoökologie"@de,
+        "Geoecology"@en .
+
+destatis:04.44.050 a skos:Concept ;
+    skos:broader destatis:04.44 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "050" ;
+    skos:prefLabel "Geographie/Erdkunde"@de,
+        "Geography"@en .
+
+destatis:04.44.178 a skos:Concept ;
+    skos:broader destatis:04.44 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "178" ;
+    skos:prefLabel "Wirtschafts-/Sozialgeographie"@de,
+        "Economic/Social Geography"@en .
+
+destatis:04.44.283 a skos:Concept ;
+    skos:broader destatis:04.44 ;
+    skos:exactMatch isced:0443 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "283" ;
+    skos:prefLabel "Landschaftsökologie/Biogeographie"@de,
+        "Landscape Ecology/Biogeography"@en .
+
+destatis:05.48.195 a skos:Concept ;
+    skos:broader destatis:05.48 ;
+    skos:exactMatch isced:0142 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "195" ;
+    skos:prefLabel "Gesundheitspädagogik"@de,
+        "Health Education"@en .
+
+destatis:05.48.232 a skos:Concept ;
+    skos:broader destatis:05.48 ;
+    skos:exactMatch isced:0345 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "232" ;
+    skos:prefLabel "Gesundheitswissenschaften/-management"@de,
+        "Health Science/Health Management"@en .
+
+destatis:05.48.233 a skos:Concept ;
+    skos:broader destatis:05.48 ;
+    skos:exactMatch isced:0723 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "233" ;
+    skos:prefLabel "Nichtärztliche Heilberufe/Therapien"@de,
+        "Non-medical Healthcare Professions/Therapies"@en .
+
+destatis:05.48.234 a skos:Concept ;
+    skos:broader destatis:05.48 ;
+    skos:exactMatch isced:0723 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "234" ;
+    skos:prefLabel "Pflegewissenschaft/-management"@de,
+        "Nursing Science/Nursing Management"@en .
+
+destatis:05.49.107 a skos:Concept ;
+    skos:broader destatis:05.49 ;
+    skos:exactMatch isced:0721 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "107" ;
+    skos:prefLabel "Medizin (Allgemein-Medizin)"@de,
+        "Medicine (General Medicine)"@en .
+
+destatis:05.50.185 a skos:Concept ;
+    skos:broader destatis:05.50 ;
+    skos:exactMatch isced:0724 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "185" ;
+    skos:prefLabel "Zahnmedizin"@de,
+        "Dentistry"@en .
+
+destatis:07.51.156 a skos:Concept ;
+    skos:broader destatis:07.51 ;
+    skos:exactMatch isced:0640 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "156" ;
+    skos:prefLabel "Tiermedizin/Veterinärmedizin"@de,
+        "Veterinary Medicine"@en .
+
+destatis:07.57.061 a skos:Concept ;
+    skos:broader destatis:07.57 ;
+    skos:exactMatch isced:0581 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "061" ;
+    skos:prefLabel "Meliorationswesen"@de,
+        "Ground Improvement"@en .
+
+destatis:07.57.064 a skos:Concept ;
+    skos:broader destatis:07.57 ;
+    skos:exactMatch isced:0851 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "064" ;
+    skos:prefLabel "Naturschutz"@de,
+        "Nature Conservation"@en .
+
+destatis:07.57.093 a skos:Concept ;
+    skos:broader destatis:07.57 ;
+    skos:exactMatch isced:0581 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "093" ;
+    skos:prefLabel "Landespflege/Landschaftsgestaltung"@de,
+        "Land Management Engineering/Landscape Design"@en .
+
+destatis:07.58.003 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0621 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "003" ;
+    skos:prefLabel "Agrarwissenschaft/Landwirtschaft"@de,
+        "Agricultural Science/Agriculture"@en .
+
+destatis:07.58.028 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0541 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "028" ;
+    skos:prefLabel "Brauwesen/Getränketechnologie"@de,
+        "Brewing Science/Beverage Technology"@en .
+
+destatis:07.58.060 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0622 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "060" ;
+    skos:prefLabel "Gartenbau"@de,
+        "Horticulture"@en .
+
+destatis:07.58.097 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0541 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "097" ;
+    skos:prefLabel "Lebensmitteltechnologie"@de,
+        "Food Technology"@en .
+
+destatis:07.58.125 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0621 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "125" ;
+    skos:prefLabel "Agrarökonomie"@de,
+        "Agricultural Economics"@en .
+
+destatis:07.58.138 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0621 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "138" ;
+    skos:prefLabel "Agrarbiologie"@de,
+        "Agricultural Biology"@en .
+
+destatis:07.58.220 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0541 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "220" ;
+    skos:prefLabel "Milch- und Molkereiwirtschaft"@de,
+        "Dairy Farming"@en .
+
+destatis:07.58.227 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0541 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "227" ;
+    skos:prefLabel "Weinbau und Kellerwirtschaft"@de,
+        "Viticulture and Oenology"@en .
+
+destatis:07.58.353 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0621 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "353" ;
+    skos:prefLabel "Pflanzenproduktion"@de,
+        "Plant Production"@en .
+
+destatis:07.58.371 a skos:Concept ;
+    skos:broader destatis:07.58 ;
+    skos:exactMatch isced:0621 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "371" ;
+    skos:prefLabel "Tierproduktion"@de,
+        "Animal Production"@en .
+
+destatis:07.59.058 a skos:Concept ;
+    skos:broader destatis:07.59 ;
+    skos:exactMatch isced:0623 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "058" ;
+    skos:prefLabel "Forstwissenschaft, -wirtschaft"@de,
+        "Forest Science, Forestry"@en .
+
+destatis:07.59.075 a skos:Concept ;
+    skos:broader destatis:07.59 ;
+    skos:exactMatch isced:0623 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "075" ;
+    skos:prefLabel "Holzwirtschaft"@de,
+        "Wood Science"@en .
+
+destatis:07.60.071 a skos:Concept ;
+    skos:broader destatis:07.60 ;
+    skos:exactMatch isced:0814 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "071" ;
+    skos:prefLabel "Haushalts- und Ernährungswissenschaft"@de,
+        "Domestic and Nutritional Sciences"@en .
+
+destatis:07.60.320 a skos:Concept ;
+    skos:broader destatis:07.60 ;
+    skos:exactMatch isced:0726 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "320" ;
+    skos:prefLabel "Ernährungswissenschaft"@de,
+        "Nutritional Science"@en .
+
+destatis:07.60.333 a skos:Concept ;
+    skos:broader destatis:07.60 ;
+    skos:exactMatch isced:0814 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "333" ;
+    skos:prefLabel "Haushaltswissenschaft"@de,
+        "Domestic Science"@en .
+
+destatis:08.61.072 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "072" ;
+    skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften)"@de,
+        "Interdisc. Studies (specialising in Engineering)"@en .
+
+destatis:08.61.140 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0460 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "140" ;
+    skos:prefLabel "Angewandte Systemwissenschaften"@de,
+        "Applied Systems Science"@en .
+
+destatis:08.61.199 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "199" ;
+    skos:prefLabel "Lernbereich Technik"@de,
+        "Area of study: Technology"@en .
+
+destatis:08.61.201 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "201" ;
+    skos:prefLabel "Werken (technisch)/Technologie"@de,
+        "Handicrafts (technical)/Technology"@en .
+
+destatis:08.61.305 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0213 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "305" ;
+    skos:prefLabel "Medientechnik"@de,
+        "Media Technology"@en .
+
+destatis:08.61.310 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "310" ;
+    skos:prefLabel "Regenerative Energien"@de,
+        "Renewable Energy"@en .
+
+destatis:08.61.380 a skos:Concept ;
+    skos:broader destatis:08.61 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "380" ;
+    skos:prefLabel "Mechatronik"@de,
+        "Mechatronics"@en .
+
+destatis:08.62.020 a skos:Concept ;
+    skos:broader destatis:08.62 ;
+    skos:exactMatch isced:0544 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "020" ;
+    skos:prefLabel "Bergbau/Bergtechnik"@de,
+        "Mining/Mine Engineering"@en .
+
+destatis:08.62.076 a skos:Concept ;
+    skos:broader destatis:08.62 ;
+    skos:exactMatch isced:0521 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "076" ;
+    skos:prefLabel "Hütten- und Gießereiwesen"@de,
+        "Metallurgy and Foundry"@en .
+
+destatis:08.62.103 a skos:Concept ;
+    skos:broader destatis:08.62 ;
+    skos:exactMatch isced:0544 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "103" ;
+    skos:prefLabel "Markscheidewesen"@de,
+        "Mine Surveying"@en .
+
+destatis:08.62.390 a skos:Concept ;
+    skos:broader destatis:08.62 ;
+    skos:exactMatch isced:0225 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "390" ;
+    skos:prefLabel "Archäometrie (Ingenieurarchäologie)"@de,
+        "Archaeometry (Archaeological Engineering)"@en .
+
+destatis:08.63.033 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0524 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "033" ;
+    skos:prefLabel "Chemie-Ingenieurwesen/Chemieverfahrenstechnik"@de,
+        "Chemical Engineering/Chemical Process Engineering"@en .
+
+destatis:08.63.074 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0544 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "074" ;
+    skos:prefLabel "Transport-/Fördertechnik"@de,
+        "Transport and Conveying Technology"@en .
+
+destatis:08.63.082 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0543 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "082" ;
+    skos:prefLabel "Holz-/Fasertechnik"@de,
+        "Wood and Fibre Technology"@en .
+
+destatis:08.63.104 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "104" ;
+    skos:prefLabel "Maschinenbau/-wesen"@de,
+        "Mechanical Engineering"@en .
+
+destatis:08.63.108 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0521 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "108" ;
+    skos:prefLabel "Metalltechnik"@de,
+        "Metals Technology"@en .
+
+destatis:08.63.141 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0851 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "141" ;
+    skos:prefLabel "Abfallwirtschaft"@de,
+        "Waste Management"@en .
+
+destatis:08.63.143 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0521 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "143" ;
+    skos:prefLabel "Augenoptik"@de,
+        "Ophthalmic Optics"@en .
+
+destatis:08.63.144 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "144" ;
+    skos:prefLabel "Technische Kybernetik"@de,
+        "Technical Cybernetics"@en .
+
+destatis:08.63.202 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "202" ;
+    skos:prefLabel "Fertigungs-/Produktionstechnik"@de,
+        "Manufacturing Technology/Production Engineering"@en .
+
+destatis:08.63.211 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0522 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "211" ;
+    skos:prefLabel "Energieverfahrenstechnik"@de,
+        "Energy Process Engineering"@en .
+
+destatis:08.63.212 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0521 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "212" ;
+    skos:prefLabel "Feinwerktechnik"@de,
+        "Precision Engineering"@en .
+
+destatis:08.63.213 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0522 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "213" ;
+    skos:prefLabel "Versorgungstechnik"@de,
+        "Supply Technology"@en .
+
+destatis:08.63.215 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0521 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "215" ;
+    skos:prefLabel "Gesundheitstechnik"@de,
+        "Health Technology"@en .
+
+destatis:08.63.216 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0543 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "216" ;
+    skos:prefLabel "Glastechnik/Keramik"@de,
+        "Glass Technology/Ceramics"@en .
+
+destatis:08.63.219 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0543 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "219" ;
+    skos:prefLabel "Kunststofftechnik"@de,
+        "Plastics Technology"@en .
+
+destatis:08.63.224 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "224" ;
+    skos:prefLabel "Physikalische Technik/Mechanische Verfahrenstechnik"@de,
+        "Engineering Physics/Mechanical Process Engineering"@en .
+
+destatis:08.63.225 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0542 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "225" ;
+    skos:prefLabel "Textil- und Bekleidungstechnik/-gewerbe"@de,
+        "Textile and Clothing Technology/Industry"@en .
+
+destatis:08.63.226 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0524 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "226" ;
+    skos:prefLabel "Verfahrenstechnik"@de,
+        "Process Engineering"@en .
+
+destatis:08.63.231 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0213 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "231" ;
+    skos:prefLabel "Druck- und Reproduktionstechnik"@de,
+        "Printing and Reproduction Technology"@en .
+
+destatis:08.63.457 a skos:Concept ;
+    skos:broader destatis:08.63 ;
+    skos:exactMatch isced:0851 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "457" ;
+    skos:prefLabel "Umwelttechnik (einschl. Recycling)"@de,
+        "Environmental Technology (including Recycling)"@en .
+
+destatis:08.64.048 a skos:Concept ;
+    skos:broader destatis:08.64 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "048" ;
+    skos:prefLabel "Elektrotechnik/Elektronik"@de,
+        "Electrical Engineering/Electronics"@en .
+
+destatis:08.64.088 a skos:Concept ;
+    skos:broader destatis:08.64 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "088" ;
+    skos:prefLabel "Optoelektronik"@de,
+        "Optoelectronics"@en .
+
+destatis:08.64.157 a skos:Concept ;
+    skos:broader destatis:08.64 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "157" ;
+    skos:prefLabel "Mikroelektronik"@de,
+        "Microelectronics"@en .
+
+destatis:08.64.222 a skos:Concept ;
+    skos:broader destatis:08.64 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "222" ;
+    skos:prefLabel "Kommunikations- und Informationstechnik"@de,
+        "Communication Technology, Information Engineering"@en .
+
+destatis:08.64.286 a skos:Concept ;
+    skos:broader destatis:08.64 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "286" ;
+    skos:prefLabel "Mikrosystemtechnik"@de,
+        "Microsystems Technology"@en .
+
+destatis:08.64.316 a skos:Concept ;
+    skos:broader destatis:08.64 ;
+    skos:exactMatch isced:0523 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "316" ;
+    skos:prefLabel "Elektrische Energietechnik"@de,
+        "Electrical Power Engineering"@en .
+
+destatis:08.65.057 a skos:Concept ;
+    skos:broader destatis:08.65 ;
+    skos:exactMatch isced:0525 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "057" ;
+    skos:prefLabel "Luft- und Raumfahrttechnik"@de,
+        "Aeronautical and Aerospace Engineering"@en .
+
+destatis:08.65.089 a skos:Concept ;
+    skos:broader destatis:08.65 ;
+    skos:exactMatch isced:0525 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "089" ;
+    skos:prefLabel "Verkehrsingenieurwesen"@de,
+        "Transport Engineering"@en .
+
+destatis:08.65.142 a skos:Concept ;
+    skos:broader destatis:08.65 ;
+    skos:exactMatch isced:0525 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "142" ;
+    skos:prefLabel "Schiffbau/Schiffstechnik"@de,
+        "Naval Architecture/Ship Technology"@en .
+
+destatis:08.65.223 a skos:Concept ;
+    skos:broader destatis:08.65 ;
+    skos:exactMatch isced:0840 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "223" ;
+    skos:prefLabel "Nautik/Seefahrt"@de,
+        "Nautical Science/Maritime Studies"@en .
+
+destatis:08.65.235 a skos:Concept ;
+    skos:broader destatis:08.65 ;
+    skos:exactMatch isced:0525 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "235" ;
+    skos:prefLabel "Fahrzeugtechnik"@de,
+        "Automotive Technology"@en .
+
+destatis:08.66.013 a skos:Concept ;
+    skos:broader destatis:08.66 ;
+    skos:exactMatch isced:0581 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "013" ;
+    skos:prefLabel "Architektur"@de,
+        "Architecture"@en .
+
+destatis:08.66.242 a skos:Concept ;
+    skos:broader destatis:08.66 ;
+    skos:exactMatch isced:0214 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "242" ;
+    skos:prefLabel "Innenarchitektur"@de,
+        "Interior Architecture"@en .
+
+destatis:08.67.134 a skos:Concept ;
+    skos:broader destatis:08.67 ;
+    skos:exactMatch isced:0581 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "134" ;
+    skos:prefLabel "Raumplanung"@de,
+        "Spatial Planning"@en .
+
+destatis:08.67.458 a skos:Concept ;
+    skos:broader destatis:08.67 ;
+    skos:exactMatch isced:0851 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "458" ;
+    skos:prefLabel "Umweltschutz"@de,
+        "Environmental Protection"@en .
+
+destatis:08.68.017 a skos:Concept ;
+    skos:broader destatis:08.68 ;
+    skos:exactMatch isced:0582 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "017" ;
+    skos:prefLabel "Bauingenieurwesen/Ingenieurbau"@de,
+        "Civil Engineering/Structural Engineering"@en .
+
+destatis:08.68.077 a skos:Concept ;
+    skos:broader destatis:08.68 ;
+    skos:exactMatch isced:0582 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "077" ;
+    skos:prefLabel "Wasserwirtschaft"@de,
+        "Water Management"@en .
+
+destatis:08.68.094 a skos:Concept ;
+    skos:broader destatis:08.68 ;
+    skos:exactMatch isced:0582 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "094" ;
+    skos:prefLabel "Wasserbau"@de,
+        "Hydraulic Engineering"@en .
+
+destatis:08.68.197 a skos:Concept ;
+    skos:broader destatis:08.68 ;
+    skos:exactMatch isced:0582 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "197" ;
+    skos:prefLabel "Holzbau"@de,
+        "Timber Construction"@en .
+
+destatis:08.68.429 a skos:Concept ;
+    skos:broader destatis:08.68 ;
+    skos:exactMatch isced:0582 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "429" ;
+    skos:prefLabel "Stahlbau"@de,
+        "Steel Construction"@en .
+
+destatis:08.69.171 a skos:Concept ;
+    skos:broader destatis:08.69 ;
+    skos:exactMatch isced:0581 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "171" ;
+    skos:prefLabel "Vermessungswesen (Geodäsie)"@de,
+        "Surveying (Geodesy)"@en .
+
+destatis:08.69.280 a skos:Concept ;
+    skos:broader destatis:08.69 ;
+    skos:exactMatch isced:0581 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "280" ;
+    skos:prefLabel "Kartographie"@de,
+        "Cartography"@en .
+
+destatis:08.70.370 a skos:Concept ;
+    skos:broader destatis:08.70 ;
+    skos:exactMatch isced:0520 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "370" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Engineering Sciences"@en .
+
+destatis:08.71.079 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "079" ;
+    skos:prefLabel "Informatik"@de,
+        "Computer Science"@en .
+
+destatis:08.71.121 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "121" ;
+    skos:prefLabel "Medieninformatik"@de,
+        "Media Informatics"@en .
+
+destatis:08.71.123 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "123" ;
+    skos:prefLabel "Ingenieurinformatik/Technische Informatik"@de,
+        "Computational Engineering/Technical Computer Science"@en .
+
+destatis:08.71.200 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "200" ;
+    skos:prefLabel "Computer- und Kommunikationstechniken"@de,
+        "Computer and Communication Technology"@en .
+
+destatis:08.71.221 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "221" ;
+    skos:prefLabel "Bioinformatik"@de,
+        "Bioinformatics"@en .
+
+destatis:08.71.247 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "247" ;
+    skos:prefLabel "Medizinische Informatik"@de,
+        "Medical Informatics"@en .
+
+destatis:08.71.277 a skos:Concept ;
+    skos:broader destatis:08.71 ;
+    skos:exactMatch isced:0481 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "277" ;
+    skos:prefLabel "Wirtschaftsinformatik"@de,
+        "Business Informatics"@en .
+
+destatis:08.72.177 a skos:Concept ;
+    skos:broader destatis:08.72 ;
+    skos:exactMatch isced:0543 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "177" ;
+    skos:prefLabel "Werkstofftechnik"@de,
+        "Materials Technology"@en .
+
+destatis:08.72.294 a skos:Concept ;
+    skos:broader destatis:08.72 ;
+    skos:exactMatch isced:0543 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "294" ;
+    skos:prefLabel "Materialwissenschaft"@de,
+        "Materials Science"@en .
+
+destatis:09.74.040 a skos:Concept ;
+    skos:broader destatis:09.74 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "040" ;
+    skos:prefLabel "Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)"@de,
+        "Interdisc. Studies (special. in Art, Art Theory)"@en .
+
+destatis:09.74.091 a skos:Concept ;
+    skos:broader destatis:09.74 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "091" ;
+    skos:prefLabel "Kunsterziehung"@de,
+        "Arts Education"@en .
+
+destatis:09.74.092 a skos:Concept ;
+    skos:broader destatis:09.74 ;
+    skos:exactMatch isced:0211 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "092" ;
+    skos:prefLabel "Kunstgeschichte, Kunstwissenschaft"@de,
+        "Art History, Art Theory"@en .
+
+destatis:09.74.101 a skos:Concept ;
+    skos:broader destatis:09.74 ;
+    skos:exactMatch isced:0211 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "101" ;
+    skos:prefLabel "Restaurierungskunde"@de,
+        "Restoration Studies"@en .
+
+destatis:09.75.023 a skos:Concept ;
+    skos:broader destatis:09.75 ;
+    skos:exactMatch isced:0211 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "023" ;
+    skos:prefLabel "Bildende Kunst/Graphik"@de,
+        "Fine Arts/Graphics"@en .
+
+destatis:09.75.204 a skos:Concept ;
+    skos:broader destatis:09.75 ;
+    skos:exactMatch isced:0211 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "204" ;
+    skos:prefLabel "Malerei"@de,
+        "Painting"@en .
+
+destatis:09.75.205 a skos:Concept ;
+    skos:broader destatis:09.75 ;
+    skos:exactMatch isced:0211 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "205" ;
+    skos:prefLabel "Bildhauerei/Plastik"@de,
+        "Sculpting/Statuary Art"@en .
+
+destatis:09.75.287 a skos:Concept ;
+    skos:broader destatis:09.75 ;
+    skos:exactMatch isced:0213 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "287" ;
+    skos:prefLabel "Neue Medien"@de,
+        "New Media"@en .
+
+destatis:09.76.007 a skos:Concept ;
+    skos:broader destatis:09.76 ;
+    skos:exactMatch isced:0214 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "007" ;
+    skos:prefLabel "Angewandte Kunst"@de,
+        "Applied Art"@en .
+
+destatis:09.76.069 a skos:Concept ;
+    skos:broader destatis:09.76 ;
+    skos:exactMatch isced:0213 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "069" ;
+    skos:prefLabel "Graphikdesign/Kommunikationsgestaltung"@de,
+        "Graphic Design/Communication Design"@en .
+
+destatis:09.76.116 a skos:Concept ;
+    skos:broader destatis:09.76 ;
+    skos:exactMatch isced:0214 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "116" ;
+    skos:prefLabel "Textilgestaltung"@de,
+        "Textile Design"@en .
+
+destatis:09.76.159 a skos:Concept ;
+    skos:broader destatis:09.76 ;
+    skos:exactMatch isced:0214 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "159" ;
+    skos:prefLabel "Edelstein- und Schmuckdesign"@de,
+        "Gemstone and Jewellery Design"@en .
+
+destatis:09.76.176 a skos:Concept ;
+    skos:broader destatis:09.76 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "176" ;
+    skos:prefLabel "Werkerziehung"@de,
+        "Handicrafts Education"@en .
+
+destatis:09.76.203 a skos:Concept ;
+    skos:broader destatis:09.76 ;
+    skos:exactMatch isced:0214 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "203" ;
+    skos:prefLabel "Industriedesign/Produktgestaltung"@de,
+        "Industrial Design/Product Design"@en .
+
+destatis:09.77.035 a skos:Concept ;
+    skos:broader destatis:09.77 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "035" ;
+    skos:prefLabel "Darstellende Kunst/Bühnenkunst/Regie"@de,
+        "Performing Arts/Stagecraft/Directing"@en .
+
+destatis:09.77.054 a skos:Concept ;
+    skos:broader destatis:09.77 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "054" ;
+    skos:prefLabel "Film und Fernsehen"@de,
+        "Film and Television Studies"@en .
+
+destatis:09.77.102 a skos:Concept ;
+    skos:broader destatis:09.77 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "102" ;
+    skos:prefLabel "Schauspiel"@de,
+        "Drama Studies"@en .
+
+destatis:09.77.106 a skos:Concept ;
+    skos:broader destatis:09.77 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "106" ;
+    skos:prefLabel "Tanzpädagogik"@de,
+        "Dance Education"@en .
+
+destatis:09.77.155 a skos:Concept ;
+    skos:broader destatis:09.77 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "155" ;
+    skos:prefLabel "Theaterwissenschaft"@de,
+        "Theatre Studies"@en .
+
+destatis:09.78.080 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "080" ;
+    skos:prefLabel "Instrumentalmusik"@de,
+        "Instrumental Music"@en .
+
+destatis:09.78.113 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0145 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "113" ;
+    skos:prefLabel "Musikerziehung"@de,
+        "Music Education"@en .
+
+destatis:09.78.114 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "114" ;
+    skos:prefLabel "Musikwissenschaft/-geschichte"@de,
+        "Musicology/History of Music"@en .
+
+destatis:09.78.163 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "163" ;
+    skos:prefLabel "Rhythmik"@de,
+        "Rhythmics"@en .
+
+destatis:09.78.164 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "164" ;
+    skos:prefLabel "Jazz und Popularmusik"@de,
+        "Jazz and Popular Music"@en .
+
+destatis:09.78.165 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "165" ;
+    skos:prefLabel "Orchestermusik"@de,
+        "Orchestral Music"@en .
+
+destatis:09.78.191 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "191" ;
+    skos:prefLabel "Komposition"@de,
+        "Composition"@en .
+
+destatis:09.78.192 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "192" ;
+    skos:prefLabel "Dirigieren"@de,
+        "Conducting"@en .
+
+destatis:09.78.193 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "193" ;
+    skos:prefLabel "Kirchenmusik"@de,
+        "Church Music"@en .
+
+destatis:09.78.194 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "194" ;
+    skos:prefLabel "Tonmeister"@de,
+        "Sound Engineering"@en .
+
+destatis:09.78.230 a skos:Concept ;
+    skos:broader destatis:09.78 ;
+    skos:exactMatch isced:0212 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "230" ;
+    skos:prefLabel "Gesang"@de,
+        "Singing"@en .
+
+destatis:10.83.041 a skos:Concept ;
+    skos:broader destatis:10.83 ;
+    skos:exactMatch isced:0999 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "041" ;
+    skos:prefLabel "Sonstiges Orientierungsstudium"@de,
+        "Other Orientation Studies"@en .
+
+destatis:10.83.196 a skos:Concept ;
+    skos:broader destatis:10.83 ;
+    skos:exactMatch isced:0999 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "196" ;
+    skos:prefLabel "Studienkolleg"@de,
+        "Preparatory College"@en .
+
+destatis:10.83.290 a skos:Concept ;
+    skos:broader destatis:10.83 ;
+    skos:exactMatch isced:0999 ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "290" ;
+    skos:prefLabel "Sonstige Fächer"@de,
+        "Other Subjects"@en .
+
+destatis:15 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "15" ;
+    skos:prefLabel "Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)"@de,
+        "Central Institutions (without clinical institutions)"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:20 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:notation "20" ;
+    skos:prefLabel "Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)"@de,
+        "Central Institutions of the University Clinics (Human Medicine only)"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:01.18 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.18.292 ;
+    skos:notation "18" ;
+    skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
+        "Islamic Studies/Islamic Theology"@en .
+
+destatis:01.19 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.19.302 ;
+    skos:notation "19" ;
+    skos:prefLabel "Medienwissenschaft"@de,
+        "Media Science"@en .
+
+destatis:02 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:02.22 ;
+    skos:notation "02" ;
+    skos:prefLabel "Sport"@de,
+        "Sports"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:03.25 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.25.129 ;
+    skos:notation "25" ;
+    skos:prefLabel "Politikwissenschaft"@de,
+        "Political Science"@en .
+
+destatis:03.32 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.32.132 ;
+    skos:notation "32" ;
+    skos:prefLabel "Psychologie"@de,
+        "Psychology"@en .
+
+destatis:03.34 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.34.303 ;
+    skos:notation "34" ;
+    skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
+        "Communication Science/Journalism"@en .
+
+destatis:04.41 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.41.126 ;
+    skos:notation "41" ;
+    skos:prefLabel "Pharmazie"@de,
+        "Pharmacy"@en .
+
+destatis:05.49 a skos:Concept ;
+    skos:broader destatis:05 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:05.49.107 ;
+    skos:notation "49" ;
+    skos:prefLabel "Humanmedizin (ohne Zahnmedizin)"@de,
+        "Human Medicine (excl. Dentistry)"@en .
+
+destatis:05.50 a skos:Concept ;
+    skos:broader destatis:05 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:05.50.185 ;
+    skos:notation "50" ;
+    skos:prefLabel "Zahnmedizin"@de,
+        "Dentistry"@en .
+
+destatis:07.51 a skos:Concept ;
+    skos:broader destatis:07 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:07.51.156 ;
+    skos:notation "51" ;
+    skos:prefLabel "Veterinärmedizin"@de,
+        "Veterinary Medicine"@en .
+
+destatis:08.70 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.70.370 ;
+    skos:notation "70" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Engineering Sciences"@en .
+
+destatis:10 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:10.83 ;
+    skos:notation "10" ;
+    skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de,
+        "Unclassified Fields/Other Subjects"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:01.01 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.01.004,
+        destatis:01.01.090 ;
+    skos:notation "01" ;
+    skos:prefLabel "Geisteswissenschaften allgemein"@de,
+        "Humanities (general)"@en .
+
+destatis:01.06 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.06.022,
+        destatis:01.06.037 ;
+    skos:notation "06" ;
+    skos:prefLabel "Informations- und Bibliothekswissenschaften"@de,
+        "Information and Library Sciences"@en .
+
+destatis:01.10 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.10.006,
+        destatis:01.10.008 ;
+    skos:notation "10" ;
+    skos:prefLabel "Anglistik, Amerikanistik"@de,
+        "English Studies, American Studies"@en .
+
+destatis:02.22 a skos:Concept ;
+    skos:broader destatis:02 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:02.22.029,
+        destatis:02.22.098 ;
+    skos:notation "22" ;
+    skos:prefLabel "Sport, Sportwissenschaft"@de,
+        "Sports, Sports Science"@en .
+
+destatis:03.28 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.28.042,
+        destatis:03.28.135 ;
+    skos:notation "28" ;
+    skos:prefLabel "Rechtswissenschaften"@de,
+        "Law"@en .
+
+destatis:03.31 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.31.179,
+        destatis:03.31.464 ;
+    skos:notation "31" ;
+    skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
+        "Business Engineering specialising in Economics"@en .
+
+destatis:04.39 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.39.014,
+        destatis:04.39.128 ;
+    skos:notation "39" ;
+    skos:prefLabel "Physik, Astronomie"@de,
+        "Physics, Astronomy"@en .
+
+destatis:07.59 a skos:Concept ;
+    skos:broader destatis:07 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:07.59.058,
+        destatis:07.59.075 ;
+    skos:notation "59" ;
+    skos:prefLabel "Forstwissenschaft, Holzwirtschaft"@de,
+        "Forestry, Wood Science"@en .
+
+destatis:08.66 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.66.013,
+        destatis:08.66.242 ;
+    skos:notation "66" ;
+    skos:prefLabel "Architektur, Innenarchitektur"@de,
+        "Architecture, Interior Architecture "@en .
+
+destatis:08.67 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.67.134,
+        destatis:08.67.458 ;
+    skos:notation "67" ;
+    skos:prefLabel "Raumplanung"@de,
+        "Spatial Planning"@en .
+
+destatis:08.69 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.69.171,
+        destatis:08.69.280 ;
+    skos:notation "69" ;
+    skos:prefLabel "Vermessungswesen"@de,
+        "Surveying"@en .
+
+destatis:08.72 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.72.177,
+        destatis:08.72.294 ;
+    skos:notation "72" ;
+    skos:prefLabel "Materialwissenschaft und Werkstofftechnik"@de,
+        "Materials Science and Materials Engineering"@en .
+
+destatis:01.02 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.02.053,
+        destatis:01.02.161,
+        destatis:01.02.544 ;
+    skos:notation "02" ;
+    skos:prefLabel "Evangelische Theologie, -Religionslehre"@de,
+        "Protestant Theology, Protestant Religious Education"@en .
+
+destatis:01.03 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.03.086,
+        destatis:01.03.162,
+        destatis:01.03.545 ;
+    skos:notation "03" ;
+    skos:prefLabel "Katholische Theologie, -Religionslehre"@de,
+        "Catholic Theology, Catholic Religious Education"@en .
+
+destatis:01.04 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.04.127,
+        destatis:01.04.136,
+        destatis:01.04.169 ;
+    skos:notation "04" ;
+    skos:prefLabel "Philosophie"@de,
+        "Philosophy"@en .
+
+destatis:01.14 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.14.024,
+        destatis:01.14.173,
+        destatis:01.14.174 ;
+    skos:notation "14" ;
+    skos:prefLabel "Kulturwissenschaften i.e.S."@de,
+        "Cultural Studies in the narrower sense"@en .
+
+destatis:03.23 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.23.030,
+        destatis:03.23.055,
+        destatis:03.23.154 ;
+    skos:notation "23" ;
+    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de,
+        "Law, Economics and Social Sciences (general)"@en .
+
+destatis:03.24 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.24.036,
+        destatis:03.24.038,
+        destatis:03.24.044 ;
+    skos:notation "24" ;
+    skos:prefLabel "Regionalwissenschaften"@de,
+        "Regional Studies"@en .
+
+destatis:03.26 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.26.147,
+        destatis:03.26.148,
+        destatis:03.26.149 ;
+    skos:notation "26" ;
+    skos:prefLabel "Sozialwissenschaften/Soziologie"@de,
+        "Social Sciences/Sociology"@en .
+
+destatis:03.27 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.27.208,
+        destatis:03.27.245,
+        destatis:03.27.253 ;
+    skos:notation "27" ;
+    skos:prefLabel "Sozialwesen"@de,
+        "Applied Social Science"@en .
+
+destatis:04.37 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.37.105,
+        destatis:04.37.118,
+        destatis:04.37.276 ;
+    skos:notation "37" ;
+    skos:prefLabel "Mathematik"@de,
+        "Mathematics"@en .
+
+destatis:04.40 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.40.025,
+        destatis:04.40.032,
+        destatis:04.40.096 ;
+    skos:notation "40" ;
+    skos:prefLabel "Chemie"@de,
+        "Chemistry"@en .
+
+destatis:04.44 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.44.050,
+        destatis:04.44.178,
+        destatis:04.44.283 ;
+    skos:notation "44" ;
+    skos:prefLabel "Geographie"@de,
+        "Geography"@en .
+
+destatis:05 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:05.48,
+        destatis:05.49,
+        destatis:05.50 ;
+    skos:notation "05" ;
+    skos:prefLabel "Humanmedizin/Gesundheitswissenschaften"@de,
+        "Human Medicine/Health Sciences"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:07.57 a skos:Concept ;
+    skos:broader destatis:07 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:07.57.061,
+        destatis:07.57.064,
+        destatis:07.57.093 ;
+    skos:notation "57" ;
+    skos:prefLabel "Landespflege, Umweltgestaltung"@de,
+        "Land Management Engineering, Environmental Design"@en .
+
+destatis:07.60 a skos:Concept ;
+    skos:broader destatis:07 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:07.60.071,
+        destatis:07.60.320,
+        destatis:07.60.333 ;
+    skos:notation "60" ;
+    skos:prefLabel "Ernährungs- und Haushaltswissenschaften"@de,
+        "Nutritional and Domestic Science"@en .
+
+destatis:10.83 a skos:Concept ;
+    skos:broader destatis:10 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:10.83.041,
+        destatis:10.83.196,
+        destatis:10.83.290 ;
+    skos:notation "83" ;
+    skos:prefLabel "Außerhalb der Studienbereichsgliederung"@de,
+        "Outside the study area classification"@en .
+
+destatis:04.36 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.36.019,
+        destatis:04.36.049,
+        destatis:04.36.186,
+        destatis:04.36.312 ;
+    skos:notation "36" ;
+    skos:prefLabel "Mathematik, Naturwissenschaften allgemein"@de,
+        "Mathematics, Natural Sciences (general)"@en .
+
+destatis:04.42 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.42.009,
+        destatis:04.42.026,
+        destatis:04.42.282,
+        destatis:04.42.300 ;
+    skos:notation "42" ;
+    skos:prefLabel "Biologie"@de,
+        "Biology"@en .
+
+destatis:05.48 a skos:Concept ;
+    skos:broader destatis:05 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:05.48.195,
+        destatis:05.48.232,
+        destatis:05.48.233,
+        destatis:05.48.234 ;
+    skos:notation "48" ;
+    skos:prefLabel "Gesundheitswissenschaften allgemein"@de,
+        "Health Sciences (general)"@en .
+
+destatis:08.62 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.62.020,
+        destatis:08.62.076,
+        destatis:08.62.103,
+        destatis:08.62.390 ;
+    skos:notation "62" ;
+    skos:prefLabel "Bergbau, Hüttenwesen"@de,
+        "Mining, Metallurgy"@en .
+
+destatis:09.74 a skos:Concept ;
+    skos:broader destatis:09 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:09.74.040,
+        destatis:09.74.091,
+        destatis:09.74.092,
+        destatis:09.74.101 ;
+    skos:notation "74" ;
+    skos:prefLabel "Kunst, Kunstwissenschaft allgemein"@de,
+        "Art, Art Theory (general)"@en .
+
+destatis:09.75 a skos:Concept ;
+    skos:broader destatis:09 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:09.75.023,
+        destatis:09.75.204,
+        destatis:09.75.205,
+        destatis:09.75.287 ;
+    skos:notation "75" ;
+    skos:prefLabel "Bildende Kunst"@de,
+        "Fine Arts"@en .
+
+destatis:01.07 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.07.018,
+        destatis:01.07.152,
+        destatis:01.07.160,
+        destatis:01.07.188,
+        destatis:01.07.284 ;
+    skos:notation "07" ;
+    skos:prefLabel "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"@de,
+        "General and Comparative Literary Studies and Linguistics"@en .
+
+destatis:01.08 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.08.005,
+        destatis:01.08.031,
+        destatis:01.08.043,
+        destatis:01.08.070,
+        destatis:01.08.095 ;
+    skos:notation "08" ;
+    skos:prefLabel "Altphilologie (klassische Philologie), Neugriechisch"@de,
+        "Classical Philology, Modern Greek"@en .
+
+destatis:01.11 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.11.059,
+        destatis:01.11.084,
+        destatis:01.11.131,
+        destatis:01.11.137,
+        destatis:01.11.150 ;
+    skos:notation "11" ;
+    skos:prefLabel "Romanistik"@de,
+        "Romance Studies"@en .
+
+destatis:07 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:07.51,
+        destatis:07.57,
+        destatis:07.58,
+        destatis:07.59,
+        destatis:07.60 ;
+    skos:notation "07" ;
+    skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin"@de,
+        "Agricultural, Forestry and Nutritional Sciences, Veterinary Medicine"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:08.65 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.65.057,
+        destatis:08.65.089,
+        destatis:08.65.142,
+        destatis:08.65.223,
+        destatis:08.65.235 ;
+    skos:notation "65" ;
+    skos:prefLabel "Verkehrstechnik, Nautik"@de,
+        "Traffic Engineering, Nautical Science"@en .
+
+destatis:08.68 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.68.017,
+        destatis:08.68.077,
+        destatis:08.68.094,
+        destatis:08.68.197,
+        destatis:08.68.429 ;
+    skos:notation "68" ;
+    skos:prefLabel "Bauingenieurwesen"@de,
+        "Civil Engineering"@en .
+
+destatis:09 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:09.74,
+        destatis:09.75,
+        destatis:09.76,
+        destatis:09.77,
+        destatis:09.78 ;
+    skos:notation "09" ;
+    skos:prefLabel "Kunst, Kunstwissenschaft"@de,
+        "Art, Art Theory"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:09.77 a skos:Concept ;
+    skos:broader destatis:09 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:09.77.035,
+        destatis:09.77.054,
+        destatis:09.77.102,
+        destatis:09.77.106,
+        destatis:09.77.155 ;
+    skos:notation "77" ;
+    skos:prefLabel "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"@de,
+        "Performing Arts, Film and Television Studies, Theatre Studies"@en .
+
+destatis:01.09 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.09.034,
+        destatis:01.09.067,
+        destatis:01.09.119,
+        destatis:01.09.120,
+        destatis:01.09.189,
+        destatis:01.09.271 ;
+    skos:notation "09" ;
+    skos:prefLabel "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"@de,
+        "German Studies (German, Germanic Languages excl. English)"@en .
+
+destatis:08.64 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.64.048,
+        destatis:08.64.088,
+        destatis:08.64.157,
+        destatis:08.64.222,
+        destatis:08.64.286,
+        destatis:08.64.316 ;
+    skos:notation "64" ;
+    skos:prefLabel "Elektrotechnik und Informationstechnik"@de,
+        "Electrical Engineering and Information Engineering"@en .
+
+destatis:09.76 a skos:Concept ;
+    skos:broader destatis:09 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:09.76.007,
+        destatis:09.76.069,
+        destatis:09.76.116,
+        destatis:09.76.159,
+        destatis:09.76.176,
+        destatis:09.76.203 ;
+    skos:notation "76" ;
+    skos:prefLabel "Gestaltung"@de,
+        "Design"@en .
+
+destatis:01.05 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.05.012,
+        destatis:01.05.068,
+        destatis:01.05.183,
+        destatis:01.05.272,
+        destatis:01.05.273,
+        destatis:01.05.275,
+        destatis:01.05.548 ;
+    skos:notation "05" ;
+    skos:prefLabel "Geschichte"@de,
+        "History"@en .
+
+destatis:04.43 a skos:Concept ;
+    skos:broader destatis:04 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.43.039,
+        destatis:04.43.065,
+        destatis:04.43.066,
+        destatis:04.43.110,
+        destatis:04.43.111,
+        destatis:04.43.124,
+        destatis:04.43.385 ;
+    skos:notation "43" ;
+    skos:prefLabel "Geowissenschaften (ohne Geographie)"@de,
+        "Geosciences (excl. Geography)"@en .
+
+destatis:08.61 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.61.072,
+        destatis:08.61.140,
+        destatis:08.61.199,
+        destatis:08.61.201,
+        destatis:08.61.305,
+        destatis:08.61.310,
+        destatis:08.61.380 ;
+    skos:notation "61" ;
+    skos:prefLabel "Ingenieurwesen allgemein"@de,
+        "Engineering (general)"@en .
+
+destatis:08.71 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.71.079,
+        destatis:08.71.121,
+        destatis:08.71.123,
+        destatis:08.71.200,
+        destatis:08.71.221,
+        destatis:08.71.247,
+        destatis:08.71.277 ;
+    skos:notation "71" ;
+    skos:prefLabel "Informatik"@de,
+        "Computer Science"@en .
+
+destatis:04 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:04.36,
+        destatis:04.37,
+        destatis:04.39,
+        destatis:04.40,
+        destatis:04.41,
+        destatis:04.42,
+        destatis:04.43,
+        destatis:04.44 ;
+    skos:notation "04" ;
+    skos:prefLabel "Mathematik, Naturwissenschaften"@de,
+        "Mathematics, Natural Sciences"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:01.12 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.12.016,
+        destatis:01.12.056,
+        destatis:01.12.130,
+        destatis:01.12.139,
+        destatis:01.12.146,
+        destatis:01.12.153,
+        destatis:01.12.206,
+        destatis:01.12.207,
+        destatis:01.12.209 ;
+    skos:notation "12" ;
+    skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik"@de,
+        "Slavic, Baltic, Finno-Ugrian Studies"@en .
+
+destatis:03.33 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.33.052,
+        destatis:03.33.115,
+        destatis:03.33.117,
+        destatis:03.33.190,
+        destatis:03.33.254,
+        destatis:03.33.270,
+        destatis:03.33.321,
+        destatis:03.33.361,
+        destatis:03.33.365 ;
+    skos:notation "33" ;
+    skos:prefLabel "Erziehungswissenschaften"@de,
+        "Educational Sciences"@en .
+
+destatis:07.58 a skos:Concept ;
+    skos:broader destatis:07 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:07.58.003,
+        destatis:07.58.028,
+        destatis:07.58.060,
+        destatis:07.58.097,
+        destatis:07.58.125,
+        destatis:07.58.138,
+        destatis:07.58.220,
+        destatis:07.58.227,
+        destatis:07.58.353,
+        destatis:07.58.371 ;
+    skos:notation "58" ;
+    skos:prefLabel "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"@de,
+        "Agricultural Science, Food- and Beverage Technology"@en .
+
+destatis:03.30 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.30.011,
+        destatis:03.30.021,
+        destatis:03.30.166,
+        destatis:03.30.167,
+        destatis:03.30.175,
+        destatis:03.30.181,
+        destatis:03.30.182,
+        destatis:03.30.184,
+        destatis:03.30.210,
+        destatis:03.30.274,
+        destatis:03.30.304 ;
+    skos:notation "30" ;
+    skos:prefLabel "Wirtschaftswissenschaften"@de,
+        "Business and Economics"@en .
+
+destatis:09.78 a skos:Concept ;
+    skos:broader destatis:09 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:09.78.080,
+        destatis:09.78.113,
+        destatis:09.78.114,
+        destatis:09.78.163,
+        destatis:09.78.164,
+        destatis:09.78.165,
+        destatis:09.78.191,
+        destatis:09.78.192,
+        destatis:09.78.193,
+        destatis:09.78.194,
+        destatis:09.78.230 ;
+    skos:notation "78" ;
+    skos:prefLabel "Musik, Musikwissenschaft"@de,
+        "Music, Musicology"@en .
+
+destatis:03 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.23,
+        destatis:03.24,
+        destatis:03.25,
+        destatis:03.26,
+        destatis:03.27,
+        destatis:03.28,
+        destatis:03.29,
+        destatis:03.30,
+        destatis:03.31,
+        destatis:03.32,
+        destatis:03.33,
+        destatis:03.34 ;
+    skos:notation "03" ;
+    skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften"@de,
+        "Law, Economics and Social Sciences"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:08 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.61,
+        destatis:08.62,
+        destatis:08.63,
+        destatis:08.64,
+        destatis:08.65,
+        destatis:08.66,
+        destatis:08.67,
+        destatis:08.68,
+        destatis:08.69,
+        destatis:08.70,
+        destatis:08.71,
+        destatis:08.72 ;
+    skos:notation "08" ;
+    skos:prefLabel "Ingenieurwissenschaften"@de,
+        "Engineering"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:01.13 a skos:Concept ;
+    skos:broader destatis:01 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.13.001,
+        destatis:01.13.002,
+        destatis:01.13.010,
+        destatis:01.13.015,
+        destatis:01.13.073,
+        destatis:01.13.078,
+        destatis:01.13.081,
+        destatis:01.13.083,
+        destatis:01.13.085,
+        destatis:01.13.122,
+        destatis:01.13.145,
+        destatis:01.13.158,
+        destatis:01.13.180,
+        destatis:01.13.187 ;
+    skos:notation "13" ;
+    skos:prefLabel "Sonstige Sprach- und Kulturwissenschaften"@de,
+        "Other linguistic and cultural studies"@en .
+
+destatis:01 a skos:Concept ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:01.01,
+        destatis:01.02,
+        destatis:01.03,
+        destatis:01.04,
+        destatis:01.05,
+        destatis:01.06,
+        destatis:01.07,
+        destatis:01.08,
+        destatis:01.09,
+        destatis:01.10,
+        destatis:01.11,
+        destatis:01.12,
+        destatis:01.13,
+        destatis:01.14,
+        destatis:01.18,
+        destatis:01.19 ;
+    skos:notation "01" ;
+    skos:prefLabel "Geisteswissenschaften"@de,
+        "Humanities"@en ;
+    skos:topConceptOf destatis:scheme .
+
+destatis:03.29 a skos:Concept ;
+    skos:broader destatis:03 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:03.29.168,
+        destatis:03.29.172,
+        destatis:03.29.255,
+        destatis:03.29.256,
+        destatis:03.29.257,
+        destatis:03.29.258,
+        destatis:03.29.259,
+        destatis:03.29.260,
+        destatis:03.29.261,
+        destatis:03.29.262,
+        destatis:03.29.263,
+        destatis:03.29.264,
+        destatis:03.29.265,
+        destatis:03.29.266,
+        destatis:03.29.268,
+        destatis:03.29.269 ;
+    skos:notation "29" ;
+    skos:prefLabel "Verwaltungswissenschaften"@de,
+        "Administrative Sciences"@en .
+
+destatis:08.63 a skos:Concept ;
+    skos:broader destatis:08 ;
+    skos:inScheme destatis:scheme ;
+    skos:narrower destatis:08.63.033,
+        destatis:08.63.074,
+        destatis:08.63.082,
+        destatis:08.63.104,
+        destatis:08.63.108,
+        destatis:08.63.141,
+        destatis:08.63.143,
+        destatis:08.63.144,
+        destatis:08.63.202,
+        destatis:08.63.211,
+        destatis:08.63.212,
+        destatis:08.63.213,
+        destatis:08.63.215,
+        destatis:08.63.216,
+        destatis:08.63.219,
+        destatis:08.63.224,
+        destatis:08.63.225,
+        destatis:08.63.226,
+        destatis:08.63.231,
+        destatis:08.63.457 ;
+    skos:notation "63" ;
+    skos:prefLabel "Maschinenbau/Verfahrenstechnik"@de,
+        "Mechanical Engineering / Process Engineering"@en .
+
+destatis:scheme a skos:ConceptScheme ;
+    dcterms:created "2024-01-11"^^xsd:date ;
+    dcterms:creator "Statistisches Bundesamt"@de ;
+    dcterms:license "Unbekannt"@de ;
+    dcterms:title "Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de,
+        "Classification System of Subject Groups, Study Areas, and Fields of Study"@en ;
+    skos:hasTopConcept destatis:01,
+        destatis:02,
+        destatis:03,
+        destatis:04,
+        destatis:05,
+        destatis:07,
+        destatis:08,
+        destatis:09,
+        destatis:10,
+        destatis:15,
+        destatis:20 .
+

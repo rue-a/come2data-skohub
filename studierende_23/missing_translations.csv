@@ -1,0 +1,16 @@
+notation,de,en
+01,Geisteswissenschaften,Humanities
+02,Sport,Sports
+03,"Rechts-, Wirtschafts- und Sozialwissenschaften","Law, Economics and Social Sciences"
+04,"Mathematik, Naturwissenschaften","Mathematics, Natural Sciences"
+05,Humanmedizin/Gesundheitswissenschaften,"Human Medicine/Health Sciences"
+07,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin","Agricultural, Forestry and Nutritional Sciences, Veterinary Medicine"
+08,Ingenieurwissenschaften,"Engineering"
+09,"Kunst, Kunstwissenschaft","Art, Art Theory"
+10,Außerhalb der Studienbereichsgliederung/Sonstige Fächer,"Unclassified Fields/Other Subjects"
+15,Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen),"Central Institutions (without clinical institutions)"
+20,Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin),"Central Institutions of the University Clinics (Human Medicine only)"
+83,Außerhalb der Studienbereichsgliederung,"Outside the study area classification"
+041,Sonstiges Orientierungsstudium,"Other Orientation Studies"
+196,Studienkolleg,"Preparatory College"
+290,Sonstige Fächer,"Other Subjects"

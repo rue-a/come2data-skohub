@@ -23,8 +23,8 @@ jobs:
       - name: Find TTL files
         id: find-ttl
         run: |
-          ttl_files=$(find . -name '*.ttl' -printf '"%p",' | sed 's/,$//')
-          echo "ttl_files=$ttl_files" 
+          ttl_files=$(find published_vocabs -name '*.ttl' -printf '"%p",' | sed 's/,$//')
+          echo "ttl_files=$ttl_files"
           echo "ttl_files=$ttl_files" >> "$GITHUB_ENV"
 
       - name: Set matrix for TTL files
@@ -48,7 +48,7 @@ jobs:
         uses: tj-actions/changed-files@v42
         with:
           files: |
-            **/*.ttl
+            published_vocabs/**/*.ttl
           json: true
 
       - name: Get changed yml-files
@@ -132,4 +132,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-

@@ -1,0 +1,375 @@
+{
+  "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Klinisch-Praktische Humanmedizin (ohne Zahnmedizin)",
+    "en": "Clinical-practical Human Medicine (without Dentistry)"
+  },
+  "notation": [
+    "490"
+  ],
+  "narrower": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4900",
+      "prefLabel": {
+        "de": "Klinisch-Praktische Humanmedizin allgemein",
+        "en": "Clinical Practice Human Medicine (general)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4910",
+      "prefLabel": {
+        "de": "Allgemeinmedizin",
+        "en": "General Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4920",
+      "prefLabel": {
+        "de": "Pathologie (klinisch-praktisch)",
+        "en": "Pathology (Clinical/Practical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4930",
+      "prefLabel": {
+        "de": "Pharmakologie (klinisch-praktisch)",
+        "en": "Pharmacology (Clinical/Practical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4935",
+      "prefLabel": {
+        "de": "Sportmedizin (klinisch-praktisch)",
+        "en": "Sports Medicine (clinical-practical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4936",
+      "prefLabel": {
+        "de": "Tumorzentrum und Transfusionsmedizin",
+        "en": "Tumor Center And Transfusion Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4940",
+      "prefLabel": {
+        "de": "Innere Medizin",
+        "en": "Internal Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4950",
+      "prefLabel": {
+        "de": "Kinderheilkunde",
+        "en": "Paediatrics"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4960",
+      "prefLabel": {
+        "de": "Dermato-Venerologie",
+        "en": "Dermatovenereology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4970",
+      "prefLabel": {
+        "de": "Urologie",
+        "en": "Urology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4980",
+      "prefLabel": {
+        "de": "Chirurgie",
+        "en": "Surgery"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.4990",
+      "prefLabel": {
+        "de": "Gynäkologie",
+        "en": "Gynecology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5010",
+      "prefLabel": {
+        "de": "Orthopädie",
+        "en": "Orthopedics"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5015",
+      "prefLabel": {
+        "de": "Physikalische Medizin",
+        "en": "Physical Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5020",
+      "prefLabel": {
+        "de": "Augenheilkunde",
+        "en": "Ophthalmology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5030",
+      "prefLabel": {
+        "de": "Hals-, Nasen-, Ohrenheilkunde",
+        "en": "Otorhinolaryngology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5040",
+      "prefLabel": {
+        "de": "Neurologie",
+        "en": "Neurology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5050",
+      "prefLabel": {
+        "de": "Psychiatrie",
+        "en": "Psychiatry"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5060",
+      "prefLabel": {
+        "de": "Psychosomatische Medizin und Psychotherapie",
+        "en": "Psychosomatic Medicine And Psychotherapy"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5070",
+      "prefLabel": {
+        "de": "Anästhesiologie",
+        "en": "Anesthesiology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5080",
+      "prefLabel": {
+        "de": "Rehabilitation",
+        "en": "Rehabilitation"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5090",
+      "prefLabel": {
+        "de": "Arbeitsmedizin (klinisch-praktisch)",
+        "en": "Occupational Medicine (clinical Practice)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5110",
+      "prefLabel": {
+        "de": "Sozialmedizin (klinisch-praktisch)",
+        "en": "Social Medicine (Clinical-Practical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5120",
+      "prefLabel": {
+        "de": "Geriatrie/Gerontologie",
+        "en": "Geriatrics/gerontology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5130",
+      "prefLabel": {
+        "de": "Neurochirurgie",
+        "en": "Neurosurgery"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5140",
+      "prefLabel": {
+        "de": "Rheumatologie",
+        "en": "Rheumatology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5150",
+      "prefLabel": {
+        "de": "Radiologie/Strahlentherapie/Nuklearmedizin (mit Betten)",
+        "en": "Radiology/radiation Therapy/nuclear Medicine (with Beds)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.490.5160",
+      "prefLabel": {
+        "de": "Kinder- und Jugendpsychiatrie",
+        "en": "Child And Adolescent Psychiatry"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05",
+    "prefLabel": {
+      "de": "Humanmedizin/Gesundheitswissenschaften",
+      "en": "Human Medicine/health Sciences"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
+      "title": {
+        "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
+        "en": "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

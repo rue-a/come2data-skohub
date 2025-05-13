@@ -1,0 +1,340 @@
+{
+  "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Sonstige Sprach- und Kulturwissenschaften",
+    "en": "Other Linguistic and Cultural Studies"
+  },
+  "notation": [
+    "140"
+  ],
+  "narrower": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1400",
+      "prefLabel": {
+        "de": "Sonstige Sprach- und Kulturwissenschaften allgemein",
+        "en": "Other/Non-European Linguistics And Cultural Studies (General)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1410",
+      "prefLabel": {
+        "de": "Ägyptologie",
+        "en": "Egyptology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1420",
+      "prefLabel": {
+        "de": "Afrikanistik",
+        "en": "African Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1430",
+      "prefLabel": {
+        "de": "Altorientalistik",
+        "en": "Ancient Near Eastern Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1440",
+      "prefLabel": {
+        "de": "Sprachen und Kulturen des christlichen Orients",
+        "en": "Languages And Cultures Of The Christian Orient"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1445",
+      "prefLabel": {
+        "de": "Sprachen und Kulturen des Nahen und Mittleren Ostens",
+        "en": "Languages And Cultures Of The Near And Middle East"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1450",
+      "prefLabel": {
+        "de": "Semitistik, Arabistik",
+        "en": "Semitic Studies, Arabic Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1460",
+      "prefLabel": {
+        "de": "Judaistik/Hebräisch",
+        "en": "Judaic Studies/hebrew"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1465",
+      "prefLabel": {
+        "de": "Kaukasistik",
+        "en": "Caucasian Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1470",
+      "prefLabel": {
+        "de": "Islamwissenschaft",
+        "en": "Islamic Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1480",
+      "prefLabel": {
+        "de": "Iranistik",
+        "en": "Iranian Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1490",
+      "prefLabel": {
+        "de": "Indologie",
+        "en": "Indology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1495",
+      "prefLabel": {
+        "de": "Sprachen und Kulturen Ostasiens allgemein",
+        "en": "Languages And Cultures Of East Asia (general)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1510",
+      "prefLabel": {
+        "de": "Turkologie",
+        "en": "Turkish Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1520",
+      "prefLabel": {
+        "de": "Sprachen und Kulturen Zentralasiens",
+        "en": "Languages And Cultures Of Central Asia"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1530",
+      "prefLabel": {
+        "de": "Sinologie",
+        "en": "Sinology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1540",
+      "prefLabel": {
+        "de": "Japanologie",
+        "en": "Japanology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1550",
+      "prefLabel": {
+        "de": "Koreanistik",
+        "en": "Korean Studies"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1560",
+      "prefLabel": {
+        "de": "Sprachen und Kulturen Südostasiens und Ozeaniens",
+        "en": "Languages And Cultures Of Southeast Asia And Oceania"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1570",
+      "prefLabel": {
+        "de": "Außereurop. Sprachen und Kulturen Amerikas",
+        "en": "Non-european Languages And Cultures Of The Americas"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1575",
+      "prefLabel": {
+        "de": "Außereurop. Sprachen und Kulturen Australiens",
+        "en": "Non-European Languages And Cultures Of Australia"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1576",
+      "prefLabel": {
+        "de": "Orientalistik allgemein",
+        "en": "Oriental Studies (general)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01.140.1610",
+      "prefLabel": {
+        "de": "Sonstige Sprachwissenschaften",
+        "en": "Other Linguistics"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/01",
+    "prefLabel": {
+      "de": "Geisteswissenschaften",
+      "en": "Humanities"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
+      "title": {
+        "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
+        "en": "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

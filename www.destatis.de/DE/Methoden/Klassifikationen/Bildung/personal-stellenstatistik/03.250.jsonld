@@ -1,0 +1,329 @@
+{
+  "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Rechtswissenschaften",
+    "en": "Law (General)"
+  },
+  "notation": [
+    "250"
+  ],
+  "narrower": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2500",
+      "prefLabel": {
+        "de": "Rechtswissenschaften allgemein",
+        "en": "Jurisprudence (General)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2510",
+      "prefLabel": {
+        "de": "Rechtsgeschichte",
+        "en": "History Of Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2515",
+      "prefLabel": {
+        "de": "Rechtsinformatik",
+        "en": "Legal Informatics"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2520",
+      "prefLabel": {
+        "de": "Rechts- und Staatsphilosophie",
+        "en": "Philosophy Of Law And Government"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2530",
+      "prefLabel": {
+        "de": "Rechtssoziologie",
+        "en": "Sociology Of Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2540",
+      "prefLabel": {
+        "de": "Kirchenrecht",
+        "en": "Canon/Ecclesiastical Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2545",
+      "prefLabel": {
+        "de": "Kriminologie",
+        "en": "Criminology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2550",
+      "prefLabel": {
+        "de": "Privatrecht (ohne Arbeitsrecht)",
+        "en": "Civil Law (excl. Labour Law)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2560",
+      "prefLabel": {
+        "de": "Öffentliches Recht",
+        "en": "Public Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2570",
+      "prefLabel": {
+        "de": "Strafrecht",
+        "en": "Criminal Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2580",
+      "prefLabel": {
+        "de": "Internationales Recht und Rechtsvergleichung",
+        "en": "International Law And Comparative Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2590",
+      "prefLabel": {
+        "de": "Steuerrecht",
+        "en": "Tax Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2620",
+      "prefLabel": {
+        "de": "Handelsrecht",
+        "en": "Commercial Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2630",
+      "prefLabel": {
+        "de": "Arbeitsrecht",
+        "en": "Employment Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2640",
+      "prefLabel": {
+        "de": "Wirtschaftsrecht",
+        "en": "Economic/Business Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2650",
+      "prefLabel": {
+        "de": "Prozessrecht",
+        "en": "Procedural Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2665",
+      "prefLabel": {
+        "de": "Europarecht",
+        "en": "European Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2670",
+      "prefLabel": {
+        "de": "Bürgerliches Recht",
+        "en": "Civil Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2680",
+      "prefLabel": {
+        "de": "Sozialrecht",
+        "en": "Social Welfare Law"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.250.2690",
+      "prefLabel": {
+        "de": "Versicherungsrecht",
+        "en": "Insurance Law"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03",
+    "prefLabel": {
+      "de": "Rechts-, Wirtschafts- und Sozialwissenschaften",
+      "en": "Law, Economics And Social Sciences"
+    }
+  },
+  "closeMatch": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/03.28.135"
+    }
+  ],
+  "exactMatch": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/03.28"
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
+      "title": {
+        "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
+        "en": "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Erziehungswissenschaften",
+    "en": "Educational Sciences"
+  },
+  "notation": [
+    "320"
+  ],
+  "narrower": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1800",
+      "prefLabel": {
+        "de": "Erziehungswissenschaften allgemein",
+        "en": "Educational Science (general)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1801",
+      "prefLabel": {
+        "de": "Didaktik",
+        "en": "Didactics"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1802",
+      "prefLabel": {
+        "de": "Empirische Bildungsforschung",
+        "en": "Empirical Educational Research"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1803",
+      "prefLabel": {
+        "de": "Grundschul- und Primarstufenpädagogik",
+        "en": "Elementary School And Primary Level Pedagogy"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1804",
+      "prefLabel": {
+        "de": "Historische Bildungsforschung",
+        "en": "Historical Educational Research"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1805",
+      "prefLabel": {
+        "de": "Berufs- und Wirtschaftspädagogik",
+        "en": "Vocational And Business Education"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1806",
+      "prefLabel": {
+        "de": "Sonderpädagogik",
+        "en": "Special Education"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1820",
+      "prefLabel": {
+        "de": "Erwachsenenbildung",
+        "en": "Adult Education"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1825",
+      "prefLabel": {
+        "de": "Pädagogische Freizeitforschung und Sportpädagogik",
+        "en": "Pedagogical Leisure Research And Sports Pedagogy"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1826",
+      "prefLabel": {
+        "de": "Pädagogik der frühen Kindheit",
+        "en": "Pedagogy Of Early Childhood"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1827",
+      "prefLabel": {
+        "de": "Schulpädagogik",
+        "en": "School Pedagogy"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1828",
+      "prefLabel": {
+        "de": "Kultur- und Medienpädagogik",
+        "en": "Culture And Media Education"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03.320.1829",
+      "prefLabel": {
+        "de": "Interkulturelle und International Vergleichende Erziehungswissenschaft",
+        "en": "Intercultural And International Comparative Education"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/03",
+    "prefLabel": {
+      "de": "Rechts-, Wirtschafts- und Sozialwissenschaften",
+      "en": "Law, Economics And Social Sciences"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
+      "title": {
+        "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
+        "en": "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

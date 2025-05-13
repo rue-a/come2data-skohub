@@ -1,0 +1,354 @@
+{
+  "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470",
+  "type": "Concept",
+  "prefLabel": {
+    "de": "Klinisch-Theoretische Humanmedizin (einschl. Zahnmedizin)",
+    "en": "Clinical-theoretical Human Medicine (including Dentistry)"
+  },
+  "notation": [
+    "470"
+  ],
+  "narrower": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4525",
+      "prefLabel": {
+        "de": "Medizinische Informatik (nur für Mediziner)",
+        "en": "Medical Informatics (only For Physicians)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4700",
+      "prefLabel": {
+        "de": "Klinisch-Theoretische Humanmedizin allgemein",
+        "en": "Clinical Theoretical Human Medicine (general)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4705",
+      "prefLabel": {
+        "de": "Arbeitsmedizin (klinisch-theoretisch)",
+        "en": "Occupational Medicine (Theoretical/Clinical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4710",
+      "prefLabel": {
+        "de": "Pathologie, Neuropathologie",
+        "en": "Pathology, Neuropathology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4715",
+      "prefLabel": {
+        "de": "Pharmakologie und Toxikologie (medizinisch)",
+        "en": "Pharmacology And Toxicology (medical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4716",
+      "prefLabel": {
+        "de": "Präventiv- und Vorsorgemedizin",
+        "en": "Preventive And Precautionary Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4720",
+      "prefLabel": {
+        "de": "Biomathematik (für Mediziner)",
+        "en": "Biomathematics (for Physicians)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4725",
+      "prefLabel": {
+        "de": "Biomedizinische Technik",
+        "en": "Biomedical Technology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4730",
+      "prefLabel": {
+        "de": "Klinische Chemie und Hämatologie",
+        "en": "Clinical Chemistry And Haematology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4732",
+      "prefLabel": {
+        "de": "Klinische Krebsforschung und molekulare Tumorforschung",
+        "en": "Clinical Cancer Research And Molecular Tumor Research"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4735",
+      "prefLabel": {
+        "de": "Medizinische Balneologie und Klimatologie",
+        "en": "Medical Balneology And Climatology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4736",
+      "prefLabel": {
+        "de": "Medizinische Biophysik und Elektronenmikroskopie",
+        "en": "Medical Biophysics And Electron Microscopy"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4737",
+      "prefLabel": {
+        "de": "Medizinische Statistik und Dokumentation",
+        "en": "Medical Statistics And Documentation"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4738",
+      "prefLabel": {
+        "de": "Parasitologie",
+        "en": "Parasitology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4740",
+      "prefLabel": {
+        "de": "Radiologie (diagnostisch, ohne Betten)",
+        "en": "Radiology (Diagnostic, Without Beds)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4745",
+      "prefLabel": {
+        "de": "Epidemiologie",
+        "en": "Epidemiology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4750",
+      "prefLabel": {
+        "de": "Humangenetik",
+        "en": "Human Genetics"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4760",
+      "prefLabel": {
+        "de": "Geschichte der Medizin",
+        "en": "History Of Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4770",
+      "prefLabel": {
+        "de": "Rechtsmedizin",
+        "en": "Forensic Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4775",
+      "prefLabel": {
+        "de": "Sexualmedizin",
+        "en": "Sex Medicine"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4776",
+      "prefLabel": {
+        "de": "Sozialmedizin (klinisch-theoretisch)",
+        "en": "Social Medicine (Clinical-Theoretical)"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4780",
+      "prefLabel": {
+        "de": "Hygiene und medizinische Mikrobiologie",
+        "en": "Hygiene and Medical Microbiology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4790",
+      "prefLabel": {
+        "de": "Virologie",
+        "en": "Virology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4810",
+      "prefLabel": {
+        "de": "Immunologie",
+        "en": "Immunology"
+      }
+    },
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05.470.4820",
+      "prefLabel": {
+        "de": "Experimentelle Medizin/Medizinforschung (ohne klinische Medizin)",
+        "en": "Experimental Medicine/medical Research (excluding Clinical Medicine)"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/05",
+    "prefLabel": {
+      "de": "Humanmedizin/Gesundheitswissenschaften",
+      "en": "Human Medicine/health Sciences"
+    }
+  },
+  "inScheme": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
+      "title": {
+        "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
+        "en": "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme"
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Destatis Fächersystematiken -- Come2Data Version
 
-In diesem Repositorium werden die Come2Data Versionen der Destatis Fächersystematiken verwaltet. Die Systematiken werden mit [SkoHub-Pages](https://github.com/skohub-io/skohub-pages) als interaktive Webseiten zur Erkundung unter https://rue-a.github.io/destatis-personal-vocab/ bereitgestellt.
+In diesem Repositorium werden die Come2Data Versionen der Destatis Fächersystematiken verwaltet. Die Systematiken werden mit [SkoHub-Pages](https://github.com/skohub-io/skohub-pages) als interaktive Webseiten zur Erkundung unter https://rue-a.github.io/come2data-skohub/ bereitgestellt.
 
 ## Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete (`personal_23`)
 

@@ -4,7 +4,7 @@ from rdflib import Graph, Namespace, URIRef, Literal, XSD
 from rdflib.namespace import RDF, SKOS, DCTERMS
 
 # Basis-URL
-HOSTING_DOMAIN = "https://rue-a.github.io/destatis-personal-vocab"
+HOSTING_DOMAIN = "https://rue-a.github.io/come2data-skohub"
 CONCEPTS_DOMAIN = (
     "www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik"
 )

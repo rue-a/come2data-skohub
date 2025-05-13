@@ -3,7 +3,7 @@ from rdflib.namespace import SKOS, DCTERMS
 from fuzzywuzzy import fuzz
 
 # Basis-URL
-HOSTING_DOMAIN = "https://rue-a.github.io/destatis-personal-vocab"
+HOSTING_DOMAIN = "https://rue-a.github.io/come2data-skohub"
 CONCEPTS_PERS_DOMAIN = (
     "www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik"
 )

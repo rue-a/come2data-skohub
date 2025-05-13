@@ -1,1 +1,38 @@
-[{"id":"https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme","title":{"de":"Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete","en":"Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise","de_de":null,"en_us":null,"uk":null},"dc_title":null,"prefLabel":null,"description":null,"dc_description":null,"languages":["de","en"]},{"id":"https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/scheme","title":{"de":"Systematik der Fächergruppen, Studienbereiche und Studienfächer","en":"Classification System of Subject Groups, Study Areas, and Fields of Study","de_de":null,"en_us":null,"uk":null},"dc_title":null,"prefLabel":null,"description":null,"dc_description":null,"languages":["de","en"]},{"id":"https://w3id.org/kim/hochschulfaechersystematik/scheme","title":{"de":"Destatis-Systematik der Fächergruppen, Studienbereiche und Studienfächer","en":null,"de_de":null,"en_us":null,"uk":null},"dc_title":null,"prefLabel":null,"description":{"de":"Diese SKOS-Klassifikation basiert auf der Destatis-[\"Systematik der Fächergruppen, Studienbereiche und Studienfächer\"](https://bartoc.org/en/node/18919).","en":null,"de_de":null,"en_us":null,"uk":null},"dc_description":null,"languages":["de","en","uk"]}]
+[
+    {
+        "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",
+        "title": {
+            "de": "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
+            "en": "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise",
+            "de_de": null,
+            "en_us": null,
+            "uk": null
+        },
+        "dc_title": null,
+        "prefLabel": null,
+        "description": null,
+        "dc_description": null,
+        "languages": [
+            "de",
+            "en"
+        ]
+    },
+    {
+        "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/scheme",
+        "title": {
+            "de": "Systematik der Fächergruppen, Studienbereiche und Studienfächer",
+            "en": "Classification System of Subject Groups, Study Areas, and Fields of Study",
+            "de_de": null,
+            "en_us": null,
+            "uk": null
+        },
+        "dc_title": null,
+        "prefLabel": null,
+        "description": null,
+        "dc_description": null,
+        "languages": [
+            "de",
+            "en"
+        ]
+    }
+]

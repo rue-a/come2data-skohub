@@ -59,11 +59,6 @@
       "en": "Humanities"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/01.04.127"
-    }
-  ],
   "exactMatch": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/01.04"

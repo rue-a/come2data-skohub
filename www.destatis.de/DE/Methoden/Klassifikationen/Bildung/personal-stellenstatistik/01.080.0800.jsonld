@@ -15,11 +15,6 @@
       "en": "General And Comparative Literature And Linguistics"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/01.07"
-    }
-  ],
   "inScheme": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",

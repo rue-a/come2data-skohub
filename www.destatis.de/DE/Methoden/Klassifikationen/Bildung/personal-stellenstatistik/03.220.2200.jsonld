@@ -15,14 +15,6 @@
       "en": "Law, Economics And Social Sciences (General)"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/03"
-    },
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/03.23"
-    }
-  ],
   "inScheme": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",

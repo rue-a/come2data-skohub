@@ -15,17 +15,6 @@
       "en": "Humanities (general)"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/01.01"
-    },
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/04.43.039"
-    },
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/05.48"
-    }
-  ],
   "inScheme": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",

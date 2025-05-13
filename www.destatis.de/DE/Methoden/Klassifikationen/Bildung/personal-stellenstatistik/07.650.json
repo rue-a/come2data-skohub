@@ -38,6 +38,11 @@
       "en": "Agricultural, Forestry And Nutritional Sciences, Veterinary Medicine"
     }
   },
+  "exactMatch": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/07.60"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",

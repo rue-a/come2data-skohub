@@ -59,11 +59,6 @@
       "en": "Mathematics, Natural Sciences"
     }
   },
-  "closeMatch": [
-    {
-      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/04.41.126"
-    }
-  ],
   "exactMatch": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/04.41"

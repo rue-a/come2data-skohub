@@ -15,6 +15,11 @@
       "en": "Other Linguistic and Cultural Studies"
     }
   },
+  "closeMatch": [
+    {
+      "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/01.13.002"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/scheme",

@@ -53,8 +53,20 @@ Als Eingangsdaten wurden CSV-Versionen der Originaldaten (Excel Workbooks) verwe
 2) Die zweite Spalte jeder Datei wurde gelöscht (da etwas unklar ist was sie bedeutet oder leer ist)
 3) Die verbleibenden Spalten wurden umbenannt in `id`, `label` und `parent_id` (`parent_id` kommt nur bei STB und STF vor)
 
-Die Tabelle mit den Studienfächern (`Studienfach_WS2024.xlsx`/`stf.csv`) enthält ein Mapping der Studienfächer zum International Standard Classification of Education (ISCED). Die Konzepte des ISCED auf der Studienfachebene sind veröffentlicht unter der URL https://publications.europa.eu/resource/authority/snb/isced-f/<4-stellige-isced-id> (z.B.: https://publications.europa.eu/resource/authority/snb/isced-f/0220). Dieses Mapping wird mittel `skos:exactMatch` erfasst.
+Die Tabelle mit den Studienfächern (`Studienfach_WS2024.xlsx`/`stf.csv`) enthält ein Mapping der Studienfächer zum International Standard Classification of Education (ISCED). Die Konzepte des ISCED auf der Studienfachebene sind veröffentlicht unter der URL https://publications.europa.eu/resource/authority/snb/isced-f/<4-stellige-isced-id> (z.B.: https://publications.europa.eu/resource/authority/snb/isced-f/0220). Dieses Mapping wird mittels `skos:exactMatch` erfasst.
 
 #### 2) Übersetzung
 
 Eine SKOS-Version der *Systematik der Fächergruppen, Studienbereiche und Studienfächer* wird von der [DINI (Deutsche Initiative für Netzwerkinformation)](https://dini.de/) Arbeitsgruppe [KIM (Das Kompetenzzentrum Interoperable Metadaten)](https://dini.de/standards) unter https://github.com/dini-ag-kim/hochschulfaechersystematik gepflegt. Diese Version beinhaltet auch Übersetzungen der Konzeptlabels ins Englische und Ukrainische. Die Version wurde diesem Repositorium in der Version `v2025-02-03` als `hochschulfaechersystematik.ttl` hinzugefügt. 
+
+
+# Lizenz
+
+Die in der Datei `LICENSE` abgedruckte Lizenz gilt der Software SkoHub Pages, nicht den Inhalten der mit der Software bereitgestellten SKOS-Dokumente. Für die Inhalte gilt je nach Ursprung:
+
+https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik
+<img width="514" height="63" alt="image" src="https://github.com/user-attachments/assets/b8f945dd-b37f-4df2-b70a-1b682b130c68" />
+
+https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik
+<img width="506" height="66" alt="image" src="https://github.com/user-attachments/assets/c0917e91-e971-40e8-a26f-64c934d8a94e" />
+

@@ -11,29 +11,29 @@ CONCEPTS_DOMAIN = (
 BASE_URL = f"{HOSTING_DOMAIN}/{CONCEPTS_DOMAIN}"
 
 # CSV-Dateien laden
-fg_df = pd.read_csv("personal_23/fg.csv", dtype=str)
+fg_df = pd.read_csv("destatis_personal_23/fg.csv", dtype=str)
 fg_df["id"] = fg_df["id"].str.zfill(2)
-luf_df = pd.read_csv("personal_23/luf.csv", dtype=str)
+luf_df = pd.read_csv("destatis_personal_23/luf.csv", dtype=str)
 luf_df["id"] = luf_df["id"].str.zfill(3)
 luf_df["parent_id"] = luf_df["parent_id"].str.zfill(2)
-fgb_df = pd.read_csv("personal_23/fgb.csv", dtype=str)
+fgb_df = pd.read_csv("destatis_personal_23/fgb.csv", dtype=str)
 fgb_df["id"] = fgb_df["id"].str.zfill(4)
 fgb_df["parent_id"] = fgb_df["parent_id"].str.zfill(3)
 
 
 # RDF Graph vorbereiten
 g = Graph()
-DESTATIS = Namespace(BASE_URL + "/")
+DESTATIS_PERSONAL = Namespace(BASE_URL + "/")
 g.bind("skos", SKOS)
 g.bind("dcterms", DCTERMS)
-g.bind("destatis", DESTATIS)
+g.bind("destatispersonal", DESTATIS_PERSONAL)
 
 
 # ConceptScheme erzeugen
-g.add((DESTATIS.scheme, RDF.type, SKOS.ConceptScheme))
+g.add((DESTATIS_PERSONAL.scheme, RDF.type, SKOS.ConceptScheme))
 g.add(
     (
-        DESTATIS.scheme,
+        DESTATIS_PERSONAL.scheme,
         DCTERMS.title,
         Literal(
             "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete",
@@ -43,7 +43,7 @@ g.add(
 )
 g.add(
     (
-        DESTATIS.scheme,
+        DESTATIS_PERSONAL.scheme,
         DCTERMS.title,
         Literal(
             "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise",
@@ -52,22 +52,22 @@ g.add(
     )
 )
 
-g.add((DESTATIS.scheme, DCTERMS.creator, Literal("Statistisches Bundesamt", lang="de")))
-g.add((DESTATIS.scheme, DCTERMS.created, Literal("2024-01-11", datatype=XSD.date)))
-g.add((DESTATIS.scheme, DCTERMS.license, Literal("Unbekannt", lang="de")))
+g.add((DESTATIS_PERSONAL.scheme, DCTERMS.creator, Literal("Statistisches Bundesamt", lang="de")))
+g.add((DESTATIS_PERSONAL.scheme, DCTERMS.created, Literal("2024-01-11", datatype=XSD.date)))
+g.add((DESTATIS_PERSONAL.scheme, DCTERMS.license, Literal("© Statistisches Bundesamt (Destatis), 2024. Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenagabe gestatted.", lang="de")))
 
 # Fächergruppen (FG)
 for _, row in fg_df.iterrows():
     fg_id = row["id"]
     fg_label = row["label"]
-    fg_uri = URIRef(f"{DESTATIS}{fg_id}")
+    fg_uri = URIRef(f"{DESTATIS_PERSONAL}{fg_id}")
 
     g.add((fg_uri, RDF.type, SKOS.Concept))
     g.add((fg_uri, SKOS.prefLabel, Literal(fg_label, lang="de")))
     g.add((fg_uri, SKOS.notation, Literal(fg_id)))
-    g.add((fg_uri, SKOS.topConceptOf, DESTATIS.scheme))
-    g.add((DESTATIS.scheme, SKOS.hasTopConcept, fg_uri))
-    g.add((fg_uri, SKOS.inScheme, DESTATIS.scheme))
+    g.add((fg_uri, SKOS.topConceptOf, DESTATIS_PERSONAL.scheme))
+    g.add((DESTATIS_PERSONAL.scheme, SKOS.hasTopConcept, fg_uri))
+    g.add((fg_uri, SKOS.inScheme, DESTATIS_PERSONAL.scheme))
 
 
 # Lehr- und Forschungsbereiche (LuF)
@@ -75,15 +75,15 @@ for _, row in luf_df.iterrows():
     luf_id = row["id"]
     luf_label = row["label"]
     fg_id = row["parent_id"]
-    luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
-    fg_uri = URIRef(f"{DESTATIS}{fg_id}")
+    luf_uri = URIRef(f"{DESTATIS_PERSONAL}{fg_id}.{luf_id}")
+    fg_uri = URIRef(f"{DESTATIS_PERSONAL}{fg_id}")
 
     g.add((luf_uri, RDF.type, SKOS.Concept))
     g.add((luf_uri, SKOS.prefLabel, Literal(luf_label, lang="de")))
     g.add((luf_uri, SKOS.notation, Literal(f"{luf_id}")))
     g.add((luf_uri, SKOS.broader, fg_uri))
     g.add((fg_uri, SKOS.narrower, luf_uri))
-    g.add((luf_uri, SKOS.inScheme, DESTATIS.scheme))
+    g.add((luf_uri, SKOS.inScheme, DESTATIS_PERSONAL.scheme))
 
 
 # Fachgebiete (FGB)
@@ -93,15 +93,15 @@ for _, row in fgb_df.iterrows():
     luf_id = row["parent_id"]
     fg_id = luf_df.query(f"id == '{luf_id}'")["parent_id"].values[0]
 
-    fgb_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}.{fgb_id}")
-    luf_uri = URIRef(f"{DESTATIS}{fg_id}.{luf_id}")
+    fgb_uri = URIRef(f"{DESTATIS_PERSONAL}{fg_id}.{luf_id}.{fgb_id}")
+    luf_uri = URIRef(f"{DESTATIS_PERSONAL}{fg_id}.{luf_id}")
 
     g.add((fgb_uri, RDF.type, SKOS.Concept))
     g.add((fgb_uri, SKOS.prefLabel, Literal(fgb_label, lang="de")))
     g.add((fgb_uri, SKOS.notation, Literal(f"{fgb_id}")))
     g.add((fgb_uri, SKOS.broader, luf_uri))
     g.add((luf_uri, SKOS.narrower, fgb_uri))
-    g.add((fgb_uri, SKOS.inScheme, DESTATIS.scheme))
+    g.add((fgb_uri, SKOS.inScheme, DESTATIS_PERSONAL.scheme))
 
 
 # Als Turtle speichern
@@ -112,10 +112,10 @@ print("SKOS-Hierarchie wurde erfolgreich erstellt.")
 from fuzzywuzzy import fuzz
 
 source_graph = Graph()
-source_graph.parse("personal_23/faecherklassifikation_skos_en.ttl", format="turtle")
+source_graph.parse("destatis_personal_23/faecherklassifikation_skos_en.ttl", format="turtle")
 
 # Load missing translations from CSV
-missing_df = pd.read_csv("personal_23/missing_translations.csv", dtype=str)
+missing_df = pd.read_csv("destatis_personal_23/missing_translations.csv", dtype=str)
 
 # Iterate over concepts in destatis graph
 for concept in g.subjects(RDF.type, SKOS.Concept):
@@ -184,4 +184,4 @@ for concept in g.subjects(RDF.type, SKOS.Concept):
         print(f"Missing EN: {notation} | {de_label}")
 
 # Serialize result
-g.serialize("personal_23/destatis_personal_skos.ttl", format="turtle")
+g.serialize("destatis_personal_23/destatis_personal_skos.ttl", format="turtle")

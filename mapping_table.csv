@@ -1,340 +1,351 @@
-studierende_concept_id,studierende_concept_label,close_match_personal_ids,close_match_personal_labels,exact_match_personal_ids,exact_match_personal_labels,related_match_personal_ids , related_match_personal_labels, Bemerkungen,Nachweis zu Bemerkungen
-01,Geisteswissenschaften,,,1,Geisteswissenschaften,
-01.001,Geisteswissenschaften allgemein,01.010.0100,Lernbereich Geisteswissenschaften,,,,,abweichender Begriff
-01.001.0004,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),01.010.0120,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),,,
-01.001.0090,Lernbereich Geisteswissenschaften,,,,,
-01.002,"Evangelische Theologie, -Religionslehre",,,,,
-01.002.0053,"Evang. Theologie, -Religionslehre",01.020.0250,Praktische Theologie und Religionspädagogik (evang. Th.),,,,,abweichender Begriff
-01.002.0161,Diakoniewissenschaft,01.020.0215,Diakoniewissenschaft,,,
-01.002.0544,"Evang. Religionspädagogik, kirchliche Bildungsarbeit",01.020.0250,Praktische Theologie und Religionspädagogik (evang. Th.),,,,,abweichender Begriff
-01.003,"Katholische Theologie, -Religionslehre",,,,,
-01.003.0086,"Kath. Theologie, -Religionslehre",01.030.0300; 01.030.0340,"Kath. Theologie allgemein | Praktische Theologie und Religionspädagogik (kath. Th.)",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
-01.003.0162,Caritaswissenschaft,01.030.0315,Caritaswissenschaft,,,
-01.003.0545,"Kath. Religionspädagogik, kirchliche Bildungsarbeit",01.030.0340,Praktische Theologie und Religionspädagogik (kath. Th.),,,,,abweichender Begriff
-01.004,Philosophie,,,1040,Philosophie,
-01.004.0127,Philosophie,,,,,
-01.004.0136,Religionswissenschaft,01.040.0410,Religionswissenschaft,,,
-01.004.0169,Ethik,01.040.0400,Philosophie allgemein,,,,,abweichender Begriff
-01.005,Geschichte,,,1050,Geschichte,
-01.005.0012,Archäologie,01.050.0570,Archäologie,,,
-01.005.0068,Geschichte,01.050.0500,Geschichte allgemein,,,,,
-01.005.0183,Wirtschafts-/Sozialgeschichte,01.050.0560,Wirtschafts- und Sozialgeschichte,,,,,
-01.005.0272,Alte Geschichte,01.050.0520,Alte Geschichte,,,
-01.005.0273,Mittlere und neuere Geschichte,,,,,,,"Klassisches Problem der Epochenbildung innerhalb der Geschichtswissenschaft, die Zusammenfassung von mittlerer Geschichte eher unüblich. Daher hier ein Zuschlag zur Geschichte des Mittelalters und der frühen Neuzeit."
-01.005.0275,Wissenschaftsgeschichte/Technikgeschichte,01.050.0595,Wissenschaftsgeschichte/Technikgeschichte,,,
-01.005.0548,Ur- und Frühgeschichte,01.050.0510,Ur- und Frühgeschichte,,,
-01.006,Informations- und Bibliothekswissenschaften,,,1070,Informations- und Bibliothekswissenschaften,
-01.006.0022,Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen),01.070.0710; 01.070.0730,"Bibliothekswissenschaft (nicht für Verwaltungs-FH) | Informationswissenschaft",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.006.0037,Archiv- und Dokumentationswissenschaft,01.070.0720,Archiv- und Dokumentationswissenschaft,,,
-01.007,Allgemeine und vergleichende Literatur- und Sprachwissenschaft,,,1080,Allgemeine und vergleichende Literatur- und Sprachwissenschaft,
-01.007.0018,Berufsbezogene Fremdsprachenausbildung,01.080.0830,"Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung",,,,,abweichender Begriff
-01.007.0152,Allgemeine Sprachwissenschaft,01.080.0800; 01.080.0810,"Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein | Allg. und vergleichende Sprachwissenschaft",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.007.0160,Computerlinguistik,01.080.0835,Computerlinguistik,,,
-01.007.0188,Allgemeine Literaturwissenschaft,01.080.0800; 01.080.0820,"Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein | Allg. und vergleichende Literaturwissenschaft",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.007.0284,Angewandte Sprachwissenschaft,01.080.0830,"Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung",,,,,abweichender Begriff,
-01.008,"Altphilologie (klassische Philologie), Neugriechisch",,,,,
-01.008.0005,Klassische Philologie,01.090.0900,Altphilologie allgemein,,,,,abweichender Begriff
-01.008.0031,Byzantinistik,01.090.0930,Byzantinistik,,,
-01.008.0043,Neugriechisch,01.090.0940,Neugriechisch,,,
-01.008.0070,Griechisch,01.090.0910,Griechische Philologie,,,,,abweichender Begriff
-01.008.0095,Latein,01.090.0920,Lateinische Philologie,,,,,abweichender Begriff
-01.009,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",,,1100,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",
-01.009.0034,Dänisch,01.100.1070,Sonstige germanische Sprachen (ohne Anglistik),,,,,abweichender Begriff,
-01.009.0067,Germanistik/Deutsch,01.100.1000,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik) allgemein",,,,,abweichender Begriff/Plus
-01.009.0119,Niederländisch,01.100.1030,Niederlandistik,,,,,abweichender Begriff
-01.009.0120,"Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)",01.100.1020; 01.100.1070,"Skandinavistik | Sonstige germanische Sprachen (ohne Anglistik)",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.009.0189,Niederdeutsch,01.100.1070,Sonstige germanische Sprachen (ohne Anglistik),,,,,abweichender Begriff
-01.009.0271,Deutsch als Fremdsprache oder als Zweitsprache,01.100.1040,Deutsch als Fremdsprache oder als Zweitsprache,,,
-01.010,"Anglistik, Amerikanistik",,,1110,"Anglistik, Amerikanistik",
-01.010.0006,Amerikanistik/Amerikakunde,01.110.1110,Amerikanistik,,,,,abweichender Begriff/Minus
-01.010.0008,Anglistik/Englisch,01.110.1100,Anglistik,,,,,abweichender Begriff/Minus
-01.011,Romanistik,,,1120,Romanistik,
-01.011.0059,Französisch,01.120.1210,Französische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
-01.011.0084,Italienisch,01.120.1220,Italienische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
-01.011.0131,Portugiesisch,01.120.1230,Iberoromanische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
-01.011.0137,"Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)",01.120.1200,Romanistik allgemein,,,,,abweichender Begriff/Minus
-01.011.0150,Spanisch,01.120.1230,Iberoromanische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
-01.012,"Slawistik, Baltistik, Finno-Ugristik",,,1130,"Slawistik, Baltistik, Finno-Ugristik",
-01.012.0016,Baltistik,01.130.1350,Baltistik,,,
-01.012.0056,Finno-Ugristik,01.130.1370,Finno-Ugristik,,,
-01.012.0146,"Slawistik (Slaw. Philologie, ohne Sorabistik)",01.130.1300; 01.130.1310,"Slawistik, Baltistik, Finno-Ugristik allgemein | Slawistik allgemein",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.012.0207,Sorabistik,01.130.1347,Sorabistik,,,
-01.013,Sonstige Sprach- und Kulturwissenschaften,,,1140,Sonstige Sprach- und Kulturwissenschaften,
-01.013.0001,Ägyptologie,01.140.1410,Ägyptologie,,,
-01.013.0002,Afrikanistik,01.140.1420,Afrikanistik,,,
-01.013.0010,Arabisch/Arabistik,,,,,
-01.013.0015,Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika,01.140.1570; 01.140.1575,"Außereuropäische Sprachen und Kulturen Amerikas | Außereuropäische Sprachen und Kulturen Australiens",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.013.0073,Judaistik/Hebräisch ,01.140.1460,Judaistik/Hebräisch,,,
-01.013.0078,Indologie,01.140.1490,Indologie,,,
-01.013.0081,Iranistik,01.140.1480,Iranistik,,,
-01.013.0083,Islamwissenschaft,01.140.1470,Islamwissenschaft,,,
-01.013.0085,Japanologie,01.140.1540,Japanologie,,,
-01.013.0122,"Orientalistik, Altorientalistik",01.140.1430,Altorientalistik,,,,,abweichender Begriff/Minus
-01.013.0145,Sinologie/Koreanistik,01.140.1530; 01.140.1550,"Sinologie | Koreanistik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.013.0158,Turkologie,01.140.1510,Turkologie,,,
-01.013.0180,Kaukasistik,01.140.1465,Kaukasistik,,,
-01.013.0187,Asiatische Sprachen und Kulturen/Asienwissenschaften,01.140.1495; 01.140.1520; 01.140.1560,"Sprachen und Kulturen Ostasiens allgemein | Sprachen und Kulturen Zentralasiens | Sprachen und Kulturen Südostasiens und Ozeaniens",,,,,drei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-01.014,Kulturwissenschaften i.e.S.,,,1160,Kulturwissenschaften i.e.S.,
-01.014.0024,Europäische Ethnologie und Kulturwissenschaft,01.160.1660,Europäische Ethnologie,,,,,abweichender Begriff/Minus
-01.014.0173,Ethnologie,01.160.1580,Ethnologie,,,
-01.014.0174,Volkskunde,01.160.1590,Volkskunde,,,
-01.018,Islamische Studien/Islamische Theologie,,,1195,Islamische Studien/Islamische Theologie,
-01.018.0292,Islamische Studien/Islamische Theologie,01.195.1950,Islamische Studien/Islamische Theologie,,,
-01.019,Medienwissenschaft,,,1197,Medienwissenschaft,
-01.019.0302,Medienwissenschaft,01.197.0130,Medienwissenschaften,,,,,
-13.035,"Sport, Sportwissenschaft",,,,,,,"studierende_concept_id so nicht in pdf vorhanden, woher kommt diese Zeile?"
-13.035.0029,Sportwissenschaft,02.200.2000,Sportwissenschaften allgemein,,,,,abweichender Begriff
-13.022.0098,Sportpädagogik/Sportpsychologie,02.200.2020,Sportpädagogik/Sportpsychologie,,,
-13,"Sozial- und Verhaltenswissenschaften, Sport",,,3,"Rechts-, Wirtschafts- und Sozialwissenschaften",
-13.023,"Sozial- und Verhaltenswissenschaften, Sport allgemein",,,,,
-13.023.0030,"Interdisziplinäre Studien (Schwerpunkt Sozial- und Verhaltenswissenschaften)",03.220.2210,"Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)",,,03.220.2200,"Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
-13.023.0055,Orientierungsstudium Gesellschaftswissenschaften,,,,,,,no match
-13.023.0154,Lernbereich Gesellschaftslehre,,,,,,,no match,
-13.024,Regionalwissenschaften,,,3225,Regionalwissenschaften,
-13.024.0036,Sonstige Regionalwissenschaften,,,,,
-13.024.0038,Lateinamerika-Studien,03.225.2255,Lateinamerika-Studien,,,
-13.024.0044,Ost- und Südosteuropa-Studien,03.225.2285,Ost- und Südosteuropa-Studien,,,
-13.025,Politikwissenschaft,,,3230,Politikwissenschaft,
-13.025.0129,Politikwissenschaft/Politologie,03.230.2300,Politikwissenschaft allgemein,,,,,abweichender Begriff
-13.026,Sozialwissenschaften/Soziologie,,,3235,Sozialwissenschaften/Soziologie,
-13.026.0147,Sozialkunde,03.235.2345,Sozialkunde,,,
-13.026.0148,Sozialwissenschaften,03.235.2320,Sozialwissenschaften/Soziologie allgemein,,,,,abweichender Begriff
-13.026.0149,Soziologie,03.235.2320,Sozialwissenschaften/Soziologie allgemein,,,,,abweichender Begriff
-13.027,Sozialwesen,,,3240,Sozialwesen,
-13.027.0208,Soziale Arbeit,03.240.2410,Soziale Arbeit,,,
-13.027.0245,Sozialpädagogik,03.240.2420,Sozialpädagogik,,,
-13.027.0253,Sozialwesen,03.240.2400,Sozialwesen allgemein,,,,,abweichender Begriff/Plus
-11.028,Rechtswissenschaften,,,3250,Rechtswissenschaften,
-11.028.0042,Wirtschaftsrecht,03.250.2640,Wirtschaftsrecht,,,
-11.028.0135,Rechtswissenschaft,03.250.2500,Rechtswissenschaft allgemein,,,03.250.2630; 03.250.2670; 03.250.2665; 03.250.2620; 03.250.2580; 03.250.2540; 03.250.2545;03.250.2560; 03.250.2550; 03.250.2650; 03.250.2520; 03.250.2510; 03.250.2515; 03.250.2530; 03.250.2680; 03.250.2590; 03.250.2570; 03.250.2690,"Arbeitsrecht | Bürgerliches Recht | Europarecht | Handelsrecht | Internationales Recht und Rechtsvergleichung | Kirchenrecht | Kriminologie | Öffentliches Recht | Privatrecht (ohne Arbeitsrecht) | Prozessrecht | Rechts- und Staatsphilosophie | Rechtsgeschichte | Rechtsinformatik | Rechtssoziologie | Sozialrecht | Steuerrecht | Strafrecht | Versicherungsrecht"
-11.029,Verwaltungswissenschaften,,,3270,Verwaltungswissenschaften,
-11.029.0172,Verwaltungswissenschaft/-wesen,03.270.2700,Verwaltungswissenschaft allgemein,,,,,abweichender Begriff/Plus
-11.029.0255,Archivwesen,03.270.2711; 03.270.2712,"Archivwesen | Bibliothekswesen",,,
-11.029.0256,Rechtspflege,03.270.2610,Rechtspflege,,,
-11.029.0259,Auswärtige Angelegenheiten,03.270.2730,Auswärtige Angelegenheiten,,,
-11.029.0261,Innere Verwaltung,03.270.2770,Allgemeine innere Verwaltung,,,,,abweichender Begriff/Plus
-11.029.0263,"Bundeswehr, Justiz und Polizei",03.270.2750; 03.270.2780; 03.270.2790,"Bundeswehrverwaltung | Justizvollzug | Polizei/Verfassungsschutz",,,
-11.029.0264,"Arbeits- und Sozialverwaltung, Berufsberatung",03.270.2710; 03.270.2720; 03.270.2820,"Arbeits- und Berufsberatung | Arbeitsverwaltung | Sozialverwaltung",,,,,abweichender Begriff/Minus
-11.029.0268,Verkehrswesen,03.270.2830,Verkehrswesen,,,
-11.029.0269,"Finanz-, Zoll- und Steuerverwaltung",03.270.2760; 03.270.2840,"Finanzverwaltung | Zoll- und Steuerverwaltung",,,
-12.030,Wirtschaftswissenschaften,,,3290,Wirtschaftswissenschaften,
-12.030.0011,Arbeitslehre/Wirtschaftslehre,03.290.3010,Arbeitslehre/-wissenschaft,,,,,abweichender Begriff
-12.030.0021,Betriebswirtschaftslehre,03.290.2960,Betriebswirtschaftslehre,,,
-12.030.0166,Sportmanagement/Sportökonomie,03.290.2925,Sportmanagement/Sportökonomie,,,
-12.030.0167,Europäische Wirtschaft,,,,,,,no match
-12.030.0175,Volkswirtschaftslehre,03.290.2930,Volkswirtschaftslehre,,,
-12.030.0181,Wirtschaftspädagogik,03.290.2910,Wirtschaftspädagogik,,,
-12.030.0182,Intern. Betriebswirtschaft/Management,03.290.2966,Internationale Wirtschaft,,,,,abweichender Begriff/Minus
-12.030.0184,Wirtschaftswissenschaften,03.290.2900,Wirtschaftswissenschaften allgemein,,,,,abweichender Begriff/Plus
-12.030.0210,Verkehrswirtschaft,03.290.2971,Verkehrswirtschaft,,,
-12.030.0274,Tourismuswirtschaft,03.290.2815,Tourismuswirtschaft,,,
-12.030.0304,Medienwirtschaft/Medienmanagement,03.290.2985,Medienwirtschaft/Medienmanagement,,,
-12.031,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,,,,,
-12.031.0179,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,03.310.3100,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,,,
-12.031.0464,Facility Management,03.310.3110,Facility Management,,,
-13.032,Psychologie,,,3315,Psychologie,
-03.032.0132,Psychologie,03.315.1700,Psychologie allgemein,,,,,abweichender Begriff/Minus
-13.033,Erziehungswissenschaften,,,3320,Erziehungswissenschaften,
-13.033.0052,Erziehungswissenschaft (Pädagogik),03.320.1800,Erziehungswissenschaften allgemein,,,,,abweichender Begriff
-13.033.0115,Grundschul-/Primarstufenpädagogik,03.320.1803,Grundschul- und Primarstufenpädagogik,,,
-13.033.0117,Ausländerpädagogik,,,,,,,no match
-13.033.0190,Sonderpädagogik,03.320.1806,Sonderpädagogik,,,
-13.033.0254,Sachunterricht (einschl. Schulgarten),,,,,,,no match
-13.033.0270,Berufs- und Wirtschaftspädagogik,03.320.1805,Berufs- und Wirtschaftspädagogik,,,
-13.033.0321,Erwachsenenbildung und außerschulische Jugendbildung,03.320.1803,Erwachsenenbildung,,,,,abweichender Begriff/Minus
-13.033.0361,Schulpädagogik,03.320.1827,Schulpädagogik,,,
-13.033.0365,Kindheitspädagogik,03.320.1826,Pädagogik der frühen Kindheit,,,
-13.034,Kommunikationswissenschaft/Publizistik,,,,,
-13.034.0303,Kommunikationswissenschaft/Publizistik,03.325.2240,Kommunikationswissenschaft/Publizistik,,,
-04,"Mathematik, Naturwissenschaften",,,4,"Mathematik, Naturwissenschaften",
-04.036,"Mathematik, Naturwissenschaften allgemein",,,4330,"Mathematik, Naturwissenschaften allgemein",
-04.036.0019,Orientierungsstudium MINT,,,,,
-04.036.0049,Interdisziplin. Studien (Schwerpunkt Naturwissenschaften),04.330.3320,Interdisziplinäre Studien (Schwerpunkt Naturwissenschaft),,,
-04.036.0186,Lernbereich Naturwissenschaft/Sachunterricht,04.330.3315,"Naturwissenschaftliche Fachdidaktiken, soweit nicht aufteilbar",,,,,abweichender Begriff/Plus
-04.036.0312,Statistik,04.330.3330,Statistik,,,
-04.037,Mathematik,,,4340,Mathematik,
-04.037.0105,Mathematik,04.340.3400,Mathematik allgemein,,,,,abweichender Begriff/Plus
-04.037.0118,Technomathematik,04.340.3470,Mathematik in Naturwissenschaften u. Technik,,,,,abweichender Begriff/Plus
-04.037.0276,Wirtschaftsmathematik,03.290.2936,Wirtschaftsmathematik,,,
-04.039,"Physik, Astronomie",,,4360,"Physik, Astronomie",
-04.039.0014,Astrophysik und Astronomie,04.360.3690,Astrophysik und Astronomie,,,
-04.039.0128,Physik,04.360.3600,"Physik, Astronomie allgemein",,,,,abweichender Begriff/Plus
-04.040,Chemie,,,4370,Chemie,
-04.040.0025,Biochemie,04.400.4065;04.370.3760,"Biochemie (f. Biologen) | Biochemie (f. Chemiker)",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
-04.040.0032,Chemie,04.370.3700,Chemie allgemein,,,,,abweichender Begriff/Plus
-04.040.0096,Lebensmittelchemie,04.370.3810,Lebensmittelchemie,,,
-04.041,Pharmazie,,,4390,Pharmazie,
-04.041.0126,Pharmazie,04.390.3900,Pharmazie allgemein,,,,,abweichender Begriff/Plus
-04.042,Biologie,,,4400,Biologie,
-04.042.0009,Anthropologie (Humanbiologie),04.400.4060,Anthropologie (Humanbiologie),,,
-04.042.0026,Biologie,04.400.4000,Biologie allgemein,,,,,abweichender Begriff/Plus
-04.042.0282,Biotechnologie,04.400.4035,Biotechnologie (f. Biologen),,,,, abweichender Begriff/Plus
-04.042.0300,Biomedizin,,,,,
-04.043,Geowissenschaften (ohne Geographie),,,4410,Geowissenschaften (ohne Geographie),
-04.043.0039,Geowissenschaften allgemein,04.410.4100,Geowissenschaften allgemein,,,
-04.043.0065,Geologie/Paläontologie,04.410.4120; 04.410.4190,"Paläontologie | Geoökologie",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
-04.043.0066,Geophysik,04.410.4150,Geophysik,,,
-04.043.0110,Meteorologie,04.410.4160,Meteorologie,,,
-04.043.0111,Mineralogie,04.410.4130,Mineralogie,,,
-04.043.0124,Ozeanographie,04.410.4135,Ozeanographie,,,
-04.043.0385,Geoökologie,04.410.4190,Geoökologie,,,
-04.044,Geographie,,,4420,Geographie,
-04.044.0050,Geographie/Erdkunde,04.420.4250,Didaktik der Geographie,,,,,abweichender Begriff/Plus,
-04.044.0178,Wirtschafts-/Sozialgeographie,04.420.4215,Wirtschafts- und Sozialgeographie,,,,,,
-04.044.0283,Landschaftsökologie/Biogeographie,04.420.4240,Landschaftsökologie/Biogeographie,,,07.615.6320,Landschaftsökologie,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-05,Humanmedizin/Gesundheitswissenschaften,,,5,Humanmedizin/Gesundheitswissenschaften,
-05.048,Gesundheitswissenschaften allgemein,,,,,
-05.048.0195,Gesundheitspädagogik,05.445.4451,Gesundheitspädagogik,,,
-05.048.0232,Gesundheitswissenschaften/-management,05.445.4453,Gesundheitswissenschaft/-management,,,
-05.048.0233,Nichtärztliche Heilberufe/Therapien,05.445.4455,Nichtärztliche Heilberufe/Therapien,,,,, "studierende_concept_id so nicht in pdf vorhanden, woher kommt diese Zeile?"
-05.048.0234,Pflegewissenschaft/-management,05.445.4457,Pflegewissenschaft/-management,,,
-05.049,Humanmedizin (ohne Zahnmedizin),,,,,
-05.049.0107,Medizin (Allgemein-Medizin),05.440.4400,Humanmedizin allgemein,,,,, abweichender Begriff,
-05.050,Zahnmedizin,,,,,
-05.050.0185,Zahnmedizin,05.520.5200,Zahnmedizin allgemein,,,,,abweichender Begriff/Plus,
-07,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin",,,7,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin",
-07.051,Veterinärmedizin,,,,,
-07.051.0156,Tiermedizin/Veterinärmedizin,07.540.5400,Veterinärmedizin allgemein,,,,,abweichender Begriff/Minus,
-07.057,"Landespflege, Umweltgestaltung",,,7615,"Landespflege, Umweltgestaltung",
-07.057.0064,Naturschutz,07.615.6350,Naturschutz,,,
-07.057.0093,Landespflege/Landschaftsgestaltung,07.615.6310,Landespflege allgemein,,,07.615.6315; 07.615.6330; 07.615.6340,"Landschaftsarchitektur (ohne Gartenbau) | Landschaftsplanung und Landschaftsentwicklung | Meliorationswesen",drei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-07.058,"Agrarwissenschaften, Lebensmittel- und Getränketechnologie",,,7620,"Agrarwissenschaften, Lebensmittel- und Getränketechnologie",
-07.058.0003,Agrarwissenschaft/Landwirtschaft,07.620.6200; 07.610.6100,"Agrarwissenschaften allgemein | Agrar-, Forst- und Ernährungswissenschaften allgemein",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
-07.058.0028,Brauwesen/Getränketechnologie,07.620.6260,Brauwesen/Getränketechnik,,,
-07.058.0060,Gartenbau,07.620.6300,Gartenbau,,,
-07.058.0097,Lebensmitteltechnologie,07.620.6250,Lebensmitteltechnologie/Getränketechnologie,,,,,abweichender Begriff/Plus,
-07.058.0125,Agrarökonomie,,,,,,,no match
-07.058.0138,Agrarbiologie,07.620.6205,Agrarbiologie,,,
-07.058.0220,Milch- und Molkereiwirtschaft,07.620.6255,Milch- und Molkereiwirtschaft,,,
-07.058.0227,Weinbau und Kellerwirtschaft,07.620.6235,Weinbau- und Kellerwirtschaft,,,
-07.058.0353,Pflanzenproduktion,07.620.6220,Pflanzenproduktion,,,
-07.058.0371,Tierproduktion,07.620.6230,Tierproduktion,,,
-07.059,"Forstwissenschaft, Holzwirtschaft",,,7640,"Forstwissenschaft, Holzwirtschaft",
-07.059.0058,"Forstwissenschaft, -wirtschaft",07.640.6400,"Forstwissenschaft, Holzwirtschaft allgemein",,,,,abweichender Begriff/Plus,
-07.059.0075,Holzwirtschaft,07.640.6415,Holzwirtschaft,,,
-07.060,Ernährungs- und Haushaltswissenschaften,,,7650,Ernährungs- und Haushaltswissenschaften,
-07.060.0071,Haushalts- und Ernährungswissenschaft,07.650.6500,Ernährungs- und Haushaltswissenschaften allgemein,,,,,abweichender Begriff/Plus,
-07.060.0320,Ernährungswissenschaft,07.650.6520,Ernährungswissenschaften,,,
-07.060.0333,Haushaltswissenschaft,07.650.6510,Haushaltswissenschaften,,,
-08,Ingenieurwissenschaften,,,8,Ingenieurwissenschaften,
-08.061,Ingenieurwesen allgemein,,,,,
-08.061.0072,Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften),08.670.6740,Interdisziplinäre Studien (Schwerpunkt Ingenieurwesen - ohne Mechatronik),,,,,abweichender Begriff/Plus,
-08.061.0140,Angewandte Systemwissenschaften,,,,,,,no match,
-08.061.0199,Lernbereich Technik,,,,,,,no match,
-08.061.0201,Werken (technisch)/Technologie,,,,,,,no match,
-08.061.0305,Medientechnik,08.670.6780,Medientechnik,,,
-08.061.0310,Regenerative Energien,08.670.6790,Regenerative Energien,,,
-08.061.0380,Mechatronik,08.670.6750,Mechatronik,,,
-08.062,"Bergbau, Hüttenwesen",,,8680,"Bergbau, Hüttenwesen",
-08.062.0020,Bergbau/Bergtechnik,08.680.6820; 08.680.6840,"Bergbau und mineralische Rohstoffwirtschaft | Bergtechnik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-08.062.0076,Hütten- und Gießereiwesen,08.680.6845,Hütten- und Gießereiwesen,,,
-08.062.0103,Markscheidewesen,08.680.6850,"Markscheidewesen, Bergschadenkunde, Geophysik im Bergbau",,,,,abweichender Begriff/Plus
-08.062.0390,Archäometrie (Ingenieurarchäologie),08.680.6870,Archäometrie (Ingenieurarchäologie),,,
-08.063,Maschinenbau/Verfahrenstechnik,,,8690,Maschinenbau/Verfahrenstechnik,
-08.063.0033,Chemie-Ingenieurwesen/Chemieverfahrenstechnik,08.690.6955,Chemische Verfahrenstechnik,,,
-08.063.0074,Transport-/Fördertechnik,08.690.6950,Transport- und Verteiltechnik,,,,,abweichender Begriff
-08.063.0082,Holz-/Fasertechnik,08.690.7040,Holztechnik,,,,,abweichender Begriff/Minus,
-08.063.0104,Maschinenbau/-wesen,08.690.6900,Maschinenbau allgemein,,,,,abweichender Begriff
-08.063.0108,Metalltechnik,,,,,,,no match
-08.063.0141,Abfallwirtschaft,,,,,08.690.6985,Umwelttechnik (einschließlich Recycling),Umwelttechnik kann Abfallwirtschaft mit umfassen
-08.063.0143,Augenoptik,,,,,,,no match
-08.063.0144,Technische Kybernetik,,,,,08.690.6970,"Steuerungs-, Mess- und Regelungstechnik","laut Gemini ist die Kybernetik ein interdisziplinäres übergeordnetes Fachgebiet, das mehr auf theoretische Überlegungen abziehle, wohingegen MSR eher praktisch orientiert sei"
-08.063.0202,Fertigungs-/Produktionstechnik,08.690.6940,Produktions- und Fertigungstechnologie,,,,,abweichender Begriff
-08.063.0211,Energieverfahrenstechnik,08.690.6930,Energieverfahrenstechnik,,,
-08.063.0212,Feinwerktechnik,08.690.7190,Feinwerktechnik (mechanisch),,,,,abweichender Begriff/Plus
-08.063.0213,Versorgungstechnik,08.690.6965,Versorgungs- und Entsorgungstechnik,,,,,abweichender Begriff/Plus
-08.063.0215,Gesundheitstechnik,,,,,08.690.7010,Medizintechnik,"abweichender Begriff, Gesundheitstechnik gehe laut Gemini über Entwicklung, Produktion, und Wartung von Produkten hinaus"
-08.063.0216,Glastechnik/Keramik,,,,,,,no match
-08.063.0219,Kunststofftechnik,08.690.7030,Kunststofftechnik,,,
-08.063.0224,Physikalische Technik/Mechanische Verfahrenstechnik,08.690.7020,Physikalische Technik/Mechanische Verfahrenstechnik,,,
-08.063.0225,Textil- und Bekleidungstechnik/-gewerbe,08.690.6976,Textiltechnik,,,,,abweichender Begriff/Minus
-08.063.0226,Verfahrenstechnik,,,,,,,no match
-08.063.0231,Druck- und Reproduktionstechnik,08.690.6907,Print- und Medientechnik,,,,,abweichender Begriff,
-08.063.0457,Umwelttechnik (einschl. Recycling),08.690.6985,Umwelttechnik (einschl. Recycling),,,
-08.064,Elektrotechnik und Informationstechnik,,,8710,Elektrotechnik und Informationstechnik,
-08.064.0048,Elektrotechnik/Elektronik,08.710.7100; 08.710.7110,"Elektrotechnik allgemein | Allgemeine Elektrotechnik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-08.064.0088,Optoelektronik,08.710.7150,Optoelektronik,,,
-08.064.0157,Mikroelektronik,08.710.7161,Mikro- und Nanoelektronik,,,,,abweichender Begriff/Plus,
-08.064.0222,Kommunikations- und Informationstechnik,08.710.7130,Kommunikations- und Informationstechnik,,,
-08.064.0286,Mikrosystemtechnik,08.710.7140,Mikrosystemtechnik,,,
-08.064.0316,Elektrische Energietechnik,08.710.7120,Elektrische Energietechnik,,,
-08.065,"Verkehrstechnik, Nautik",,,8720,"Verkehrstechnik, Nautik",
-08.065.0057,Luft- und Raumfahrttechnik,08.720.7246,Luft- und Raumfahrttechnik,,,
-08.065.0089,Verkehrsingenieurwesen,08.720.7215,Verkehrsingenieurwesen,,,
-08.065.0142,Schiffbau/Schiffstechnik,08.720.7210; 08.720.7220,"Schiffsbetriebstechnik | Schiffbau, Meerestechnik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-08.065.0223,Nautik/Seefahrt,08.720.7230,"Nautik, Seefahrt",,,
-08.065.0235,Fahrzeugtechnik,08.720.7245,Fahrzeugtechnik,,,
-08.066,"Architektur, Innenarchitektur",,,,,
-08.066.0013,Architektur,08.730.7300,Architektur allgemein,,,,,abweichender Begriff/Plus,
-08.066.0242,Innenarchitektur,08.730.7390,Innenarchitektur,,,
-08.067,Raumplanung,,,8740,Raumplanung,
-08.067.0134,Raumplanung,08.740.7400; 08.740.7410,"Raumplanung allgemein | Grundlagen der Raumplanung",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
-08.067.0458,Umweltschutz,08.740.7460,Umweltschutz,,,
-08.068,Bauingenieurwesen,,,8750,Bauingenieurwesen,
-08.068.0017,Bauingenieurwesen/Ingenieurbau,08.750.7500,Bauingenieurwesen allgemein,,,,,abweichender Begriff/Minus
-08.068.0077,Wasserwirtschaft,,,,,04.410.4155; 08.690.6985,"Hydrologie | Umwelttechnik (einschließlich Recycling) ","Hydrologie kann Teilbereiche von Wasserwirtschaft beeinhalten/allerdings aus dem Lehr- und Forschungsbereich Geowissenschaften | Umwelttechnik kann Wasserwirtschaft mit umfassen"
-08.068.0094,Wasserbau,08.750.7520,"Wasserbau, -wesen",,,,,abweichender Begriff/Plus,
-08.068.0197,Konstruktiver Innenbau,08.750.7560,Holzbau,,,,,Bezeichnung in studierende_concept_label von Holzbau wieder in Konstruktiver Innenbau geändert da Holzbau lediglich ein Teilbereich von Konstruktiver Innenbau sagt Gemini,
-08.069,Vermessungswesen,,,8760,Vermessungswesen,
-08.069.0171,Vermessungswesen (Geodäsie),08.760.7600,Vermessungswesen allgemein,,,,,abweichender Begriff/Plus
-08.069.0280,Kartographie,08.760.7610,Kartographie,,,
-08.070,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,,,8675,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,
-08.070.0370,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,08.675.6755,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,,,
-08.071,Informatik,,,8765,Informatik,
-08.071.0079,Informatik,08.765.3500,Informatik allgemein,,,,,abweichender Begriff/Plus,
-08.071.0121,Medieninformatik,,,,,
-08.071.0123,Ingenieurinformatik/Technische Informatik,08.765.3530,Ingenieurinformatik/Technische Informatik,,,
-08.071.0200,Computer- und Kommunikationstechniken,08.765.3550,Computer- und Kommunikationstechniken,,,
-08.071.0221,Bioinformatik,08.765.3540,Bioinformatik,,,
-08.071.0247,Medizinische Informatik,05.470.4525,Medizinische Informatik (nur für Mediziner),,,,,"abweichender Begriff/Plus, abweichende Fächergruppe" 
-08.071.0277,Wirtschaftsinformatik,08.765.2990,Wirtschaftsinformatik (f. Informatiker),,,,,abweichender Begriff/Plus,
-08.072,Materialwissenschaft und Werkstofftechnik,,,8770,Materialwissenschaft und Werkstofftechnik,
-08.072.0177,Werkstofftechnik,08.770.6990,Werkstofftechnik,,,
-08.072.0294,Materialwissenschaft,08.770.7700,Materialwissenschaft,,,
-09,"Kunst, Kunstwissenschaft",,,9,"Kunst, Kunstwissenschaft",
-09.074,"Kunst, Kunstwissenschaft allgemein",,,9780,"Kunst, Kunstwissenschaft allgemein",
-09.074.0040,"Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)",09.780.7800,"Kunst, Kunstwissenschaft allgemein" ,,,
-09.079.0091,Kunstpädagogik,09.780.7820,Kunsterziehung,,,
-09.079.0092,"Kunstgeschichte, Kunstwissenschaft",09.780.7800; 09.780.7810,"Kunst, Kunstwissenschaft allgemein | Kunstgeschichte",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-09.074.0101,Restaurierungskunde,09.780.7830,Restaurierungskunde,,,
-09.075,Bildende Kunst,,,9790,Bildende Kunst,
-09.075.0023,Bildende Kunst/Graphik,09.790.7940,Graphik,,,,,abweichender Begriff/Minus
-09.075.0204,Malerei,09.790.7920,Malerei,,,
-09.075.0205,Bildhauerei/Plastik,09.790.7930,"Plastik, Bildhauerei",,,
-09.075.0287,Neue Medien,09.790.7960,Neue Medien,,,
-09.076,Gestaltung,,,9800,Gestaltung,
-09.076.0007,Angewandte Kunst,09.800.8050,Angewandte Kunst,,,
-09.076.0069,Graphikdesign/Kommunikationsgestaltung,09.800.8076,Graphikdesign/Kommunikationsgestaltung,,,
-09.076.0116,Textilgestaltung,09.800.8040,Textildesign,,,,,abweichender Begriff
-09.076.0159,Edelstein- und Schmuckdesign,09.800.8075,Edelstein- und Schmuckdesign,,,
-09.076.0176,Werkerziehung,09.800.8035,Werkerziehung (Gestaltung),,,,,abweichender Begriff/Plus
-09.076.0203,Industriedesign/Produktgestaltung,09.800.8010,Industriedesign/Produktgestaltung,,,
-09.077,"Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft",,,,,
-09.077.0035,Darstellende Kunst/Bühnenkunst/Regie,09.820.8200,"Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft allgemein | Darstellende Kunst",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
-09.077.0054,Film und Fernsehen,09.820.8250,Film und Fernsehen,,,
-09.077.0102,Schauspiel,09.820.8220,Schauspiel,,,
-09.077.0106,Tanzpädagogik,,,,, 09.820.8225,Tanzwissenschaft,Tanzpädagogik lediglich ein Teil der Tanzwissenschaft,https://de.wikipedia.org/wiki/Tanzwissenschaft#Einleitung 
-09.077.0155,Theaterwissenschaft,09.820.8240,Theaterwissenschaft,,,
-09.078,"Musik, Musikwissenschaft",,,9830,"Musik, Musikwissenschaft",
-09.078.0080,Instrumentalmusik,09.830.8310,Instrumentalmusik,,,
-09.080.0113,Musikpädagogik,09.830.8360,Musikerziehung,,,
-09.080.0114,Musikwissenschaft/-geschichte,09.830.8350,Musikwissenschaft/-Musikgeschichte,,,
-09.078.0163,Rhythmik,09.830.8364,Rhythmik,,,
-09.078.0164,Jazz und Popularmusik,09.830.8315,Jazz und Popularmusik,,,
-09.078.0165,Orchestermusik,09.830.8363,Orchestermusik,,,
-09.078.0191,Komposition,09.830.8330,Komposition,,,
-09.078.0192,Dirigieren,09.830.8340,Dirigieren,,,
-09.078.0193,Kirchenmusik,09.830.8325,Kirchenmusik,,,
-09.078.0194,Tonmeister,,,,,, ,no match
-09.078.0230,Gesang,09.830.8320,Gesang,,,
-90,Außerhalb der Studienbereichsgliederung,,,10,Außerhalb der Studienbereichsgliederung/Sonstige Fächer,
-90.083,Außerhalb der Studienbereichsgliederung,,,,,
-90.083.0041,Sonstiges Orientierungsstudium,,,,,
-90.083.0196,Studienkolleg,15.950.9510,Studienkolleg,,,,,Wechsel in sys_num_faechergruppe: 90 statt 10
-90.083.0290,Sonstige Fächer,,,,,
-05.048.0550,Hebammenwissenschaft,,,,,05.445.4455,Nichtärztliche Heilberufe / Therapien,no match
-05.048.0552,Physiotherapie,,,,,05.445.4455,Nichtärztliche Heilberufe / Therapien,no match
-05.048.0551,Logopädie/Sprachtherapie,,,,,05.445.4455,Nichtärztliche Heilberufe / Therapien,no match
-05.048.0549,Ergotherapie,,,,,05.445.4455,Nichtärztliche Heilberufe / Therapien,no match
-09.079,Kunstwissenschaft/ -pädagogik,,,,,,,,
-09.080  ,Musikwissenschaft/ -pädagogik
+studierende_concept_id,studierende_concept_label,close_match_personal_ids,close_match_personal_labels,exact_match_personal_ids,exact_match_personal_labels,related_match_personal_ids,related_match_personal_labels,Bemerkungen,Nachweis zu Bemerkungen
+01,Geisteswissenschaften,,,01,Geisteswissenschaften,
+01.01,Geisteswissenschaften allgemein,01.010.0100,Lernbereich Geisteswissenschaften,,,,,abweichender Begriff
+01.01.004,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),01.010.0120,Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften),,,
+01.01.090,Lernbereich Geisteswissenschaften,,,,,
+01.02,"Evangelische Theologie, -Religionslehre",,,,,
+01.02.053,"Evang. Theologie, -Religionslehre",01.020.0250,Praktische Theologie und Religionspädagogik (evang. Th.),,,,,abweichender Begriff
+01.02.161,Diakoniewissenschaft,01.020.0215,Diakoniewissenschaft,,,
+01.02.544,"Evang. Religionspädagogik, kirchliche Bildungsarbeit",01.020.0250,Praktische Theologie und Religionspädagogik (evang. Th.),,,,,abweichender Begriff
+01.03,"Katholische Theologie, -Religionslehre",,,,,
+01.03.086,"Kath. Theologie, -Religionslehre",01.030.0300; 01.030.0340,"Kath. Theologie allgemein | Praktische Theologie und Religionspädagogik (kath. Th.)",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
+01.03.162,Caritaswissenschaft,01.030.0315,Caritaswissenschaft,,,
+01.03.545,"Kath. Religionspädagogik, kirchliche Bildungsarbeit",01.030.0340,Praktische Theologie und Religionspädagogik (kath. Th.),,,,,abweichender Begriff
+01.04,Philosophie,,,01.040,Philosophie,
+01.04.127,Philosophie,,,,,
+01.04.136,Religionswissenschaft,01.040.0410,Religionswissenschaft,,,
+01.04.169,Ethik,01.040.0400,Philosophie allgemein,,,,,abweichender Begriff
+01.05,Geschichte,,,01.050,Geschichte,
+01.05.012,Archäologie,01.050.0570,Archäologie,,,
+01.05.068,Geschichte,01.050.0500,Geschichte allgemein,,,,,
+01.05.183,Wirtschafts-/Sozialgeschichte,01.050.0560,Wirtschafts- und Sozialgeschichte,,,,,
+01.05.272,Alte Geschichte,01.050.0520,Alte Geschichte,,,
+01.05.273,Mittlere und neuere Geschichte,01.050.0530;01.050.0540,,,,,,
+01.05.275,Wissenschaftsgeschichte/Technikgeschichte,01.050.0595,Wissenschaftsgeschichte/Technikgeschichte,,,
+01.05.548,Ur- und Frühgeschichte,01.050.0510,Ur- und Frühgeschichte,,,
+01.06,Informations- und Bibliothekswissenschaften,,,01.070,Informations- und Bibliothekswissenschaften,
+01.06.022,Informations- und Bibliothekswissenschaften (nicht für Verwaltungsfachhochschulen),01.070.0710; 01.070.0730,"Bibliothekswissenschaft (nicht für Verwaltungs-FH) | Informationswissenschaft",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.06.037,Archiv- und Dokumentationswissenschaft,01.070.0720,Archiv- und Dokumentationswissenschaft,,,
+01.07,Allgemeine und vergleichende Literatur- und Sprachwissenschaft,,,01.080,Allgemeine und vergleichende Literatur- und Sprachwissenschaft,
+01.07.018,Berufsbezogene Fremdsprachenausbildung,01.080.0830,"Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung",,,,,abweichender Begriff
+01.07.152,Allgemeine Sprachwissenschaft,01.080.0800; 01.080.0810,"Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein | Allg. und vergleichende Sprachwissenschaft",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.07.160,Computerlinguistik,01.080.0835,Computerlinguistik,,,
+01.07.188,Allgemeine Literaturwissenschaft,01.080.0800; 01.080.0820,"Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein | Allg. und vergleichende Literaturwissenschaft",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.07.284,Angewandte Sprachwissenschaft,01.080.0830,"Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung",,,,,abweichender Begriff,
+01.08,"Altphilologie (klassische Philologie), Neugriechisch",,,,,
+01.08.005,Klassische Philologie,01.090.0900,Altphilologie allgemein,,,,,abweichender Begriff
+01.08.031,Byzantinistik,01.090.0930,Byzantinistik,,,
+01.08.043,Neugriechisch,01.090.0940,Neugriechisch,,,
+01.08.070,Griechisch,01.090.0910,Griechische Philologie,,,,,abweichender Begriff
+01.08.095,Latein,01.090.0920,Lateinische Philologie,,,,,abweichender Begriff
+01.09,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",,,01.100,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik)",
+01.09.034,Dänisch,01.100.1070,Sonstige germanische Sprachen (ohne Anglistik),,,,,abweichender Begriff,
+01.09.067,Germanistik/Deutsch,01.100.1000,"Germanistik (Deutsch, germanische Sprachen ohne Anglistik) allgemein",,,,,abweichender Begriff/Plus
+01.09.119,Niederländisch,01.100.1030,Niederlandistik,,,,,abweichender Begriff
+01.09.120,"Nordistik/Skandinavistik (Nord. Philologie, Einzelsprachen a.n.g.)",01.100.1020; 01.100.1070,"Skandinavistik | Sonstige germanische Sprachen (ohne Anglistik)",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.09.189,Niederdeutsch,01.100.1070,Sonstige germanische Sprachen (ohne Anglistik),,,,,abweichender Begriff
+01.09.271,Deutsch als Fremdsprache oder als Zweitsprache,01.100.1040,Deutsch als Fremdsprache oder als Zweitsprache,,,
+01.10,"Anglistik, Amerikanistik",,,01.110,"Anglistik, Amerikanistik",
+01.10.006,Amerikanistik/Amerikakunde,01.110.1110,Amerikanistik,,,,,abweichender Begriff/Minus
+01.10.008,Anglistik/Englisch,01.110.1100,Anglistik,,,,,abweichender Begriff/Minus
+01.11,Romanistik,,,01.120,Romanistik,
+01.11.059,Französisch,01.120.1210,Französische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
+01.11.084,Italienisch,01.120.1220,Italienische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
+01.11.131,Portugiesisch,01.120.1230,Iberoromanische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
+01.11.137,"Romanistik (Romanische Philologie, Einzelsprachen a.n.g.)",01.120.1200,Romanistik allgemein,,,,,abweichender Begriff/Minus
+01.11.150,Spanisch,01.120.1230,Iberoromanische Sprach- und Literaturwissenschaft,,,,,abweichender Begriff/Plus
+01.12,"Slawistik, Baltistik, Finno-Ugristik",,,01.130,"Slawistik, Baltistik, Finno-Ugristik",
+01.12.016,Baltistik,01.130.1350,Baltistik,,,
+01.12.056,Finno-Ugristik,01.130.1370,Finno-Ugristik,,,
+01.12.130,Westslawisch (allgemein und a.n.g.),,,,
+01.12.139,Russisch,,,,
+01.12.146,"Slawistik (Slaw. Philologie, ohne Sorabistik)",01.130.1300; 01.130.1310,"Slawistik, Baltistik, Finno-Ugristik allgemein | Slawistik allgemein",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.12.153,"Südslawisch (Bulgarisch, Serbokroatisch, Slowenisch usw.)",,,,
+01.12.206,Polnisch,01.130.1346,Polnisch,,
+01.12.207,Sorabistik,01.130.1347,Sorabistik,,,
+01.12.209,Tschechisch,01.130.1348,Tschechisch,,
+01.13,Sonstige Sprach- und Kulturwissenschaften,,,01.140,Sonstige Sprach- und Kulturwissenschaften,
+01.13.001,Ägyptologie,01.140.1410,Ägyptologie,,,
+01.13.002,Afrikanistik,01.140.1420,Afrikanistik,,,
+01.13.010,Arabisch/Arabistik,,,,,
+01.13.015,Außereuropäische Sprachen und Kulturen in Ozeanien und Amerika,01.140.1570; 01.140.1575,"Außereuropäische Sprachen und Kulturen Amerikas | Außereuropäische Sprachen und Kulturen Australiens",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.13.073,Judaistik/Hebräisch,01.140.1460,Judaistik/Hebräisch,,,
+01.13.078,Indologie,01.140.1490,Indologie,,,
+01.13.081,Iranistik,01.140.1480,Iranistik,,,
+01.13.083,Islamwissenschaft,01.140.1470,Islamwissenschaft,,,
+01.13.085,Japanologie,01.140.1540,Japanologie,,,
+01.13.122,"Orientalistik, Altorientalistik",01.140.1430,Altorientalistik,,,,,abweichender Begriff/Minus
+01.13.145,Sinologie/Koreanistik,01.140.1530; 01.140.1550,"Sinologie | Koreanistik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.13.158,Turkologie,01.140.1510,Turkologie,,,
+01.13.180,Kaukasistik,01.140.1465,Kaukasistik,,,
+01.13.187,Asiatische Sprachen und Kulturen/Asienwissenschaften,01.140.1495; 01.140.1520; 01.140.1560,"Sprachen und Kulturen Ostasiens allgemein | Sprachen und Kulturen Zentralasiens | Sprachen und Kulturen Südostasiens und Ozeaniens",,,,,drei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+01.14,Kulturwissenschaften i.e.S.,,,01.160,Kulturwissenschaften i.e.S.,
+01.14.024,Europäische Ethnologie und Kulturwissenschaft,01.160.1660,Europäische Ethnologie,,,,,abweichender Begriff/Minus
+01.14.173,Ethnologie,01.160.1580,Ethnologie,,,
+01.14.174,Volkskunde,01.160.1590,Volkskunde,,,
+01.18,Islamische Studien/Islamische Theologie,,,01.195,Islamische Studien/Islamische Theologie,
+01.18.292,Islamische Studien/Islamische Theologie,01.195.1950,Islamische Studien/Islamische Theologie,,,
+01.19,Medienwissenschaft,,,01.197,Medienwissenschaft,
+01.19.302,Medienwissenschaft,01.197.0130,Medienwissenschaften,,,,,
+02,Sport,,,,
+02.22,"Sport, Sportwissenschaft",,,,
+02.22.029,Sportwissenschaft,02.200.2000,Sportwissenschaften allgemein,,,,,abweichender Begriff
+02.22.098,Sportpädagogik/Sportpsychologie,02.200.2020,Sportpädagogik/Sportpsychologie,,,
+03,"Rechts-, Wirtschafts- und Sozialwissenschaften",,,03,"Rechts-, Wirtschafts- und Sozialwissenschaften",
+03.23,"Rechts-, Wirtschafts- und Sozialwissenschaften allgemein",,,,,
+03.23.030,"Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)",03.220.2210,"Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)",,,03.220.2200,"Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
+03.23.055,Orientierungsstudium Gesellschaftswissenschaften,,,,,,,no match
+03.23.154,Lernbereich Gesellschaftslehre,,,,,,,no match,
+03.24,Regionalwissenschaften,,,03.225,Regionalwissenschaften,
+03.24.036,Sonstige Regionalwissenschaften,,,,,
+03.24.038,Lateinamerika-Studien,03.225.2255,Lateinamerika-Studien,,,
+03.24.044,Ost- und Südosteuropa-Studien,03.225.2285,Ost- und Südosteuropa-Studien,,,
+03.25,Politikwissenschaft,,,03.230,Politikwissenschaft,
+03.25.129,Politikwissenschaft/Politologie,03.230.2300,Politikwissenschaft allgemein,,,,,abweichender Begriff
+03.26,Sozialwissenschaften/Soziologie,,,03.235,Sozialwissenschaften/Soziologie,
+03.26.147,Sozialkunde,03.235.2345,Sozialkunde,,,
+03.26.148,Sozialwissenschaften,03.235.2320,Sozialwissenschaften/Soziologie allgemein,,,,,abweichender Begriff
+03.26.149,Soziologie,03.235.2320,Sozialwissenschaften/Soziologie allgemein,,,,,abweichender Begriff
+03.27,Sozialwesen,,,03.240,Sozialwesen,
+03.27.208,Soziale Arbeit,03.240.2410,Soziale Arbeit,,,
+03.27.245,Sozialpädagogik,03.240.2420,Sozialpädagogik,,,
+03.27.253,Sozialwesen,03.240.2400,Sozialwesen allgemein,,,,,abweichender Begriff/Plus
+03.28,Rechtswissenschaften,,,03.250,Rechtswissenschaften,
+03.28.042,Wirtschaftsrecht,03.250.2640,Wirtschaftsrecht,,,
+03.28.135,Rechtswissenschaft,03.250.2500,Rechtswissenschaft allgemein,,,03.250.2630; 03.250.2670; 03.250.2665; 03.250.2620; 03.250.2580; 03.250.2540; 03.250.2545;03.250.2560; 03.250.2550; 03.250.2650; 03.250.2520; 03.250.2510; 03.250.2515; 03.250.2530; 03.250.2680; 03.250.2590; 03.250.2570; 03.250.2690,"Arbeitsrecht | Bürgerliches Recht | Europarecht | Handelsrecht | Internationales Recht und Rechtsvergleichung | Kirchenrecht | Kriminologie | Öffentliches Recht | Privatrecht (ohne Arbeitsrecht) | Prozessrecht | Rechts- und Staatsphilosophie | Rechtsgeschichte | Rechtsinformatik | Rechtssoziologie | Sozialrecht | Steuerrecht | Strafrecht | Versicherungsrecht"
+03.29,Verwaltungswissenschaften,,,03.270,Verwaltungswissenschaften
+03.29.168,Justizvollzug,03.270.2780,Justizvollzug,,
+03.29.172,Verwaltungswissenschaft/-wesen,03.270.2700,Verwaltungswissenschaft allgemein,,,,,abweichender Begriff/Plus
+03.29.255,Archivwesen,03.270.2711; 03.270.2712,"Archivwesen | Bibliothekswesen",,,
+03.29.256,Rechtspflege,03.270.2610,Rechtspflege,,,
+03.29.257,Arbeits- und Berufsberatung,03.270.2710,Arbeits- und Berufsberatung,,
+03.29.258,Arbeitsverwaltung,03.270.2720,Arbeitsverwaltung,,
+03.29.259,Auswärtige Angelegenheiten,03.270.2730,Auswärtige Angelegenheiten,,,
+03.29.260,Bundeswehrverwaltung,03.270.2750,Bundeswehrverwaltung,,
+03.29.261,Innere Verwaltung,03.270.2770,Allgemeine innere Verwaltung,,,,,abweichender Begriff/Plus
+03.29.262,Bibliothekswesen,03.270.2712,Bibliothekswesen,,
+03.29.263,Polizei/Verfassungsschutz,03.270.2750; 03.270.2780; 03.270.2790,"Bundeswehrverwaltung | Justizvollzug | Polizei/Verfassungsschutz",,,
+03.29.264,Sozialversicherung,,,,
+03.29.265,Bankwesen,03.270.2740,Bankwesen,,
+03.29.266,Finanzverwaltung,03.270.2760,Finanzverwaltung,,
+03.29.268,Verkehrswesen,03.270.2830,Verkehrswesen,,
+03.29.269,Zoll- und Steuerverwaltung,03.270.2840,Zoll- und Steuerverwaltung,,
+03.30,Wirtschaftswissenschaften,,,03.290,Wirtschaftswissenschaften
+03.30.011,Arbeitslehre/Wirtschaftslehre,03.290.3010,Arbeitslehre/-wissenschaft,,,,,abweichender Begriff
+03.30.021,Betriebswirtschaftslehre,03.290.2960,Betriebswirtschaftslehre,,,
+03.30.166,Sportmanagement/Sportökonomie,03.290.2925,Sportmanagement/Sportökonomie,,,
+03.30.167,Europäische Wirtschaft,,,,,,,no match
+03.30.175,Volkswirtschaftslehre,03.290.2930,Volkswirtschaftslehre,,,
+03.30.181,Wirtschaftspädagogik,03.290.2910,Wirtschaftspädagogik,,,
+03.30.182,Intern. Betriebswirtschaft/Management,03.290.2966,Internationale Wirtschaft,,,,,abweichender Begriff/Minus
+03.30.184,Wirtschaftswissenschaften,03.290.2900,Wirtschaftswissenschaften allgemein,,,,,abweichender Begriff/Plus
+03.30.210,Verkehrswirtschaft,03.290.2971,Verkehrswirtschaft,,,
+03.30.274,Tourismuswirtschaft,03.290.2815,Tourismuswirtschaft,,,
+03.30.304,Medienwirtschaft/Medienmanagement,03.290.2985,Medienwirtschaft/Medienmanagement,,,
+03.31,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,,,,,
+03.31.179,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,03.310.3100,Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt,,,
+03.31.464,Facility Management,03.310.3110,Facility Management,,,
+03.32,Psychologie,,,03.315,Psychologie,
+03.32.132,Psychologie,03.315.1700,Psychologie allgemein,,,,,abweichender Begriff/Minus
+03.33,Erziehungswissenschaften,,,03.320,Erziehungswissenschaften,
+03.33.052,Erziehungswissenschaft (Pädagogik),03.320.1800,Erziehungswissenschaften allgemein,,,,,abweichender Begriff
+03.33.115,Grundschul-/Primarstufenpädagogik,03.320.1803,Grundschul- und Primarstufenpädagogik,,,
+03.33.117,Ausländerpädagogik,,,,,,,no match
+03.33.190,Sonderpädagogik,03.320.1806,Sonderpädagogik,,,
+03.33.254,Sachunterricht (einschl. Schulgarten),,,,,,,no match
+03.33.270,Berufs- und Wirtschaftspädagogik,03.320.1805,Berufs- und Wirtschaftspädagogik,,,
+03.33.321,Erwachsenenbildung und außerschulische Jugendbildung,03.320.1803,Erwachsenenbildung,,,,,abweichender Begriff/Minus
+03.33.361,Schulpädagogik,03.320.1827,Schulpädagogik,,,
+03.33.365,Kindheitspädagogik,03.320.1826,Pädagogik der frühen Kindheit,,,
+03.34,Kommunikationswissenschaft/Publizistik,,,,,
+03.34.303,Kommunikationswissenschaft/Publizistik,03.325.2240,Kommunikationswissenschaft/Publizistik,,,
+04,"Mathematik, Naturwissenschaften",,,04,"Mathematik, Naturwissenschaften",
+04.36,"Mathematik, Naturwissenschaften allgemein",,,04.330,"Mathematik, Naturwissenschaften allgemein",
+04.36.019,Orientierungsstudium MINT,,,,,
+04.36.049,Interdisziplin. Studien (Schwerpunkt Naturwissenschaften),04.330.3320,Interdisziplinäre Studien (Schwerpunkt Naturwissenschaft),,,
+04.36.186,Lernbereich Naturwissenschaft/Sachunterricht,04.330.3315,"Naturwissenschaftliche Fachdidaktiken, soweit nicht aufteilbar",,,,,abweichender Begriff/Plus
+04.36.312,Statistik,04.330.3330,Statistik,,,
+04.37,Mathematik,,,04.340,Mathematik,
+04.37.105,Mathematik,04.340.3400,Mathematik allgemein,,,,,abweichender Begriff/Plus
+04.37.118,Technomathematik,04.340.3470,Mathematik in Naturwissenschaften u. Technik,,,,,abweichender Begriff/Plus
+04.37.276,Wirtschaftsmathematik,03.290.2936,Wirtschaftsmathematik,,,
+04.39,"Physik, Astronomie",,,04.360,"Physik, Astronomie",
+04.39.014,Astrophysik und Astronomie,04.360.3690,Astrophysik und Astronomie,,,
+04.39.128,Physik,04.360.3600,"Physik, Astronomie allgemein",,,,,abweichender Begriff/Plus
+04.40,Chemie,,,04.370,Chemie,
+04.40.025,Biochemie,04.400.4065;04.370.3760,"Biochemie (f. Biologen) | Biochemie (f. Chemiker)",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
+04.40.032,Chemie,04.370.3700,Chemie allgemein,,,,,abweichender Begriff/Plus
+04.40.096,Lebensmittelchemie,04.370.3810,Lebensmittelchemie,,,
+04.41,Pharmazie,,,04.390,Pharmazie,
+04.41.126,Pharmazie,04.390.3900,Pharmazie allgemein,,,,,abweichender Begriff/Plus
+04.42,Biologie,,,04.400,Biologie,
+04.42.009,Anthropologie (Humanbiologie),04.400.4060,Anthropologie (Humanbiologie),,,
+04.42.026,Biologie,04.400.4000,Biologie allgemein,,,,,abweichender Begriff/Plus
+04.42.282,Biotechnologie,04.400.4035,Biotechnologie (f. Biologen),,,,,abweichender Begriff/Plus
+04.42.300,Biomedizin,,,,,
+04.43,Geowissenschaften (ohne Geographie),,,04.410,Geowissenschaften (ohne Geographie),
+04.43.039,Geowissenschaften allgemein,04.410.4100,Geowissenschaften allgemein,,,
+04.43.065,Geologie/Paläontologie,04.410.4120; 04.410.4190,"Paläontologie | Geoökologie",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
+04.43.066,Geophysik,04.410.4150,Geophysik,,,
+04.43.110,Meteorologie,04.410.4160,Meteorologie,,,
+04.43.111,Mineralogie,04.410.4130,Mineralogie,,,
+04.43.124,Ozeanographie,04.410.4135,Ozeanographie,,,
+04.43.385,Geoökologie,04.410.4190,Geoökologie,,,
+04.44,Geographie,,,04.420,Geographie,
+04.44.050,Geographie/Erdkunde,04.420.4250,Didaktik der Geographie,,,,,abweichender Begriff/Plus,
+04.44.178,Wirtschafts-/Sozialgeographie,04.420.4215,Wirtschafts- und Sozialgeographie,,,,,,
+04.44.283,Landschaftsökologie/Biogeographie,04.420.4240,Landschaftsökologie/Biogeographie,,,07.615.6320,Landschaftsökologie,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+05,Humanmedizin/Gesundheitswissenschaften,,,05,Humanmedizin/Gesundheitswissenschaften,
+05.48,Gesundheitswissenschaften allgemein,,,,,
+05.48.195,Gesundheitspädagogik,05.445.4451,Gesundheitspädagogik,,,
+05.48.232,Gesundheitswissenschaften/-management,05.445.4453,Gesundheitswissenschaft/-management,,,
+05.48.233,Nichtärztliche Heilberufe/Therapien,05.445.4455,Nichtärztliche Heilberufe/Therapien,,,,,"studierende_concept_id so nicht in pdf vorhanden, woher kommt diese Zeile?"
+05.48.234,Pflegewissenschaft/-management,05.445.4457,Pflegewissenschaft/-management,,,
+05.49,Humanmedizin (ohne Zahnmedizin),,,,,
+05.49.107,Medizin (Allgemein-Medizin),05.440.4400,Humanmedizin allgemein,,,,,abweichender Begriff,
+05.50,Zahnmedizin,,,,,
+05.50.185,Zahnmedizin,05.520.5200,Zahnmedizin allgemein,,,,,abweichender Begriff/Plus,
+07,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin",,,07,"Agrar-, Forst- und Ernährungswissenschaften, Veterinärmedizin",
+07.51,Veterinärmedizin,,,,,
+07.51.156,Tiermedizin/Veterinärmedizin,07.540.5400,Veterinärmedizin allgemein,,,,,abweichender Begriff/Minus,
+07.57,"Landespflege, Umweltgestaltung",,,07.615,"Landespflege, Umweltgestaltung",
+07.57.061,Meliorationswesen,07.615.6340,Meliorationswesen,,
+07.57.064,Naturschutz,07.615.6350,Naturschutz,,,
+07.57.093,Landespflege/Landschaftsgestaltung,07.615.6310,Landespflege allgemein,,,07.615.6315; 07.615.6330; 07.615.6340,"Landschaftsarchitektur (ohne Gartenbau) | Landschaftsplanung und Landschaftsentwicklung | Meliorationswesen",drei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+07.58,"Agrarwissenschaften, Lebensmittel- und Getränketechnologie",,,07.620,"Agrarwissenschaften, Lebensmittel- und Getränketechnologie",
+07.58.003,Agrarwissenschaft/Landwirtschaft,07.620.6200; 07.610.6100,"Agrarwissenschaften allgemein | Agrar-, Forst- und Ernährungswissenschaften allgemein",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
+07.58.028,Brauwesen/Getränketechnologie,07.620.6260,Brauwesen/Getränketechnik,,,
+07.58.060,Gartenbau,07.620.6300,Gartenbau,,,
+07.58.097,Lebensmitteltechnologie,07.620.6250,Lebensmitteltechnologie/Getränketechnologie,,,,,abweichender Begriff/Plus,
+07.58.125,Agrarökonomie,,,,,,,no match
+07.58.138,Agrarbiologie,07.620.6205,Agrarbiologie,,,
+07.58.220,Milch- und Molkereiwirtschaft,07.620.6255,Milch- und Molkereiwirtschaft,,,
+07.58.227,Weinbau und Kellerwirtschaft,07.620.6235,Weinbau- und Kellerwirtschaft,,,
+07.58.353,Pflanzenproduktion,07.620.6220,Pflanzenproduktion,,,
+07.58.371,Tierproduktion,07.620.6230,Tierproduktion,,,
+07.59,"Forstwissenschaft, Holzwirtschaft",,,07.640,"Forstwissenschaft, Holzwirtschaft",
+07.59.058,"Forstwissenschaft, -wirtschaft",07.640.6400,"Forstwissenschaft, Holzwirtschaft allgemein",,,,,abweichender Begriff/Plus,
+07.59.075,Holzwirtschaft,07.640.6415,Holzwirtschaft,,,
+07.60,Ernährungs- und Haushaltswissenschaften,,,07.650,Ernährungs- und Haushaltswissenschaften,
+07.60.071,Haushalts- und Ernährungswissenschaft,07.650.6500,Ernährungs- und Haushaltswissenschaften allgemein,,,,,abweichender Begriff/Plus,
+07.60.320,Ernährungswissenschaft,07.650.6520,Ernährungswissenschaften,,,
+07.60.333,Haushaltswissenschaft,07.650.6510,Haushaltswissenschaften,,,
+08,Ingenieurwissenschaften,,,08,Ingenieurwissenschaften,
+08.61,Ingenieurwesen allgemein,,,,,
+08.61.072,Interdisziplinäre Studien (Schwerpunkt Ingenieurwissenschaften),08.670.6740,Interdisziplinäre Studien (Schwerpunkt Ingenieurwesen - ohne Mechatronik),,,,,abweichender Begriff/Plus,
+08.61.140,Angewandte Systemwissenschaften,,,,,,,no match,
+08.61.199,Lernbereich Technik,,,,,,,no match,
+08.61.201,Werken (technisch)/Technologie,,,,,,,no match,
+08.61.305,Medientechnik,08.670.6780,Medientechnik,,,
+08.61.310,Regenerative Energien,08.670.6790,Regenerative Energien,,,
+08.61.380,Mechatronik,08.670.6750,Mechatronik,,,
+08.62,"Bergbau, Hüttenwesen",,,08.680,"Bergbau, Hüttenwesen",
+08.62.020,Bergbau/Bergtechnik,08.680.6820; 08.680.6840,"Bergbau und mineralische Rohstoffwirtschaft | Bergtechnik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+08.62.076,Hütten- und Gießereiwesen,08.680.6845,Hütten- und Gießereiwesen,,,
+08.62.103,Markscheidewesen,08.680.6850,"Markscheidewesen, Bergschadenkunde, Geophysik im Bergbau",,,,,abweichender Begriff/Plus
+08.62.390,Archäometrie (Ingenieurarchäologie),08.680.6870,Archäometrie (Ingenieurarchäologie),,,
+08.63,Maschinenbau/Verfahrenstechnik,,,08.690,Maschinenbau/Verfahrenstechnik,
+08.63.033,Chemie-Ingenieurwesen/Chemieverfahrenstechnik,08.690.6955,Chemische Verfahrenstechnik,,,
+08.63.074,Transport-/Fördertechnik,08.690.6950,Transport- und Verteiltechnik,,,,,abweichender Begriff
+08.63.082,Holz-/Fasertechnik,08.690.7040,Holztechnik,,,,,abweichender Begriff/Minus,
+08.63.104,Maschinenbau/-wesen,08.690.6900,Maschinenbau allgemein,,,,,abweichender Begriff
+08.63.108,Metalltechnik,,,,,,,no match
+08.63.141,Abfallwirtschaft,,,,,08.690.6985,Umwelttechnik (einschließlich Recycling),Umwelttechnik kann Abfallwirtschaft mit umfassen
+08.63.143,Augenoptik,,,,,,,no match
+08.63.144,Technische Kybernetik,,,,,08.690.6970,"Steuerungs-, Mess- und Regelungstechnik","laut Gemini ist die Kybernetik ein interdisziplinäres übergeordnetes Fachgebiet, das mehr auf theoretische Überlegungen abziehle, wohingegen MSR eher praktisch orientiert sei"
+08.63.202,Fertigungs-/Produktionstechnik,08.690.6940,Produktions- und Fertigungstechnologie,,,,,abweichender Begriff
+08.63.211,Energieverfahrenstechnik,08.690.6930,Energieverfahrenstechnik,,,
+08.63.212,Feinwerktechnik,08.690.7190,Feinwerktechnik (mechanisch),,,,,abweichender Begriff/Plus
+08.63.213,Versorgungstechnik,08.690.6965,Versorgungs- und Entsorgungstechnik,,,,,abweichender Begriff/Plus
+08.63.215,Gesundheitstechnik,,,,,08.690.7010,Medizintechnik,"abweichender Begriff, Gesundheitstechnik gehe laut Gemini über Entwicklung, Produktion, und Wartung von Produkten hinaus"
+08.63.216,Glastechnik/Keramik,,,,,,,no match
+08.63.219,Kunststofftechnik,08.690.7030,Kunststofftechnik,,,
+08.63.224,Physikalische Technik/Mechanische Verfahrenstechnik,08.690.7020,Physikalische Technik/Mechanische Verfahrenstechnik,,,
+08.63.225,Textil- und Bekleidungstechnik/-gewerbe,08.690.6976,Textiltechnik,,,,,abweichender Begriff/Minus
+08.63.226,Verfahrenstechnik,,,,,,,no match
+08.63.231,Druck- und Reproduktionstechnik,08.690.6907,Print- und Medientechnik,,,,,abweichender Begriff,
+08.63.457,Umwelttechnik (einschl. Recycling),08.690.6985,Umwelttechnik (einschl. Recycling),,,
+08.64,Elektrotechnik und Informationstechnik,,,08.710,Elektrotechnik und Informationstechnik,
+08.64.048,Elektrotechnik/Elektronik,08.710.7100; 08.710.7110,"Elektrotechnik allgemein | Allgemeine Elektrotechnik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+08.64.088,Optoelektronik,08.710.7150,Optoelektronik,,,
+08.64.157,Mikroelektronik,08.710.7161,Mikro- und Nanoelektronik,,,,,abweichender Begriff/Plus,
+08.64.222,Kommunikations- und Informationstechnik,08.710.7130,Kommunikations- und Informationstechnik,,,
+08.64.286,Mikrosystemtechnik,08.710.7140,Mikrosystemtechnik,,,
+08.64.316,Elektrische Energietechnik,08.710.7120,Elektrische Energietechnik,,,
+08.65,"Verkehrstechnik, Nautik",,,08.720,"Verkehrstechnik, Nautik",
+08.65.057,Luft- und Raumfahrttechnik,08.720.7246,Luft- und Raumfahrttechnik,,,
+08.65.089,Verkehrsingenieurwesen,08.720.7215,Verkehrsingenieurwesen,,,
+08.65.142,Schiffbau/Schiffstechnik,08.720.7210; 08.720.7220,"Schiffsbetriebstechnik | Schiffbau, Meerestechnik",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+08.65.223,Nautik/Seefahrt,08.720.7230,"Nautik, Seefahrt",,,
+08.65.235,Fahrzeugtechnik,08.720.7245,Fahrzeugtechnik,,,
+08.66,"Architektur, Innenarchitektur",,,,,
+08.66.013,Architektur,08.730.7300,Architektur allgemein,,,,,abweichender Begriff/Plus,
+08.66.242,Innenarchitektur,08.730.7390,Innenarchitektur,,,
+08.67,Raumplanung,,,08.740,Raumplanung,
+08.67.134,Raumplanung,08.740.7400; 08.740.7410,"Raumplanung allgemein | Grundlagen der Raumplanung",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen,
+08.67.458,Umweltschutz,08.740.7460,Umweltschutz,,,
+08.68,Bauingenieurwesen,,,08.750,Bauingenieurwesen,
+08.68.017,Bauingenieurwesen/Ingenieurbau,08.750.7500,Bauingenieurwesen allgemein,,,,,abweichender Begriff/Minus
+08.68.077,Wasserwirtschaft,,,,,04.410.4155; 08.690.6985,"Hydrologie | Umwelttechnik (einschließlich Recycling) ","Hydrologie kann Teilbereiche von Wasserwirtschaft beeinhalten/allerdings aus dem Lehr- und Forschungsbereich Geowissenschaften | Umwelttechnik kann Wasserwirtschaft mit umfassen"
+08.68.094,Wasserbau,08.750.7520,"Wasserbau, -wesen",,,,,abweichender Begriff/Plus,
+08.68.197,Holzbau,08.750.7560,Holzbau,,
+08.68.429,Stahlbau,,,,
+08.69,Vermessungswesen,,,08.760,Vermessungswesen,
+08.69.171,Vermessungswesen (Geodäsie),08.760.7600,Vermessungswesen allgemein,,,,,abweichender Begriff/Plus
+08.69.280,Kartographie,08.760.7610,Kartographie,,,
+08.70,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,,,08.675,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,
+08.70.370,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,08.675.6755,Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt,,,
+08.71,Informatik,,,08.765,Informatik,
+08.71.079,Informatik,08.765.3500,Informatik allgemein,,,,,abweichender Begriff/Plus,
+08.71.121,Medieninformatik,,,,,
+08.71.123,Ingenieurinformatik/Technische Informatik,08.765.3530,Ingenieurinformatik/Technische Informatik,,,
+08.71.200,Computer- und Kommunikationstechniken,08.765.3550,Computer- und Kommunikationstechniken,,,
+08.71.221,Bioinformatik,08.765.3540,Bioinformatik,,,
+08.71.247,Medizinische Informatik,05.470.4525,Medizinische Informatik (nur für Mediziner),,,,,"abweichender Begriff/Plus, abweichende Fächergruppe"
+08.71.277,Wirtschaftsinformatik,08.765.2990,Wirtschaftsinformatik (f. Informatiker),,,,,abweichender Begriff/Plus,
+08.72,Materialwissenschaft und Werkstofftechnik,,,08.770,Materialwissenschaft und Werkstofftechnik,
+08.72.177,Werkstofftechnik,08.770.6990,Werkstofftechnik,,,
+08.72.294,Materialwissenschaft,08.770.7700,Materialwissenschaft,,,
+09,"Kunst, Kunstwissenschaft",,,09,"Kunst, Kunstwissenschaft",
+09.74,"Kunst, Kunstwissenschaft allgemein",,,09.780,"Kunst, Kunstwissenschaft allgemein",
+09.74.040,"Interdiszipl. Studien (Schwerpunkt Kunst, Kunstwissenschaft)",09.780.7800,"Kunst, Kunstwissenschaft allgemein",,,
+09.74.091,Kunstpädagogik,09.780.7820,Kunsterziehung,,,
+09.74.092,"Kunstgeschichte, Kunstwissenschaft",09.780.7800; 09.780.7810,"Kunst, Kunstwissenschaft allgemein | Kunstgeschichte",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+09.74.101,Restaurierungskunde,09.780.7830,Restaurierungskunde,,,
+09.75,Bildende Kunst,,,09.790,Bildende Kunst,
+09.75.023,Bildende Kunst/Graphik,09.790.7940,Graphik,,,,,abweichender Begriff/Minus
+09.75.204,Malerei,09.790.7920,Malerei,,,
+09.75.205,Bildhauerei/Plastik,09.790.7930,"Plastik, Bildhauerei",,,
+09.75.287,Neue Medien,09.790.7960,Neue Medien,,,
+09.76,Gestaltung,,,09.800,Gestaltung,
+09.76.007,Angewandte Kunst,09.800.8050,Angewandte Kunst,,,
+09.76.069,Graphikdesign/Kommunikationsgestaltung,09.800.8076,Graphikdesign/Kommunikationsgestaltung,,,
+09.76.116,Textilgestaltung,09.800.8040,Textildesign,,,,,abweichender Begriff
+09.76.159,Edelstein- und Schmuckdesign,09.800.8075,Edelstein- und Schmuckdesign,,,
+09.76.176,Werkerziehung,09.800.8035,Werkerziehung (Gestaltung),,,,,abweichender Begriff/Plus
+09.76.203,Industriedesign/Produktgestaltung,09.800.8010,Industriedesign/Produktgestaltung,,,
+09.77,"Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft",,,,,
+09.77.035,Darstellende Kunst/Bühnenkunst/Regie,09.820.8200,"Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft allgemein | Darstellende Kunst",,,,,zwei Fachgebiete (personal ids) einen String gesetzt / ggf. als eigenen Eintrag zu erfassen
+09.77.054,Film und Fernsehen,09.820.8250,Film und Fernsehen,,,
+09.77.102,Schauspiel,09.820.8220,Schauspiel,,,
+09.77.106,Tanzpädagogik,,,,,09.820.8225,Tanzwissenschaft,Tanzpädagogik lediglich ein Teil der Tanzwissenschaft,https://de.wikipedia.org/wiki/Tanzwissenschaft#Einleitung
+09.77.155,Theaterwissenschaft,09.820.8240,Theaterwissenschaft,,,
+09.78,"Musik, Musikwissenschaft",,,09.830,"Musik, Musikwissenschaft",
+09.78.080,Instrumentalmusik,09.830.8310,Instrumentalmusik,,,
+09.78.113,Musikpädagogik,09.830.8360,Musikerziehung,,,
+09.78.114,Musikwissenschaft/-geschichte,09.830.8350,Musikwissenschaft/-Musikgeschichte,,,
+09.78.163,Rhythmik,09.830.8364,Rhythmik,,,
+09.78.164,Jazz und Popularmusik,09.830.8315,Jazz und Popularmusik,,,
+09.78.165,Orchestermusik,09.830.8363,Orchestermusik,,,
+09.78.191,Komposition,09.830.8330,Komposition,,,
+09.78.192,Dirigieren,09.830.8340,Dirigieren,,,
+09.78.193,Kirchenmusik,09.830.8325,Kirchenmusik,,,
+09.78.194,Tonmeister,,,,,,,no match
+09.78.230,Gesang,09.830.8320,Gesang,,,
+10,Außerhalb der Studienbereichsgliederung,,,10,Außerhalb der Studienbereichsgliederung/Sonstige Fächer,
+10.83,Außerhalb der Studienbereichsgliederung,,,,,
+10.83.041,Sonstiges Orientierungsstudium,,,,,
+10.83.196,Studienkolleg,15.950.9510,Studienkolleg,,,,,Wechsel in sys_num_faechergruppe: 90 statt 10
+10.83.290,Sonstige Fächer,,,,
+15,Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen),,,15,Zentrale Einrichtungen (ohne klinikspezifische Einrichtungen)
+20,Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin),,,20,Zentrale Einrichtungen der Hochschulkliniken (nur Humanmedizin)

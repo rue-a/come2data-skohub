@@ -1,8 +1,9 @@
 from rdflib import Graph, Namespace
 from rdflib.namespace import SKOS, DCTERMS
 from fuzzywuzzy import fuzz
+from pathlib import Path
 
-# Basis-URL
+# ---------- Config ----------
 HOSTING_DOMAIN = "https://rue-a.github.io/come2data-skohub"
 CONCEPTS_PERS_DOMAIN = (
     "www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik"
@@ -10,104 +11,112 @@ CONCEPTS_PERS_DOMAIN = (
 CONCEPTS_STUD_DOMAIN = (
     "www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik"
 )
+IN_PERSONAL = "personal_23/destatis_personal_skos.ttl"
+IN_STUD = "studierende_23/destatis_studierende_skos.ttl"
+OUT_COMBINED = "published_vocabs/destatis_combined_skos.ttl"
 
+MATCH_THRESHOLD = 95
+# ----------------------------
 
-# Load both graphs
-g_personal = Graph()
-g_personal.parse("personal_23/destatis_personal_skos.ttl", format="turtle")
+# Load source graphs
+g_personal = Graph().parse(IN_PERSONAL, format="turtle")
+g_studierende = Graph().parse(IN_STUD, format="turtle")
 
-g_studierende = Graph()
-g_studierende.parse("studierende_23/destatis_studierende_skos.ttl", format="turtle")
-
-
+# Namespaces
 DESTATIS_PERS = Namespace(f"{HOSTING_DOMAIN}/{CONCEPTS_PERS_DOMAIN}/")
 DESTATIS_STUD = Namespace(f"{HOSTING_DOMAIN}/{CONCEPTS_STUD_DOMAIN}/")
-g_personal.bind("skos", SKOS)
-g_personal.bind("dcterms", DCTERMS)
-g_personal.bind("destatispersonal", DESTATIS_PERS)
-g_personal.bind("destatisstudierende", DESTATIS_STUD)
+ISCED = Namespace("https://publications.europa.eu/resource/authority/snb/isced-f/")
 
-g_studierende.bind("skos", SKOS)
-g_studierende.bind("dcterms", DCTERMS)
-g_studierende.bind("destatispersonal", DESTATIS_PERS)
-g_studierende.bind("destatisstudierende", DESTATIS_STUD)
+# Build one combined graph
+combined = Graph()
+for prefix, ns in [
+    ("skos", SKOS),
+    ("dcterms", DCTERMS),
+    ("dpers", DESTATIS_PERS),
+    ("dstud", DESTATIS_STUD),
+    ("isced", ISCED),
+]:
+    combined.bind(prefix, ns)
+
+# Add all triples from both graphs into the combined graph
+for t in g_personal:
+    combined.add(t)
+for t in g_studierende:
+    combined.add(t)
 
 
-# Mapping configuration
-MATCH_THRESHOLD = 95
-
-
-# Track unmatched concepts
-unmatched = []
-
-# Iterate over g_studierende concepts and compare to g_personal
-for c_stud in g_studierende.subjects(SKOS.prefLabel, None):
-    label_stud = next(
+# Helper to get German prefLabel + notation
+def get_de_pref_label(g: Graph, s):
+    label = next(
         (
             l
-            for l in g_studierende.objects(c_stud, SKOS.prefLabel)
-            if l.language == "de"
+            for l in g.objects(s, SKOS.prefLabel)
+            if getattr(l, "language", None) == "de"
         ),
         None,
     )
-    notation_stud = next(
-        (n for n in g_studierende.objects(c_stud, SKOS.notation)), None
-    )
+    notation = next((n for n in g.objects(s, SKOS.notation)), None)
+    # notation == id
+    return label, notation
+
+
+unmatched = set()
+
+# Iterate over STUDIERENDE concepts and compare to PERSONAL concepts
+# (we only add mapping triples to the *combined* graph)
+for c_stud in set(g_studierende.subjects(SKOS.prefLabel, None)):
+    label_stud, notation_stud = get_de_pref_label(g_studierende, c_stud)
     if not (label_stud and notation_stud):
         continue
 
     matched = False
-    for c_pers in g_personal.subjects(SKOS.prefLabel, None):
-        label_pers = next(
-            (
-                l
-                for l in g_personal.objects(c_pers, SKOS.prefLabel)
-                if l.language == "de"
-            ),
-            None,
-        )
-        notation_pers = next(
-            (n for n in g_personal.objects(c_pers, SKOS.notation)), None
-        )
+    for c_pers in set(g_personal.subjects(SKOS.prefLabel, None)):
+        label_pers, notation_pers = get_de_pref_label(g_personal, c_pers)
+
         if not (label_pers and notation_pers):
             continue
 
         score = fuzz.token_sort_ratio(str(label_pers), str(label_stud))
-
         if score >= MATCH_THRESHOLD:
             matched = True
-            if len(str(notation_pers)) == 2 and len(str(notation_stud)) == 2:
-                g_studierende.add((c_stud, SKOS.exactMatch, c_pers))
-                g_personal.add((c_pers, SKOS.exactMatch, c_stud))
+
+            np, ns = str(notation_pers), str(notation_stud)
+
+            # Decide mapping strength based on code-length relationship
+            if len(np) == 2 and len(ns) == 2:
+                combined.add((c_stud, SKOS.exactMatch, c_pers))
+                combined.add((c_pers, SKOS.exactMatch, c_stud))
                 print(
                     f"exactMatch (Top): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
                 )
-            elif len(str(notation_pers)) == 3 and len(str(notation_stud)) == 2:
-                g_studierende.add((c_stud, SKOS.exactMatch, c_pers))
-                g_personal.add((c_pers, SKOS.exactMatch, c_stud))
+            elif len(np) == 3 and len(ns) == 3:
+                combined.add((c_stud, SKOS.exactMatch, c_pers))
+                combined.add((c_pers, SKOS.exactMatch, c_stud))
                 print(
                     f"exactMatch (Mid): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
                 )
-            elif len(str(notation_pers)) == 4 and len(str(notation_stud)) == 3:
-                g_studierende.add((c_stud, SKOS.closeMatch, c_pers))
-                g_personal.add((c_pers, SKOS.closeMatch, c_stud))
+            elif len(np) == 4 and len(ns) == 4:
+                combined.add((c_stud, SKOS.closeMatch, c_pers))
+                combined.add((c_pers, SKOS.closeMatch, c_stud))
                 print(
                     f"closeMatch (Bottom): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
                 )
             break
 
     if not matched:
-        unmatched.append((str(notation_stud), str(label_stud)))
+        unmatched.add((str(notation_stud), str(label_stud)))
 
-# Serialize combined result
-g_personal.serialize("published_vocabs/destatis_personal_skos.ttl", format="turtle")
-g_studierende.serialize(
-    "published_vocabs/destatis_studierende_skos.ttl", format="turtle"
-)
-print("Combined graph with bidirectional mappings written to published_vocabs.")
+# Ensure output dir exists
+Path(OUT_COMBINED).parent.mkdir(parents=True, exist_ok=True)
 
-# Write unmatched mappings to CSV
-print("\nUnmatched study concepts:")
-unmatched = list(set(unmatched))
-for unmatch in unmatched:
-    print(f"Unmatched: {unmatch[0]} | {unmatch[1]}")
+# Serialize only ONE graph containing everything
+combined.serialize(OUT_COMBINED, format="turtle")
+print(f"\nCombined graph (vocabularies + mappings) written to: {OUT_COMBINED}")
+
+# Print unmatched
+if unmatched:
+    print("\nUnmatched study concepts:")
+    for code, label in sorted(unmatched):
+        print(f"Unmatched: {code} | {label}")
+else:
+    print("\nAll study concepts matched at the given threshold.")

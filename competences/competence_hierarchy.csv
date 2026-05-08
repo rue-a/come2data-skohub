@@ -1,0 +1,132 @@
+ID,label,parent ID
+01,Grundlagen,
+01.01,Grundbegriffe/Datenkultur,01
+01.01.01,"(Forschungs-)Daten, Data Literacy, AI Literacy, Forschungsdatenmanagement, Data Science, Datenlebenszyklus",01.01
+01.01.02,"(typische) Anwendungsfälle, Tätigkeitsfelder, Berufspraxis",01.01
+01.02,Konzepte,01
+01.02.01,"FAIR-Prinzipien (Theorie, Anwendung, Auswirkung)",01.02
+01.02.02,"Open Science in Bezug auf Data Literacy (Gesamtkonzept, Teilbereiche, Strategien)",01.02
+01.02.03,Open Data,01.02
+01.02.04,Open Software/Source,01.02
+01.03,Standards und Leitlinien,01
+01.03.01,"(Fachspezische) Standards (Nutzen, Anwendung, Auswirkungen)",01.03
+01.03.02,"Datenbezogene Policies/Leitlinien (Inhalte, Nutzen, Auswirkungen, Maßnahmen)",01.03
+01.03.03,"Regelungen zur guten wissenschaftlichen Praxis (Einordnung, Regelungen, Maßnahmen)",01.03
+01.04,Informationsquellen/-portale,01
+01.04.01,Relevante Informationsquellen,01.04
+02,Daten managen,
+02.01,Planung,02
+02.01.01,"Daten-/Softwaremanagementplan (Inhalte, Anforderungen der Forschungsförderer, Hilfsmittel und Templates)",02.01
+02.01.02,"Daten-Workflow / Datenfluss (Projektmanagement in Bezug auf die Arbeit mit (projektspezifischen) Daten, technische Umsetzung)",02.01
+02.01.03,"(projekt-, arbeitsgruppenspezifische) Richtlinien und Konventionen (Entwicklung gemeinsamer Regelungen, Pflichten und Rechte)",02.01
+02.01.04,Rollen und Tätigkeiten,02.01
+02.01.05,"Ressourcenkalkulation (Projektmanagement, Finanzierungsmöglichkeiten)",02.01
+02.02,Dokumentation,02
+02.02.01,Datendokumentation,02.02
+02.02.02,"Dokumentationsformate (Inhalte, Möglichkeiten, Methoden)",02.02
+02.02.03,"Werkzeuge zur datenbezogenen Dokumentation (Nutzung, Funktionsweise)",02.02
+02.02.04,Elektronische Laborbücher,02.02
+02.03,Metadaten,02
+02.03.01,"Metadaten (Definition, Relevanz, Arten)",02.03
+02.03.02,"Metadatenstandards (generisch, fachspezifisch, Verzeichnisse, Anwendung)",02.03
+02.03.03,Begriffssysteme,02.03
+02.03.04,"Persistente Identifikatoren (bspw. DOI, ORCID, ROR)",02.03
+02.03.05,"Metadatenwerkzeuge (Übersicht, Funktionen, Anwendung)",02.03
+02.04,Speicherung,02
+02.04.01,"Speicherlösungen (Funktionen, Anwendung)",02.04
+02.04.02,Ordnerstrukturen und Dateibenennung,02.04
+02.04.03,"Dateiformate (Proprietäre vs. offene Formate, Langzeitstabilität)",02.04
+02.04.04,"Versionierung (Verfahren, Software)",02.04
+02.05,Datensicherheit,02
+02.05.01,Backup-Strategien (Lösungen zur Sicherung von Datenbeständen und gegen Datenverlust),02.05
+02.05.02,Zugriffskontrolle,02.05
+02.05.03,"Datensicherheit (Verschlüsselung, Passwörter, Rechtemanagement/Zugriffskontrolle)",02.05
+02.05.04,"Datentransfer (Technische Lösungen, Risikovermeidung)",02.05
+02.06,Informationsquellen/-portale,02
+02.06.01,Relevante Informationsquellen,02.06
+03,Mit Daten arbeiten,
+03.01,Methoden- und Studiendesign,03
+03.01.01,"Planung eines konkreten Vorgehens, Reproduzierbarkeit",03.01
+03.02,Datenerhebung,03
+03.02.01,"Methoden (Vorgehen, Auswahl, Kriterien; allgemein, fachspezifisch)",03.02
+03.02.02,"Softwarenutzung (Vorgehen, Auswahl, Kriterien; allgemein, fachspezifisch)",03.02
+03.03,Daten finden und nachnutzen,03
+03.03.01,Datenquellen identifizieren und Recherchestrategien,03.03
+03.03.02,"Nutzungsbedingungen, Daten zitieren",03.03
+03.03.03,Datenquellen verifizieren (Methoden),03.03
+03.04,Datenqualität,03
+03.04.01,"Grundlagen, Vorgehen, Methoden",03.04
+03.04.02,"Softwarenutzung (Nutzen, Funktionsweise)",03.04
+03.04.03,"Einschätzen und Bewerten (Vorgehen, Kriterien)",03.04
+03.05,Datenaufbereitung,03
+03.05.01,"Datenbereinigung (Vorgehen, Methoden, Kriterien)",03.05
+03.05.02,Datenmigration und -transformation,03.05
+03.06,Datenmodellierung,03
+03.06.01,"Verfahren und Methoden, Modelle (bspw. Entity-Relationship-Modell, Unified Modeling Language)",03.06
+03.07,Datenbanken,03
+03.07.01,"Datenbankmodelle (Übersicht, Funktionsweise, Nutzen, Tools)",03.07
+03.07.02,"Datenbankabfragen (Sprachen, Vorgehen, Nutzen)",03.07
+03.08,Datenanalyse,03
+03.08.01,(fachspezifische) Methoden für den Umgang mit qualitativen Daten,03.08
+03.08.02,"(fachspezifische) Methoden für den Umgang mit quantitativen Daten - Statistik (Grundbegriffe, Verfahren, Softwarenutzung)",03.08
+03.08.03,"(fachspezifische) Software (Auswahl, Funktionen, Anwendung, Nutzen)",03.08
+03.08.04,"Data Mining (Grundlagen, Entwicklung, Verfahren, Anwendung)",03.08
+03.08.05,Big Data und High Performance Computing,03.08
+03.09,"Künstliche Intelligenz, Maschinelles Lernen, Deep Learning",03
+03.09.01,"Grundlagen, Verfahren, Anwendung",03.09
+03.10,Datenintegration,03
+03.10.01,"Datenintegration (Verfahren, Anwendung)",03.10
+03.10.02,"Daten importieren und exportieren (Verfahren, Vorgehen, Risiken)",03.10
+03.10.03,"Softwarenutzung (Funktionen, Anwendung)",03.10
+03.11,Programmierung,03
+03.11.01,"Grundlegende Konzepte, Strukturen und typische Anwendungsfälle",03.11
+03.11.02,"Skript-/Programmiersprachen (Auswahl, Funktionsweise, Nutzen)",03.11
+03.11.03,"Programmierumgebungen und -werkzeuge (Übersicht, Funktionsweise, Nutzen)",03.11
+03.11.04,"Einfachen Programmcode unter Anleitung entwickeln (Vorgehen/Methodik, Strategien, Risiken)",03.11
+03.11.05,"Einfachen Programmcode selbständig entwickeln (Vorgehen/Methodik, Strategien, Risiken)",03.11
+03.11.06,"Einfachen Programmcode kollaborativ entwickeln (Vorgehen/Methodik, Strategien, Risiken)",03.11
+03.12,Daten interpretieren,03
+03.12.01,"Kritische Dateninterpretation/-bewertung (Verfahren, Auswirkungen)",03.12
+03.12.02,Daten(-visualisierungen/-präsentationen) verstehen und einordnen,03.12
+03.12.03,"Datengetriebene Entscheidungen (Verfahren, Auswirkungen)",03.12
+03.13,Datenvisualisierung und -verbalisierung,03
+03.13.01,"Verfahren, Anforderungen",03.13
+03.13.02,Softwarenutzung,03.13
+03.14,Kollaboratives Arbeiten,03
+03.14.01,"Tools für die kollaborative Arbeit mit Daten (Überblick, Funktionsweisen)",03.14
+03.15,Informationsquellen/-portale,03
+03.15.01,Relevante Informationsquellen,03.15
+04,Rechtliche und ethische Aspekte,
+04.01,Gesetzliche Grundlagen mit Datenbezug (Deutschland und EU),04
+04.01.01,Überblick über einschlägige Rechtsbereiche mit Datenbezug,04.01
+04.02,Datenschutz,04
+04.02.01,"Grundlagen und Vorschriften (Zweck, Verfahren, Auswirkungen)",04.02
+04.02.02,"Informierte Einwilligungserklärung (Zweck, Inhalte, Vorlagen)",04.02
+04.02.03,"Pseudonymisierung und Anonymisierung (Zweck, Verfahren, Tools)",04.02
+04.02.04,"Verarbeitungsverzeichnis (Zweck, Inhalte, Vorlagen)",04.02
+04.02.05,"Datenlöschung (Zweck, Verfahren, Auswirkungen)",04.02
+04.03,Urheberrecht,04
+04.03.01,"Grundlagen und Vorschriften (Zweck, Verfahren, Auswirkungen)",04.03
+04.03.02,"Leistungsschutzrechte (Zweck, Verfahren, Auswirkungen)",04.03
+04.03.03,"Datenbankherstellerrecht (Zweck, Verfahren, Auswirkungen)",04.03
+04.04,Datennutzung und weitere Rechte,04
+04.04.01,"Datennutzungsvereinbarungen (Zweck, Inhalte, Auswirkungen)",04.04
+04.05,Ethik,04
+04.05.01,"Forschungsethik (Gegenstände, Maßnahmen)",04.05
+04.05.02,"Ethikantrag (Zweck, Verfahren, Inhalte, Auswirkungen)",04.05
+04.05.03,CARE-Prinzipien,04.05
+04.05.04,"Datenmissbrauch (Problembewusstsein, Präventionsmaßnahmen)",04.05
+04.06,Informationsquellen/-portale,04
+04.06.01,Relevante Informationsquellen,04.06
+05,Daten teilen und archivieren,
+05.01,Publikation,05
+05.01.01,"Grundlagen (Anforderungen, Strategien, Auswirkungen)",05.01
+05.01.02,"Datenkuratierung (Verfahren, Maßnahmen)",05.01
+05.01.03,"Publikationslösungen (Technische Lösungen, Datenrepositorien, Auswahlkriterien)",05.01
+05.01.04,"Lizenzen (Modelle für Daten und Software, Bedeutung der Lizenzvergabe)",05.01
+05.02,Archivierung,05
+05.02.01,"Grundlagen (Anforderungen, Strategien, Maßnahmen)",05.02
+05.02.02,"Datenauswahl (Kriterien, Anforderungen)",05.02
+05.02.03,Archivierungslösungen,05.02
+05.03,Informationsquellen/-portale,05
+05.03.01,Relevante Informationsquellen,05.03

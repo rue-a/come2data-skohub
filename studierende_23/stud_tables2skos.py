@@ -14,11 +14,11 @@ BASE_URL = f"{HOSTING_DOMAIN}/{CONCEPTS_DOMAIN}"
 fg_df = pd.read_csv("studierende_23/fg.csv", dtype=str)
 fg_df["id"] = fg_df["id"].str.zfill(2)
 stb_df = pd.read_csv("studierende_23/stb.csv", dtype=str)
-stb_df["id"] = stb_df["id"].str.zfill(2)
+stb_df["id"] = stb_df["id"].str.zfill(3)
 stb_df["parent_id"] = stb_df["parent_id"].str.zfill(2)
 stf_df = pd.read_csv("studierende_23/stf.csv", dtype=str)
-stf_df["id"] = stf_df["id"].str.zfill(3)
-stf_df["parent_id"] = stf_df["parent_id"].str.zfill(2)
+stf_df["id"] = stf_df["id"].str.zfill(4)
+stf_df["parent_id"] = stf_df["parent_id"].str.zfill(3)
 stf_df["isced_id"] = stf_df["isced_id"].str.zfill(4)
 
 

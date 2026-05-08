@@ -1,10 +1,14 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix destatispersonal: <https://rue-a.github.io/come2data-skohub/personal/> .
+@prefix destatisstudierende: <https://rue-a.github.io/come2data-skohub/studierende/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+destatispersonal:08.710.7161 skos:closeMatch destatisstudierende:08.64.157 .
+
 destatispersonal:01.010.0100 a skos:Concept ;
     skos:broader destatispersonal:01.010 ;
+    skos:closeMatch destatisstudierende:01.01 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0100" ;
     skos:prefLabel "Geisteswissenschaften allgemein"@de,
@@ -12,6 +16,7 @@ destatispersonal:01.010.0100 a skos:Concept ;
 
 destatispersonal:01.010.0120 a skos:Concept ;
     skos:broader destatispersonal:01.010 ;
+    skos:closeMatch destatisstudierende:01.01.004 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0120" ;
     skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Geisteswissenschaften)"@de,
@@ -33,6 +38,7 @@ destatispersonal:01.020.0210 a skos:Concept ;
 
 destatispersonal:01.020.0215 a skos:Concept ;
     skos:broader destatispersonal:01.020 ;
+    skos:closeMatch destatisstudierende:01.02.161 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0215" ;
     skos:prefLabel "Diakoniewissenschaft"@de,
@@ -61,6 +67,8 @@ destatispersonal:01.020.0240 a skos:Concept ;
 
 destatispersonal:01.020.0250 a skos:Concept ;
     skos:broader destatispersonal:01.020 ;
+    skos:closeMatch destatisstudierende:01.02.053,
+        destatisstudierende:01.02.544 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0250" ;
     skos:prefLabel "Praktische Theologie und Religionspädagogik (ev.)"@de,
@@ -75,6 +83,7 @@ destatispersonal:01.020.0260 a skos:Concept ;
 
 destatispersonal:01.030.0300 a skos:Concept ;
     skos:broader destatispersonal:01.030 ;
+    skos:closeMatch destatisstudierende:01.03.086 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0300" ;
     skos:prefLabel "Kath. Theologie allgemein"@de,
@@ -89,6 +98,7 @@ destatispersonal:01.030.0310 a skos:Concept ;
 
 destatispersonal:01.030.0315 a skos:Concept ;
     skos:broader destatispersonal:01.030 ;
+    skos:closeMatch destatisstudierende:01.03.162 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0315" ;
     skos:prefLabel "Caritaswissenschaft"@de,
@@ -110,6 +120,8 @@ destatispersonal:01.030.0330 a skos:Concept ;
 
 destatispersonal:01.030.0340 a skos:Concept ;
     skos:broader destatispersonal:01.030 ;
+    skos:closeMatch destatisstudierende:01.03.086,
+        destatisstudierende:01.03.545 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0340" ;
     skos:prefLabel "Praktische Theologie und Religionspädagogik (kath.)"@de,
@@ -131,6 +143,7 @@ destatispersonal:01.030.0390 a skos:Concept ;
 
 destatispersonal:01.040.0400 a skos:Concept ;
     skos:broader destatispersonal:01.040 ;
+    skos:closeMatch destatisstudierende:01.04.169 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0400" ;
     skos:prefLabel "Philosophie allgemein"@de,
@@ -138,6 +151,7 @@ destatispersonal:01.040.0400 a skos:Concept ;
 
 destatispersonal:01.040.0410 a skos:Concept ;
     skos:broader destatispersonal:01.040 ;
+    skos:closeMatch destatisstudierende:01.04.136 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0410" ;
     skos:prefLabel "Religionswissenschaft"@de,
@@ -173,6 +187,7 @@ destatispersonal:01.040.0430 a skos:Concept ;
 
 destatispersonal:01.050.0500 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.068 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0500" ;
     skos:prefLabel "Geschichte allgemein"@de,
@@ -180,6 +195,7 @@ destatispersonal:01.050.0500 a skos:Concept ;
 
 destatispersonal:01.050.0510 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.548 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0510" ;
     skos:prefLabel "Ur- und Frühgeschichte"@de,
@@ -187,6 +203,7 @@ destatispersonal:01.050.0510 a skos:Concept ;
 
 destatispersonal:01.050.0520 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.272 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0520" ;
     skos:prefLabel "Alte Geschichte"@de,
@@ -194,6 +211,7 @@ destatispersonal:01.050.0520 a skos:Concept ;
 
 destatispersonal:01.050.0530 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.273 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0530" ;
     skos:prefLabel "Mittelalterliche Geschichte"@de,
@@ -201,6 +219,7 @@ destatispersonal:01.050.0530 a skos:Concept ;
 
 destatispersonal:01.050.0540 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.273 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0540" ;
     skos:prefLabel "Neuere und neueste Geschichte"@de,
@@ -215,6 +234,7 @@ destatispersonal:01.050.0550 a skos:Concept ;
 
 destatispersonal:01.050.0560 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.183 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0560" ;
     skos:prefLabel "Wirtschafts- und Sozialgeschichte"@de,
@@ -222,6 +242,7 @@ destatispersonal:01.050.0560 a skos:Concept ;
 
 destatispersonal:01.050.0570 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.012 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0570" ;
     skos:prefLabel "Archäologie"@de,
@@ -243,6 +264,7 @@ destatispersonal:01.050.0585 a skos:Concept ;
 
 destatispersonal:01.050.0595 a skos:Concept ;
     skos:broader destatispersonal:01.050 ;
+    skos:closeMatch destatisstudierende:01.05.275 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0595" ;
     skos:prefLabel "Wissenschaftsgeschichte/Technikgeschichte"@de,
@@ -257,6 +279,7 @@ destatispersonal:01.070.0700 a skos:Concept ;
 
 destatispersonal:01.070.0710 a skos:Concept ;
     skos:broader destatispersonal:01.070 ;
+    skos:closeMatch destatisstudierende:01.06.022 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0710" ;
     skos:prefLabel "Bibliothekswissenschaft (nicht für Verwaltungs-FH)"@de,
@@ -264,6 +287,7 @@ destatispersonal:01.070.0710 a skos:Concept ;
 
 destatispersonal:01.070.0720 a skos:Concept ;
     skos:broader destatispersonal:01.070 ;
+    skos:closeMatch destatisstudierende:01.06.037 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0720" ;
     skos:prefLabel "Archiv- und Dokumentationswissenschaft"@de,
@@ -271,6 +295,7 @@ destatispersonal:01.070.0720 a skos:Concept ;
 
 destatispersonal:01.070.0730 a skos:Concept ;
     skos:broader destatispersonal:01.070 ;
+    skos:closeMatch destatisstudierende:01.06.022 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0730" ;
     skos:prefLabel "Informationswissenschaft"@de,
@@ -278,6 +303,8 @@ destatispersonal:01.070.0730 a skos:Concept ;
 
 destatispersonal:01.080.0800 a skos:Concept ;
     skos:broader destatispersonal:01.080 ;
+    skos:closeMatch destatisstudierende:01.07.152,
+        destatisstudierende:01.07.188 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0800" ;
     skos:prefLabel "Allgemeine und vergleichende Literatur- und Sprachwissenschaft allgemein"@de,
@@ -285,6 +312,7 @@ destatispersonal:01.080.0800 a skos:Concept ;
 
 destatispersonal:01.080.0810 a skos:Concept ;
     skos:broader destatispersonal:01.080 ;
+    skos:closeMatch destatisstudierende:01.07.152 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0810" ;
     skos:prefLabel "Allgemeine und vergleichende Sprachwissenschaft"@de,
@@ -292,6 +320,7 @@ destatispersonal:01.080.0810 a skos:Concept ;
 
 destatispersonal:01.080.0820 a skos:Concept ;
     skos:broader destatispersonal:01.080 ;
+    skos:closeMatch destatisstudierende:01.07.188 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0820" ;
     skos:prefLabel "Allgemeine und vergleichende Literaturwissenschaft"@de,
@@ -299,6 +328,8 @@ destatispersonal:01.080.0820 a skos:Concept ;
 
 destatispersonal:01.080.0830 a skos:Concept ;
     skos:broader destatispersonal:01.080 ;
+    skos:closeMatch destatisstudierende:01.07.018,
+        destatisstudierende:01.07.284 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0830" ;
     skos:prefLabel "Angewandte Sprachwissenschaft, berufsbezogene Fremdsprachenausbildung"@de,
@@ -306,6 +337,7 @@ destatispersonal:01.080.0830 a skos:Concept ;
 
 destatispersonal:01.080.0835 a skos:Concept ;
     skos:broader destatispersonal:01.080 ;
+    skos:closeMatch destatisstudierende:01.07.160 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0835" ;
     skos:prefLabel "Computerlinguistik"@de,
@@ -327,6 +359,7 @@ destatispersonal:01.080.0845 a skos:Concept ;
 
 destatispersonal:01.090.0900 a skos:Concept ;
     skos:broader destatispersonal:01.090 ;
+    skos:closeMatch destatisstudierende:01.08.005 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0900" ;
     skos:prefLabel "Altphilologie allgemein"@de,
@@ -334,6 +367,7 @@ destatispersonal:01.090.0900 a skos:Concept ;
 
 destatispersonal:01.090.0910 a skos:Concept ;
     skos:broader destatispersonal:01.090 ;
+    skos:closeMatch destatisstudierende:01.08.070 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0910" ;
     skos:prefLabel "Griechische Philologie"@de,
@@ -341,6 +375,7 @@ destatispersonal:01.090.0910 a skos:Concept ;
 
 destatispersonal:01.090.0920 a skos:Concept ;
     skos:broader destatispersonal:01.090 ;
+    skos:closeMatch destatisstudierende:01.08.095 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0920" ;
     skos:prefLabel "Lateinische Philologie"@de,
@@ -348,6 +383,7 @@ destatispersonal:01.090.0920 a skos:Concept ;
 
 destatispersonal:01.090.0930 a skos:Concept ;
     skos:broader destatispersonal:01.090 ;
+    skos:closeMatch destatisstudierende:01.08.031 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0930" ;
     skos:prefLabel "Byzantinistik"@de,
@@ -355,6 +391,7 @@ destatispersonal:01.090.0930 a skos:Concept ;
 
 destatispersonal:01.090.0940 a skos:Concept ;
     skos:broader destatispersonal:01.090 ;
+    skos:closeMatch destatisstudierende:01.08.043 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0940" ;
     skos:prefLabel "Neugriechisch"@de,
@@ -376,6 +413,7 @@ destatispersonal:01.090.0960 a skos:Concept ;
 
 destatispersonal:01.100.1000 a skos:Concept ;
     skos:broader destatispersonal:01.100 ;
+    skos:closeMatch destatisstudierende:01.09.067 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1000" ;
     skos:prefLabel "Germanistik (Deutsch, germanische Sprachen ohne Anglistik) allgemein"@de,
@@ -383,6 +421,7 @@ destatispersonal:01.100.1000 a skos:Concept ;
 
 destatispersonal:01.100.1020 a skos:Concept ;
     skos:broader destatispersonal:01.100 ;
+    skos:closeMatch destatisstudierende:01.09.120 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1020" ;
     skos:prefLabel "Skandinavistik"@de,
@@ -390,6 +429,7 @@ destatispersonal:01.100.1020 a skos:Concept ;
 
 destatispersonal:01.100.1030 a skos:Concept ;
     skos:broader destatispersonal:01.100 ;
+    skos:closeMatch destatisstudierende:01.09.119 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1030" ;
     skos:prefLabel "Niederlandistik"@de,
@@ -397,6 +437,7 @@ destatispersonal:01.100.1030 a skos:Concept ;
 
 destatispersonal:01.100.1040 a skos:Concept ;
     skos:broader destatispersonal:01.100 ;
+    skos:closeMatch destatisstudierende:01.09.271 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1040" ;
     skos:prefLabel "Deutsch als Fremdsprache oder als Zweitsprache"@de,
@@ -411,6 +452,9 @@ destatispersonal:01.100.1050 a skos:Concept ;
 
 destatispersonal:01.100.1070 a skos:Concept ;
     skos:broader destatispersonal:01.100 ;
+    skos:closeMatch destatisstudierende:01.09.034,
+        destatisstudierende:01.09.120,
+        destatisstudierende:01.09.189 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1070" ;
     skos:prefLabel "Sonstige germanische Sprachen (ohne Anglistik)"@de,
@@ -432,6 +476,7 @@ destatispersonal:01.100.1090 a skos:Concept ;
 
 destatispersonal:01.110.1100 a skos:Concept ;
     skos:broader destatispersonal:01.110 ;
+    skos:closeMatch destatisstudierende:01.10.008 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1100" ;
     skos:prefLabel "Anglistik"@de,
@@ -439,6 +484,7 @@ destatispersonal:01.110.1100 a skos:Concept ;
 
 destatispersonal:01.110.1110 a skos:Concept ;
     skos:broader destatispersonal:01.110 ;
+    skos:closeMatch destatisstudierende:01.10.006 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1110" ;
     skos:prefLabel "Amerikanistik"@de,
@@ -460,6 +506,7 @@ destatispersonal:01.110.1125 a skos:Concept ;
 
 destatispersonal:01.120.1200 a skos:Concept ;
     skos:broader destatispersonal:01.120 ;
+    skos:closeMatch destatisstudierende:01.11.137 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1200" ;
     skos:prefLabel "Romanistik allgemein"@de,
@@ -467,6 +514,7 @@ destatispersonal:01.120.1200 a skos:Concept ;
 
 destatispersonal:01.120.1210 a skos:Concept ;
     skos:broader destatispersonal:01.120 ;
+    skos:closeMatch destatisstudierende:01.11.059 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1210" ;
     skos:prefLabel "Französische Sprach- und Literaturwissenschaft"@de,
@@ -481,6 +529,7 @@ destatispersonal:01.120.1215 a skos:Concept ;
 
 destatispersonal:01.120.1220 a skos:Concept ;
     skos:broader destatispersonal:01.120 ;
+    skos:closeMatch destatisstudierende:01.11.084 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1220" ;
     skos:prefLabel "Italienische Sprach- und Literaturwissenschaft"@de,
@@ -495,6 +544,8 @@ destatispersonal:01.120.1225 a skos:Concept ;
 
 destatispersonal:01.120.1230 a skos:Concept ;
     skos:broader destatispersonal:01.120 ;
+    skos:closeMatch destatisstudierende:01.11.131,
+        destatisstudierende:01.11.150 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1230" ;
     skos:prefLabel "Iberoromanische Sprach- und Literaturwissenschaft"@de,
@@ -516,6 +567,7 @@ destatispersonal:01.120.1240 a skos:Concept ;
 
 destatispersonal:01.130.1300 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.146 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1300" ;
     skos:prefLabel "Slawistik, Baltistik, Finno-Ugristik allgemein"@de,
@@ -523,6 +575,7 @@ destatispersonal:01.130.1300 a skos:Concept ;
 
 destatispersonal:01.130.1310 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.146 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1310" ;
     skos:prefLabel "Slawistik allgemein"@de,
@@ -558,6 +611,7 @@ destatispersonal:01.130.1345 a skos:Concept ;
 
 destatispersonal:01.130.1346 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.206 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1346" ;
     skos:prefLabel "Polnisch"@de,
@@ -565,6 +619,7 @@ destatispersonal:01.130.1346 a skos:Concept ;
 
 destatispersonal:01.130.1347 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.207 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1347" ;
     skos:prefLabel "Sorabistik"@de,
@@ -572,6 +627,7 @@ destatispersonal:01.130.1347 a skos:Concept ;
 
 destatispersonal:01.130.1348 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.209 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1348" ;
     skos:prefLabel "Tschechisch"@de,
@@ -579,6 +635,7 @@ destatispersonal:01.130.1348 a skos:Concept ;
 
 destatispersonal:01.130.1350 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.016 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1350" ;
     skos:prefLabel "Baltistik"@de,
@@ -586,6 +643,7 @@ destatispersonal:01.130.1350 a skos:Concept ;
 
 destatispersonal:01.130.1370 a skos:Concept ;
     skos:broader destatispersonal:01.130 ;
+    skos:closeMatch destatisstudierende:01.12.056 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1370" ;
     skos:prefLabel "Finno-Ugristik"@de,
@@ -607,6 +665,7 @@ destatispersonal:01.140.1400 a skos:Concept ;
 
 destatispersonal:01.140.1410 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.001 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1410" ;
     skos:prefLabel "Ägyptologie"@de,
@@ -614,6 +673,7 @@ destatispersonal:01.140.1410 a skos:Concept ;
 
 destatispersonal:01.140.1420 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.002 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1420" ;
     skos:prefLabel "Afrikanistik"@de,
@@ -621,6 +681,7 @@ destatispersonal:01.140.1420 a skos:Concept ;
 
 destatispersonal:01.140.1430 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.122 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1430" ;
     skos:prefLabel "Altorientalistik"@de,
@@ -649,6 +710,7 @@ destatispersonal:01.140.1450 a skos:Concept ;
 
 destatispersonal:01.140.1460 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.073 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1460" ;
     skos:prefLabel "Judaistik/Hebräisch"@de,
@@ -656,6 +718,7 @@ destatispersonal:01.140.1460 a skos:Concept ;
 
 destatispersonal:01.140.1465 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.180 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1465" ;
     skos:prefLabel "Kaukasistik"@de,
@@ -663,6 +726,7 @@ destatispersonal:01.140.1465 a skos:Concept ;
 
 destatispersonal:01.140.1470 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.083 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1470" ;
     skos:prefLabel "Islamwissenschaft"@de,
@@ -670,6 +734,7 @@ destatispersonal:01.140.1470 a skos:Concept ;
 
 destatispersonal:01.140.1480 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.081 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1480" ;
     skos:prefLabel "Iranistik"@de,
@@ -677,6 +742,7 @@ destatispersonal:01.140.1480 a skos:Concept ;
 
 destatispersonal:01.140.1490 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.078 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1490" ;
     skos:prefLabel "Indologie"@de,
@@ -684,6 +750,7 @@ destatispersonal:01.140.1490 a skos:Concept ;
 
 destatispersonal:01.140.1495 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.187 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1495" ;
     skos:prefLabel "Sprachen und Kulturen Ostasiens allgemein"@de,
@@ -691,6 +758,7 @@ destatispersonal:01.140.1495 a skos:Concept ;
 
 destatispersonal:01.140.1510 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.158 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1510" ;
     skos:prefLabel "Turkologie"@de,
@@ -698,6 +766,7 @@ destatispersonal:01.140.1510 a skos:Concept ;
 
 destatispersonal:01.140.1520 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.187 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1520" ;
     skos:prefLabel "Sprachen und Kulturen Zentralasiens"@de,
@@ -705,6 +774,7 @@ destatispersonal:01.140.1520 a skos:Concept ;
 
 destatispersonal:01.140.1530 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.145 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1530" ;
     skos:prefLabel "Sinologie"@de,
@@ -712,6 +782,7 @@ destatispersonal:01.140.1530 a skos:Concept ;
 
 destatispersonal:01.140.1540 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.085 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1540" ;
     skos:prefLabel "Japanologie"@de,
@@ -719,6 +790,7 @@ destatispersonal:01.140.1540 a skos:Concept ;
 
 destatispersonal:01.140.1550 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.145 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1550" ;
     skos:prefLabel "Koreanistik"@de,
@@ -726,6 +798,7 @@ destatispersonal:01.140.1550 a skos:Concept ;
 
 destatispersonal:01.140.1560 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.187 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1560" ;
     skos:prefLabel "Sprachen und Kulturen Südostasiens und Ozeaniens"@de,
@@ -733,6 +806,7 @@ destatispersonal:01.140.1560 a skos:Concept ;
 
 destatispersonal:01.140.1570 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.015 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1570" ;
     skos:prefLabel "Außereurop. Sprachen und Kulturen Amerikas"@de,
@@ -740,6 +814,7 @@ destatispersonal:01.140.1570 a skos:Concept ;
 
 destatispersonal:01.140.1575 a skos:Concept ;
     skos:broader destatispersonal:01.140 ;
+    skos:closeMatch destatisstudierende:01.13.015 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1575" ;
     skos:prefLabel "Außereurop. Sprachen und Kulturen Australiens"@de,
@@ -761,6 +836,7 @@ destatispersonal:01.140.1610 a skos:Concept ;
 
 destatispersonal:01.160.1580 a skos:Concept ;
     skos:broader destatispersonal:01.160 ;
+    skos:closeMatch destatisstudierende:01.14.173 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1580" ;
     skos:prefLabel "Ethnologie"@de,
@@ -768,6 +844,7 @@ destatispersonal:01.160.1580 a skos:Concept ;
 
 destatispersonal:01.160.1590 a skos:Concept ;
     skos:broader destatispersonal:01.160 ;
+    skos:closeMatch destatisstudierende:01.14.174 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1590" ;
     skos:prefLabel "Volkskunde"@de,
@@ -782,6 +859,7 @@ destatispersonal:01.160.1650 a skos:Concept ;
 
 destatispersonal:01.160.1660 a skos:Concept ;
     skos:broader destatispersonal:01.160 ;
+    skos:closeMatch destatisstudierende:01.14.024 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1660" ;
     skos:prefLabel "Europäische Ethnologie"@de,
@@ -789,6 +867,7 @@ destatispersonal:01.160.1660 a skos:Concept ;
 
 destatispersonal:01.195.1950 a skos:Concept ;
     skos:broader destatispersonal:01.195 ;
+    skos:closeMatch destatisstudierende:01.18.292 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1950" ;
     skos:prefLabel "Islamische Studien/Islamische Theologie"@de,
@@ -796,6 +875,7 @@ destatispersonal:01.195.1950 a skos:Concept ;
 
 destatispersonal:01.197.0130 a skos:Concept ;
     skos:broader destatispersonal:01.197 ;
+    skos:closeMatch destatisstudierende:01.19.302 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "0130" ;
     skos:prefLabel "Medienwissenschaft"@de,
@@ -803,6 +883,7 @@ destatispersonal:01.197.0130 a skos:Concept ;
 
 destatispersonal:02.200.2000 a skos:Concept ;
     skos:broader destatispersonal:02.200 ;
+    skos:closeMatch destatisstudierende:02.22.029 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2000" ;
     skos:prefLabel "Sportwissenschaften allgemein"@de,
@@ -824,6 +905,7 @@ destatispersonal:02.200.2010 a skos:Concept ;
 
 destatispersonal:02.200.2020 a skos:Concept ;
     skos:broader destatispersonal:02.200 ;
+    skos:closeMatch destatisstudierende:02.22.098 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2020" ;
     skos:prefLabel "Sportpädagogik/Sportpsychologie"@de,
@@ -834,10 +916,12 @@ destatispersonal:03.220.2200 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2200" ;
     skos:prefLabel "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"@de,
-        "Law, Economics And Social Sciences (General)"@en .
+        "Law, Economics And Social Sciences (General)"@en ;
+    skos:relatedMatch destatisstudierende:03.23.030 .
 
 destatispersonal:03.220.2210 a skos:Concept ;
     skos:broader destatispersonal:03.220 ;
+    skos:closeMatch destatisstudierende:03.23.030 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2210" ;
     skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Rechts-, Wirtschafts- und Sozialwissenschaften)"@de,
@@ -859,6 +943,7 @@ destatispersonal:03.225.2250 a skos:Concept ;
 
 destatispersonal:03.225.2255 a skos:Concept ;
     skos:broader destatispersonal:03.225 ;
+    skos:closeMatch destatisstudierende:03.24.038 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2255" ;
     skos:prefLabel "Lateinamerika-Studien"@de,
@@ -901,6 +986,7 @@ destatispersonal:03.225.2280 a skos:Concept ;
 
 destatispersonal:03.225.2285 a skos:Concept ;
     skos:broader destatispersonal:03.225 ;
+    skos:closeMatch destatisstudierende:03.24.044 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2285" ;
     skos:prefLabel "Ost- und Südosteuropa-Studien"@de,
@@ -915,6 +1001,7 @@ destatispersonal:03.225.2290 a skos:Concept ;
 
 destatispersonal:03.230.2300 a skos:Concept ;
     skos:broader destatispersonal:03.230 ;
+    skos:closeMatch destatisstudierende:03.25.129 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2300" ;
     skos:prefLabel "Politikwissenschaft allgemein"@de,
@@ -950,6 +1037,8 @@ destatispersonal:03.230.2380 a skos:Concept ;
 
 destatispersonal:03.235.2320 a skos:Concept ;
     skos:broader destatispersonal:03.235 ;
+    skos:closeMatch destatisstudierende:03.26.148,
+        destatisstudierende:03.26.149 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2320" ;
     skos:prefLabel "Sozialwissenschaften/Soziologie allgemein"@de,
@@ -964,6 +1053,7 @@ destatispersonal:03.235.2340 a skos:Concept ;
 
 destatispersonal:03.235.2345 a skos:Concept ;
     skos:broader destatispersonal:03.235 ;
+    skos:closeMatch destatisstudierende:03.26.147 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2345" ;
     skos:prefLabel "Sozialkunde"@de,
@@ -992,6 +1082,7 @@ destatispersonal:03.235.2375 a skos:Concept ;
 
 destatispersonal:03.240.2400 a skos:Concept ;
     skos:broader destatispersonal:03.240 ;
+    skos:closeMatch destatisstudierende:03.27.253 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2400" ;
     skos:prefLabel "Sozialwesen allgemein"@de,
@@ -999,6 +1090,7 @@ destatispersonal:03.240.2400 a skos:Concept ;
 
 destatispersonal:03.240.2410 a skos:Concept ;
     skos:broader destatispersonal:03.240 ;
+    skos:closeMatch destatisstudierende:03.27.208 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2410" ;
     skos:prefLabel "Soziale Arbeit"@de,
@@ -1006,6 +1098,7 @@ destatispersonal:03.240.2410 a skos:Concept ;
 
 destatispersonal:03.240.2420 a skos:Concept ;
     skos:broader destatispersonal:03.240 ;
+    skos:closeMatch destatisstudierende:03.27.245 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2420" ;
     skos:prefLabel "Sozialpädagogik"@de,
@@ -1013,6 +1106,7 @@ destatispersonal:03.240.2420 a skos:Concept ;
 
 destatispersonal:03.250.2500 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
+    skos:closeMatch destatisstudierende:03.28.135 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2500" ;
     skos:prefLabel "Rechtswissenschaften allgemein"@de,
@@ -1023,94 +1117,108 @@ destatispersonal:03.250.2510 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2510" ;
     skos:prefLabel "Rechtsgeschichte"@de,
-        "History Of Law"@en .
+        "History Of Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2515 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2515" ;
     skos:prefLabel "Rechtsinformatik"@de,
-        "Legal Informatics"@en .
+        "Legal Informatics"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2520 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2520" ;
     skos:prefLabel "Rechts- und Staatsphilosophie"@de,
-        "Philosophy Of Law And Government"@en .
+        "Philosophy Of Law And Government"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2530 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2530" ;
     skos:prefLabel "Rechtssoziologie"@de,
-        "Sociology Of Law"@en .
+        "Sociology Of Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2540 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2540" ;
     skos:prefLabel "Kirchenrecht"@de,
-        "Canon/Ecclesiastical Law"@en .
+        "Canon/Ecclesiastical Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2545 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2545" ;
     skos:prefLabel "Kriminologie"@de,
-        "Criminology"@en .
+        "Criminology"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2550 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2550" ;
     skos:prefLabel "Privatrecht (ohne Arbeitsrecht)"@de,
-        "Civil Law (excl. Labour Law)"@en .
+        "Civil Law (excl. Labour Law)"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2560 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2560" ;
     skos:prefLabel "Öffentliches Recht"@de,
-        "Public Law"@en .
+        "Public Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2570 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2570" ;
     skos:prefLabel "Strafrecht"@de,
-        "Criminal Law"@en .
+        "Criminal Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2580 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2580" ;
     skos:prefLabel "Internationales Recht und Rechtsvergleichung"@de,
-        "International Law And Comparative Law"@en .
+        "International Law And Comparative Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2590 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2590" ;
     skos:prefLabel "Steuerrecht"@de,
-        "Tax Law"@en .
+        "Tax Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2620 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2620" ;
     skos:prefLabel "Handelsrecht"@de,
-        "Commercial Law"@en .
+        "Commercial Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2630 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2630" ;
     skos:prefLabel "Arbeitsrecht"@de,
-        "Employment Law"@en .
+        "Employment Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2640 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
+    skos:closeMatch destatisstudierende:03.28.042 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2640" ;
     skos:prefLabel "Wirtschaftsrecht"@de,
@@ -1121,38 +1229,44 @@ destatispersonal:03.250.2650 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2650" ;
     skos:prefLabel "Prozessrecht"@de,
-        "Procedural Law"@en .
+        "Procedural Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2665 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2665" ;
     skos:prefLabel "Europarecht"@de,
-        "European Law"@en .
+        "European Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2670 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2670" ;
     skos:prefLabel "Bürgerliches Recht"@de,
-        "Civil Law"@en .
+        "Civil Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2680 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2680" ;
     skos:prefLabel "Sozialrecht"@de,
-        "Social Welfare Law"@en .
+        "Social Welfare Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.250.2690 a skos:Concept ;
     skos:broader destatispersonal:03.250 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2690" ;
     skos:prefLabel "Versicherungsrecht"@de,
-        "Insurance Law"@en .
+        "Insurance Law"@en ;
+    skos:relatedMatch destatisstudierende:03.28.135 .
 
 destatispersonal:03.270.2610 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.256 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2610" ;
     skos:prefLabel "Rechtspflege"@de,
@@ -1160,6 +1274,7 @@ destatispersonal:03.270.2610 a skos:Concept ;
 
 destatispersonal:03.270.2700 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.172 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2700" ;
     skos:prefLabel "Verwaltungswissenschaft allgemein"@de,
@@ -1167,6 +1282,7 @@ destatispersonal:03.270.2700 a skos:Concept ;
 
 destatispersonal:03.270.2710 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.257 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2710" ;
     skos:prefLabel "Arbeits- und Berufsberatung"@de,
@@ -1174,6 +1290,7 @@ destatispersonal:03.270.2710 a skos:Concept ;
 
 destatispersonal:03.270.2711 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.255 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2711" ;
     skos:prefLabel "Archivwesen"@de,
@@ -1181,6 +1298,8 @@ destatispersonal:03.270.2711 a skos:Concept ;
 
 destatispersonal:03.270.2712 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.255,
+        destatisstudierende:03.29.262 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2712" ;
     skos:prefLabel "Bibliothekswesen"@de,
@@ -1188,6 +1307,7 @@ destatispersonal:03.270.2712 a skos:Concept ;
 
 destatispersonal:03.270.2720 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.258 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2720" ;
     skos:prefLabel "Arbeitsverwaltung"@de,
@@ -1195,6 +1315,7 @@ destatispersonal:03.270.2720 a skos:Concept ;
 
 destatispersonal:03.270.2730 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.259 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2730" ;
     skos:prefLabel "Auswärtige Angelegenheiten"@de,
@@ -1202,6 +1323,7 @@ destatispersonal:03.270.2730 a skos:Concept ;
 
 destatispersonal:03.270.2740 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.265 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2740" ;
     skos:prefLabel "Bankwesen"@de,
@@ -1209,6 +1331,8 @@ destatispersonal:03.270.2740 a skos:Concept ;
 
 destatispersonal:03.270.2750 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.260,
+        destatisstudierende:03.29.263 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2750" ;
     skos:prefLabel "Bundeswehrverwaltung"@de,
@@ -1216,6 +1340,7 @@ destatispersonal:03.270.2750 a skos:Concept ;
 
 destatispersonal:03.270.2760 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.266 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2760" ;
     skos:prefLabel "Finanzverwaltung"@de,
@@ -1223,6 +1348,7 @@ destatispersonal:03.270.2760 a skos:Concept ;
 
 destatispersonal:03.270.2770 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.261 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2770" ;
     skos:prefLabel "Allgemeine innere Verwaltung"@de,
@@ -1230,6 +1356,8 @@ destatispersonal:03.270.2770 a skos:Concept ;
 
 destatispersonal:03.270.2780 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.168,
+        destatisstudierende:03.29.263 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2780" ;
     skos:prefLabel "Justizvollzug"@de,
@@ -1237,6 +1365,7 @@ destatispersonal:03.270.2780 a skos:Concept ;
 
 destatispersonal:03.270.2790 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.263 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2790" ;
     skos:prefLabel "Polizei/Verfassungsschutz"@de,
@@ -1258,6 +1387,7 @@ destatispersonal:03.270.2820 a skos:Concept ;
 
 destatispersonal:03.270.2830 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.268 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2830" ;
     skos:prefLabel "Verkehrswesen"@de,
@@ -1265,6 +1395,7 @@ destatispersonal:03.270.2830 a skos:Concept ;
 
 destatispersonal:03.270.2840 a skos:Concept ;
     skos:broader destatispersonal:03.270 ;
+    skos:closeMatch destatisstudierende:03.29.269 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2840" ;
     skos:prefLabel "Zoll- und Steuerverwaltung"@de,
@@ -1272,6 +1403,7 @@ destatispersonal:03.270.2840 a skos:Concept ;
 
 destatispersonal:03.290.2815 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.274 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2815" ;
     skos:prefLabel "Tourismuswirtschaft"@de,
@@ -1286,6 +1418,7 @@ destatispersonal:03.290.2835 a skos:Concept ;
 
 destatispersonal:03.290.2900 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.184 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2900" ;
     skos:prefLabel "Wirtschaftswissenschaften allgemein"@de,
@@ -1300,6 +1433,7 @@ destatispersonal:03.290.2905 a skos:Concept ;
 
 destatispersonal:03.290.2910 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.181 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2910" ;
     skos:prefLabel "Wirtschaftspädagogik"@de,
@@ -1321,6 +1455,7 @@ destatispersonal:03.290.2920 a skos:Concept ;
 
 destatispersonal:03.290.2925 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.166 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2925" ;
     skos:prefLabel "Sportmanagement/Sportökonomie"@de,
@@ -1328,6 +1463,7 @@ destatispersonal:03.290.2925 a skos:Concept ;
 
 destatispersonal:03.290.2930 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.175 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2930" ;
     skos:prefLabel "Volkswirtschaftslehre"@de,
@@ -1342,6 +1478,7 @@ destatispersonal:03.290.2935 a skos:Concept ;
 
 destatispersonal:03.290.2936 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:04.37.276 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2936" ;
     skos:prefLabel "Wirtschaftsmathematik"@de,
@@ -1356,6 +1493,7 @@ destatispersonal:03.290.2940 a skos:Concept ;
 
 destatispersonal:03.290.2960 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.021 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2960" ;
     skos:prefLabel "Betriebswirtschaftslehre"@de,
@@ -1363,6 +1501,7 @@ destatispersonal:03.290.2960 a skos:Concept ;
 
 destatispersonal:03.290.2966 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.182 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2966" ;
     skos:prefLabel "Internationale Wirtschaft"@de,
@@ -1370,6 +1509,7 @@ destatispersonal:03.290.2966 a skos:Concept ;
 
 destatispersonal:03.290.2971 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.210 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2971" ;
     skos:prefLabel "Verkehrswirtschaft"@de,
@@ -1384,6 +1524,7 @@ destatispersonal:03.290.2980 a skos:Concept ;
 
 destatispersonal:03.290.2985 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.304 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2985" ;
     skos:prefLabel "Medienwirtschaft/Medienmanagement"@de,
@@ -1391,6 +1532,7 @@ destatispersonal:03.290.2985 a skos:Concept ;
 
 destatispersonal:03.290.3010 a skos:Concept ;
     skos:broader destatispersonal:03.290 ;
+    skos:closeMatch destatisstudierende:03.30.011 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3010" ;
     skos:prefLabel "Arbeitslehre/-wissenschaft"@de,
@@ -1398,6 +1540,7 @@ destatispersonal:03.290.3010 a skos:Concept ;
 
 destatispersonal:03.310.3100 a skos:Concept ;
     skos:broader destatispersonal:03.310 ;
+    skos:closeMatch destatisstudierende:03.31.179 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3100" ;
     skos:prefLabel "Wirtschaftsingenieurwesen mit wirtschaftswissenschaftlichem Schwerpunkt"@de,
@@ -1405,6 +1548,7 @@ destatispersonal:03.310.3100 a skos:Concept ;
 
 destatispersonal:03.310.3110 a skos:Concept ;
     skos:broader destatispersonal:03.310 ;
+    skos:closeMatch destatisstudierende:03.31.464 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3110" ;
     skos:prefLabel "Facility Management"@de,
@@ -1412,6 +1556,7 @@ destatispersonal:03.310.3110 a skos:Concept ;
 
 destatispersonal:03.315.1700 a skos:Concept ;
     skos:broader destatispersonal:03.315 ;
+    skos:closeMatch destatisstudierende:03.32.132 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1700" ;
     skos:prefLabel "Psychologie allgemein"@de,
@@ -1482,6 +1627,7 @@ destatispersonal:03.315.1770 a skos:Concept ;
 
 destatispersonal:03.320.1800 a skos:Concept ;
     skos:broader destatispersonal:03.320 ;
+    skos:closeMatch destatisstudierende:03.33.052 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1800" ;
     skos:prefLabel "Erziehungswissenschaften allgemein"@de,
@@ -1503,6 +1649,8 @@ destatispersonal:03.320.1802 a skos:Concept ;
 
 destatispersonal:03.320.1803 a skos:Concept ;
     skos:broader destatispersonal:03.320 ;
+    skos:closeMatch destatisstudierende:03.33.115,
+        destatisstudierende:03.33.321 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1803" ;
     skos:prefLabel "Grundschul- und Primarstufenpädagogik"@de,
@@ -1517,6 +1665,7 @@ destatispersonal:03.320.1804 a skos:Concept ;
 
 destatispersonal:03.320.1805 a skos:Concept ;
     skos:broader destatispersonal:03.320 ;
+    skos:closeMatch destatisstudierende:03.33.270 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1805" ;
     skos:prefLabel "Berufs- und Wirtschaftspädagogik"@de,
@@ -1524,6 +1673,7 @@ destatispersonal:03.320.1805 a skos:Concept ;
 
 destatispersonal:03.320.1806 a skos:Concept ;
     skos:broader destatispersonal:03.320 ;
+    skos:closeMatch destatisstudierende:03.33.190 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1806" ;
     skos:prefLabel "Sonderpädagogik"@de,
@@ -1545,6 +1695,7 @@ destatispersonal:03.320.1825 a skos:Concept ;
 
 destatispersonal:03.320.1826 a skos:Concept ;
     skos:broader destatispersonal:03.320 ;
+    skos:closeMatch destatisstudierende:03.33.365 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1826" ;
     skos:prefLabel "Pädagogik der frühen Kindheit"@de,
@@ -1552,6 +1703,7 @@ destatispersonal:03.320.1826 a skos:Concept ;
 
 destatispersonal:03.320.1827 a skos:Concept ;
     skos:broader destatispersonal:03.320 ;
+    skos:closeMatch destatisstudierende:03.33.361 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "1827" ;
     skos:prefLabel "Schulpädagogik"@de,
@@ -1573,6 +1725,7 @@ destatispersonal:03.320.1829 a skos:Concept ;
 
 destatispersonal:03.325.2240 a skos:Concept ;
     skos:broader destatispersonal:03.325 ;
+    skos:closeMatch destatisstudierende:03.34.303 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2240" ;
     skos:prefLabel "Kommunikationswissenschaft/Publizistik"@de,
@@ -1587,6 +1740,7 @@ destatispersonal:04.330.3300 a skos:Concept ;
 
 destatispersonal:04.330.3315 a skos:Concept ;
     skos:broader destatispersonal:04.330 ;
+    skos:closeMatch destatisstudierende:04.36.186 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3315" ;
     skos:prefLabel "Naturwissenschaftliche Fachdidaktiken, soweit nicht aufteilbar"@de,
@@ -1594,6 +1748,7 @@ destatispersonal:04.330.3315 a skos:Concept ;
 
 destatispersonal:04.330.3320 a skos:Concept ;
     skos:broader destatispersonal:04.330 ;
+    skos:closeMatch destatisstudierende:04.36.049 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3320" ;
     skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Naturwissenschaft)"@de,
@@ -1601,6 +1756,7 @@ destatispersonal:04.330.3320 a skos:Concept ;
 
 destatispersonal:04.330.3330 a skos:Concept ;
     skos:broader destatispersonal:04.330 ;
+    skos:closeMatch destatisstudierende:04.36.312 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3330" ;
     skos:prefLabel "Statistik"@de,
@@ -1608,6 +1764,7 @@ destatispersonal:04.330.3330 a skos:Concept ;
 
 destatispersonal:04.340.3400 a skos:Concept ;
     skos:broader destatispersonal:04.340 ;
+    skos:closeMatch destatisstudierende:04.37.105 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3400" ;
     skos:prefLabel "Mathematik allgemein"@de,
@@ -1643,6 +1800,7 @@ destatispersonal:04.340.3460 a skos:Concept ;
 
 destatispersonal:04.340.3470 a skos:Concept ;
     skos:broader destatispersonal:04.340 ;
+    skos:closeMatch destatisstudierende:04.37.118 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3470" ;
     skos:prefLabel "Mathematik in Naturwissenschaften und Technik"@de,
@@ -1664,6 +1822,7 @@ destatispersonal:04.340.3490 a skos:Concept ;
 
 destatispersonal:04.360.3600 a skos:Concept ;
     skos:broader destatispersonal:04.360 ;
+    skos:closeMatch destatisstudierende:04.39.128 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3600" ;
     skos:prefLabel "Physik, Astronomie allgemein"@de,
@@ -1713,6 +1872,7 @@ destatispersonal:04.360.3680 a skos:Concept ;
 
 destatispersonal:04.360.3690 a skos:Concept ;
     skos:broader destatispersonal:04.360 ;
+    skos:closeMatch destatisstudierende:04.39.014 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3690" ;
     skos:prefLabel "Astrophysik und Astronomie"@de,
@@ -1720,6 +1880,7 @@ destatispersonal:04.360.3690 a skos:Concept ;
 
 destatispersonal:04.370.3700 a skos:Concept ;
     skos:broader destatispersonal:04.370 ;
+    skos:closeMatch destatisstudierende:04.40.032 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3700" ;
     skos:prefLabel "Chemie allgemein"@de,
@@ -1762,6 +1923,7 @@ destatispersonal:04.370.3750 a skos:Concept ;
 
 destatispersonal:04.370.3760 a skos:Concept ;
     skos:broader destatispersonal:04.370 ;
+    skos:closeMatch destatisstudierende:04.40.025 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3760" ;
     skos:prefLabel "Biochemie (für Chemiker)"@de,
@@ -1797,6 +1959,7 @@ destatispersonal:04.370.3800 a skos:Concept ;
 
 destatispersonal:04.370.3810 a skos:Concept ;
     skos:broader destatispersonal:04.370 ;
+    skos:closeMatch destatisstudierende:04.40.096 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3810" ;
     skos:prefLabel "Lebensmittelchemie"@de,
@@ -1832,6 +1995,7 @@ destatispersonal:04.370.3850 a skos:Concept ;
 
 destatispersonal:04.390.3900 a skos:Concept ;
     skos:broader destatispersonal:04.390 ;
+    skos:closeMatch destatisstudierende:04.41.126 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3900" ;
     skos:prefLabel "Pharmazie allgemein"@de,
@@ -1874,6 +2038,7 @@ destatispersonal:04.390.3950 a skos:Concept ;
 
 destatispersonal:04.400.4000 a skos:Concept ;
     skos:broader destatispersonal:04.400 ;
+    skos:closeMatch destatisstudierende:04.42.026 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4000" ;
     skos:prefLabel "Biologie allgemein"@de,
@@ -1902,6 +2067,7 @@ destatispersonal:04.400.4030 a skos:Concept ;
 
 destatispersonal:04.400.4035 a skos:Concept ;
     skos:broader destatispersonal:04.400 ;
+    skos:closeMatch destatisstudierende:04.42.282 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4035" ;
     skos:prefLabel "Biotechnologie (für Biologen)"@de,
@@ -1923,6 +2089,7 @@ destatispersonal:04.400.4050 a skos:Concept ;
 
 destatispersonal:04.400.4060 a skos:Concept ;
     skos:broader destatispersonal:04.400 ;
+    skos:closeMatch destatisstudierende:04.42.009 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4060" ;
     skos:prefLabel "Anthropologie (Humanbiologie)"@de,
@@ -1930,6 +2097,7 @@ destatispersonal:04.400.4060 a skos:Concept ;
 
 destatispersonal:04.400.4065 a skos:Concept ;
     skos:broader destatispersonal:04.400 ;
+    skos:closeMatch destatisstudierende:04.40.025 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4065" ;
     skos:prefLabel "Biochemie (für Biologen)"@de,
@@ -1958,6 +2126,7 @@ destatispersonal:04.400.4090 a skos:Concept ;
 
 destatispersonal:04.410.4100 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.039 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4100" ;
     skos:prefLabel "Geowissenschaften allgemein"@de,
@@ -1972,6 +2141,7 @@ destatispersonal:04.410.4110 a skos:Concept ;
 
 destatispersonal:04.410.4120 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.065 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4120" ;
     skos:prefLabel "Paläontologie"@de,
@@ -1979,6 +2149,7 @@ destatispersonal:04.410.4120 a skos:Concept ;
 
 destatispersonal:04.410.4130 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.111 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4130" ;
     skos:prefLabel "Mineralogie"@de,
@@ -1986,6 +2157,7 @@ destatispersonal:04.410.4130 a skos:Concept ;
 
 destatispersonal:04.410.4135 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.124 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4135" ;
     skos:prefLabel "Ozeanographie"@de,
@@ -2000,6 +2172,7 @@ destatispersonal:04.410.4140 a skos:Concept ;
 
 destatispersonal:04.410.4150 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.066 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4150" ;
     skos:prefLabel "Geophysik"@de,
@@ -2010,10 +2183,12 @@ destatispersonal:04.410.4155 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4155" ;
     skos:prefLabel "Hydrologie"@de,
-        "Hydrology"@en .
+        "Hydrology"@en ;
+    skos:relatedMatch destatisstudierende:08.68.077 .
 
 destatispersonal:04.410.4160 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.110 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4160" ;
     skos:prefLabel "Meteorologie"@de,
@@ -2035,6 +2210,8 @@ destatispersonal:04.410.4180 a skos:Concept ;
 
 destatispersonal:04.410.4190 a skos:Concept ;
     skos:broader destatispersonal:04.410 ;
+    skos:closeMatch destatisstudierende:04.43.065,
+        destatisstudierende:04.43.385 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4190" ;
     skos:prefLabel "Geoökologie"@de,
@@ -2063,6 +2240,7 @@ destatispersonal:04.420.4210 a skos:Concept ;
 
 destatispersonal:04.420.4215 a skos:Concept ;
     skos:broader destatispersonal:04.420 ;
+    skos:closeMatch destatisstudierende:04.44.178 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4215" ;
     skos:prefLabel "Wirtschafts- und Sozialgeographie"@de,
@@ -2084,6 +2262,7 @@ destatispersonal:04.420.4230 a skos:Concept ;
 
 destatispersonal:04.420.4240 a skos:Concept ;
     skos:broader destatispersonal:04.420 ;
+    skos:closeMatch destatisstudierende:04.44.283 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4240" ;
     skos:prefLabel "Landschaftsökologie/Biogeographie"@de,
@@ -2091,6 +2270,7 @@ destatispersonal:04.420.4240 a skos:Concept ;
 
 destatispersonal:04.420.4250 a skos:Concept ;
     skos:broader destatispersonal:04.420 ;
+    skos:closeMatch destatisstudierende:04.44.050 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4250" ;
     skos:prefLabel "Didaktik der Geographie"@de,
@@ -2098,6 +2278,7 @@ destatispersonal:04.420.4250 a skos:Concept ;
 
 destatispersonal:05.440.4400 a skos:Concept ;
     skos:broader destatispersonal:05.440 ;
+    skos:closeMatch destatisstudierende:05.49.107 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4400" ;
     skos:prefLabel "Humanmedizin allgemein"@de,
@@ -2119,6 +2300,7 @@ destatispersonal:05.445.4450 a skos:Concept ;
 
 destatispersonal:05.445.4451 a skos:Concept ;
     skos:broader destatispersonal:05.445 ;
+    skos:closeMatch destatisstudierende:05.48.195 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4451" ;
     skos:prefLabel "Gesundheitspädagogik"@de,
@@ -2126,6 +2308,7 @@ destatispersonal:05.445.4451 a skos:Concept ;
 
 destatispersonal:05.445.4453 a skos:Concept ;
     skos:broader destatispersonal:05.445 ;
+    skos:closeMatch destatisstudierende:05.48.232 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4453" ;
     skos:prefLabel "Gesundheitswissenschaft/-management"@de,
@@ -2133,6 +2316,7 @@ destatispersonal:05.445.4453 a skos:Concept ;
 
 destatispersonal:05.445.4455 a skos:Concept ;
     skos:broader destatispersonal:05.445 ;
+    skos:closeMatch destatisstudierende:05.48.233 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4455" ;
     skos:prefLabel "Nichtärztliche Heilberufe/Therapien"@de,
@@ -2140,6 +2324,7 @@ destatispersonal:05.445.4455 a skos:Concept ;
 
 destatispersonal:05.445.4457 a skos:Concept ;
     skos:broader destatispersonal:05.445 ;
+    skos:closeMatch destatisstudierende:05.48.234 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4457" ;
     skos:prefLabel "Pflegewissenschaft/-management"@de,
@@ -2238,6 +2423,7 @@ destatispersonal:05.450.4610 a skos:Concept ;
 
 destatispersonal:05.470.4525 a skos:Concept ;
     skos:broader destatispersonal:05.470 ;
+    skos:closeMatch destatisstudierende:08.71.247 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "4525" ;
     skos:prefLabel "Medizinische Informatik (nur für Mediziner)"@de,
@@ -2609,6 +2795,7 @@ destatispersonal:05.490.5160 a skos:Concept ;
 
 destatispersonal:05.520.5200 a skos:Concept ;
     skos:broader destatispersonal:05.520 ;
+    skos:closeMatch destatisstudierende:05.50.185 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "5200" ;
     skos:prefLabel "Zahnmedizin allgemein"@de,
@@ -2644,6 +2831,7 @@ destatispersonal:05.520.5240 a skos:Concept ;
 
 destatispersonal:07.540.5400 a skos:Concept ;
     skos:broader destatispersonal:07.540 ;
+    skos:closeMatch destatisstudierende:07.51.156 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "5400" ;
     skos:prefLabel "Veterinärmedizin allgemein"@de,
@@ -2833,6 +3021,7 @@ destatispersonal:07.580.5920 a skos:Concept ;
 
 destatispersonal:07.610.6100 a skos:Concept ;
     skos:broader destatispersonal:07.610 ;
+    skos:closeMatch destatisstudierende:07.58.003 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6100" ;
     skos:prefLabel "Agrar-, Forst- und Ernährungswissenschaften allgemein"@de,
@@ -2868,6 +3057,7 @@ destatispersonal:07.610.6108 a skos:Concept ;
 
 destatispersonal:07.615.6310 a skos:Concept ;
     skos:broader destatispersonal:07.615 ;
+    skos:closeMatch destatisstudierende:07.57.093 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6310" ;
     skos:prefLabel "Landespflege allgemein"@de,
@@ -2878,31 +3068,37 @@ destatispersonal:07.615.6315 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6315" ;
     skos:prefLabel "Landschaftsarchitektur (ohne Gartenbau)"@de,
-        "Landscape Architecture (excluding Horticulture)"@en .
+        "Landscape Architecture (excluding Horticulture)"@en ;
+    skos:relatedMatch destatisstudierende:07.57.093 .
 
 destatispersonal:07.615.6320 a skos:Concept ;
     skos:broader destatispersonal:07.615 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6320" ;
     skos:prefLabel "Landschaftsökologie"@de,
-        "Landscape Ecology"@en .
+        "Landscape Ecology"@en ;
+    skos:relatedMatch destatisstudierende:04.44.283 .
 
 destatispersonal:07.615.6330 a skos:Concept ;
     skos:broader destatispersonal:07.615 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6330" ;
     skos:prefLabel "Landschaftsplanung und Landschaftsentwicklung"@de,
-        "Landscape Planning And Landscape Development"@en .
+        "Landscape Planning And Landscape Development"@en ;
+    skos:relatedMatch destatisstudierende:07.57.093 .
 
 destatispersonal:07.615.6340 a skos:Concept ;
     skos:broader destatispersonal:07.615 ;
+    skos:closeMatch destatisstudierende:07.57.061 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6340" ;
     skos:prefLabel "Meliorationswesen"@de,
-        "Land Improvement (Melioration)"@en .
+        "Land Improvement (Melioration)"@en ;
+    skos:relatedMatch destatisstudierende:07.57.093 .
 
 destatispersonal:07.615.6350 a skos:Concept ;
     skos:broader destatispersonal:07.615 ;
+    skos:closeMatch destatisstudierende:07.57.064 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6350" ;
     skos:prefLabel "Naturschutz"@de,
@@ -2910,6 +3106,7 @@ destatispersonal:07.615.6350 a skos:Concept ;
 
 destatispersonal:07.620.6200 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.003 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6200" ;
     skos:prefLabel "Agrarwissenschaften allgemein"@de,
@@ -2917,6 +3114,7 @@ destatispersonal:07.620.6200 a skos:Concept ;
 
 destatispersonal:07.620.6205 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.138 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6205" ;
     skos:prefLabel "Agrarbiologie"@de,
@@ -2931,6 +3129,7 @@ destatispersonal:07.620.6210 a skos:Concept ;
 
 destatispersonal:07.620.6220 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.353 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6220" ;
     skos:prefLabel "Pflanzenproduktion"@de,
@@ -2938,6 +3137,7 @@ destatispersonal:07.620.6220 a skos:Concept ;
 
 destatispersonal:07.620.6230 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.371 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6230" ;
     skos:prefLabel "Tierproduktion"@de,
@@ -2945,6 +3145,7 @@ destatispersonal:07.620.6230 a skos:Concept ;
 
 destatispersonal:07.620.6235 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.227 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6235" ;
     skos:prefLabel "Weinbau- und Kellerwirtschaft"@de,
@@ -2959,6 +3160,7 @@ destatispersonal:07.620.6240 a skos:Concept ;
 
 destatispersonal:07.620.6250 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.097 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6250" ;
     skos:prefLabel "Lebensmitteltechnologie/Getränketechnologie"@de,
@@ -2966,6 +3168,7 @@ destatispersonal:07.620.6250 a skos:Concept ;
 
 destatispersonal:07.620.6255 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.220 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6255" ;
     skos:prefLabel "Milch- und Molkereiwirtschaft"@de,
@@ -2973,6 +3176,7 @@ destatispersonal:07.620.6255 a skos:Concept ;
 
 destatispersonal:07.620.6260 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.028 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6260" ;
     skos:prefLabel "Brauwesen/Getränketechnik"@de,
@@ -2980,6 +3184,7 @@ destatispersonal:07.620.6260 a skos:Concept ;
 
 destatispersonal:07.620.6300 a skos:Concept ;
     skos:broader destatispersonal:07.620 ;
+    skos:closeMatch destatisstudierende:07.58.060 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6300" ;
     skos:prefLabel "Gartenbau"@de,
@@ -2987,6 +3192,7 @@ destatispersonal:07.620.6300 a skos:Concept ;
 
 destatispersonal:07.640.6400 a skos:Concept ;
     skos:broader destatispersonal:07.640 ;
+    skos:closeMatch destatisstudierende:07.59.058 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6400" ;
     skos:prefLabel "Forstwissenschaft, Holzwirtschaft allgemein"@de,
@@ -3001,6 +3207,7 @@ destatispersonal:07.640.6410 a skos:Concept ;
 
 destatispersonal:07.640.6415 a skos:Concept ;
     skos:broader destatispersonal:07.640 ;
+    skos:closeMatch destatisstudierende:07.59.075 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6415" ;
     skos:prefLabel "Holzwirtschaft"@de,
@@ -3022,6 +3229,7 @@ destatispersonal:07.640.6430 a skos:Concept ;
 
 destatispersonal:07.650.6500 a skos:Concept ;
     skos:broader destatispersonal:07.650 ;
+    skos:closeMatch destatisstudierende:07.60.071 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6500" ;
     skos:prefLabel "Ernährungs- und Haushaltswissenschaften allgemein"@de,
@@ -3029,6 +3237,7 @@ destatispersonal:07.650.6500 a skos:Concept ;
 
 destatispersonal:07.650.6510 a skos:Concept ;
     skos:broader destatispersonal:07.650 ;
+    skos:closeMatch destatisstudierende:07.60.333 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6510" ;
     skos:prefLabel "Haushaltswissenschaften"@de,
@@ -3036,6 +3245,7 @@ destatispersonal:07.650.6510 a skos:Concept ;
 
 destatispersonal:07.650.6520 a skos:Concept ;
     skos:broader destatispersonal:07.650 ;
+    skos:closeMatch destatisstudierende:07.60.320 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6520" ;
     skos:prefLabel "Ernährungswissenschaften"@de,
@@ -3064,6 +3274,7 @@ destatispersonal:08.670.6720 a skos:Concept ;
 
 destatispersonal:08.670.6740 a skos:Concept ;
     skos:broader destatispersonal:08.670 ;
+    skos:closeMatch destatisstudierende:08.61.072 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6740" ;
     skos:prefLabel "Interdisziplinäre Studien (Schwerpunkt Ingenieurwesen - ohne Mechatronik)"@de,
@@ -3071,6 +3282,7 @@ destatispersonal:08.670.6740 a skos:Concept ;
 
 destatispersonal:08.670.6750 a skos:Concept ;
     skos:broader destatispersonal:08.670 ;
+    skos:closeMatch destatisstudierende:08.61.380 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6750" ;
     skos:prefLabel "Mechatronik"@de,
@@ -3078,6 +3290,7 @@ destatispersonal:08.670.6750 a skos:Concept ;
 
 destatispersonal:08.670.6780 a skos:Concept ;
     skos:broader destatispersonal:08.670 ;
+    skos:closeMatch destatisstudierende:08.61.305 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6780" ;
     skos:prefLabel "Medientechnik"@de,
@@ -3085,6 +3298,7 @@ destatispersonal:08.670.6780 a skos:Concept ;
 
 destatispersonal:08.670.6790 a skos:Concept ;
     skos:broader destatispersonal:08.670 ;
+    skos:closeMatch destatisstudierende:08.61.310 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6790" ;
     skos:prefLabel "Regenerative Energien"@de,
@@ -3092,6 +3306,7 @@ destatispersonal:08.670.6790 a skos:Concept ;
 
 destatispersonal:08.675.6755 a skos:Concept ;
     skos:broader destatispersonal:08.675 ;
+    skos:closeMatch destatisstudierende:08.70.370 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6755" ;
     skos:prefLabel "Wirtschaftsingenieurwesen mit ingenieurwissenschaftlichem Schwerpunkt"@de,
@@ -3113,6 +3328,7 @@ destatispersonal:08.680.6810 a skos:Concept ;
 
 destatispersonal:08.680.6820 a skos:Concept ;
     skos:broader destatispersonal:08.680 ;
+    skos:closeMatch destatisstudierende:08.62.020 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6820" ;
     skos:prefLabel "Bergtechnik"@de,
@@ -3127,6 +3343,7 @@ destatispersonal:08.680.6830 a skos:Concept ;
 
 destatispersonal:08.680.6840 a skos:Concept ;
     skos:broader destatispersonal:08.680 ;
+    skos:closeMatch destatisstudierende:08.62.020 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6840" ;
     skos:prefLabel "Bergwirtschaft, Bergrecht"@de,
@@ -3134,6 +3351,7 @@ destatispersonal:08.680.6840 a skos:Concept ;
 
 destatispersonal:08.680.6845 a skos:Concept ;
     skos:broader destatispersonal:08.680 ;
+    skos:closeMatch destatisstudierende:08.62.076 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6845" ;
     skos:prefLabel "Hütten- und Gießereiwesen"@de,
@@ -3141,6 +3359,7 @@ destatispersonal:08.680.6845 a skos:Concept ;
 
 destatispersonal:08.680.6850 a skos:Concept ;
     skos:broader destatispersonal:08.680 ;
+    skos:closeMatch destatisstudierende:08.62.103 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6850" ;
     skos:prefLabel "Markscheidewesen, Bergschadenkunde, Geophysik im Bergbau"@de,
@@ -3162,6 +3381,7 @@ destatispersonal:08.680.6860 a skos:Concept ;
 
 destatispersonal:08.680.6870 a skos:Concept ;
     skos:broader destatispersonal:08.680 ;
+    skos:closeMatch destatisstudierende:08.62.390 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6870" ;
     skos:prefLabel "Archäometrie (Ingenieurarchäologie)"@de,
@@ -3176,6 +3396,7 @@ destatispersonal:08.690.6760 a skos:Concept ;
 
 destatispersonal:08.690.6900 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.104 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6900" ;
     skos:prefLabel "Maschinenbau allgemein"@de,
@@ -3190,6 +3411,7 @@ destatispersonal:08.690.6905 a skos:Concept ;
 
 destatispersonal:08.690.6907 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.231 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6907" ;
     skos:prefLabel "Print- und Medientechnik"@de,
@@ -3197,6 +3419,7 @@ destatispersonal:08.690.6907 a skos:Concept ;
 
 destatispersonal:08.690.6930 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.211 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6930" ;
     skos:prefLabel "Energieverfahrenstechnik"@de,
@@ -3211,6 +3434,7 @@ destatispersonal:08.690.6935 a skos:Concept ;
 
 destatispersonal:08.690.6940 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.202 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6940" ;
     skos:prefLabel "Produktions- und Fertigungstechnologie"@de,
@@ -3225,6 +3449,7 @@ destatispersonal:08.690.6945 a skos:Concept ;
 
 destatispersonal:08.690.6950 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.074 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6950" ;
     skos:prefLabel "Transport- und Verteiltechnik"@de,
@@ -3232,6 +3457,7 @@ destatispersonal:08.690.6950 a skos:Concept ;
 
 destatispersonal:08.690.6955 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.033 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6955" ;
     skos:prefLabel "Chemische Verfahrenstechnik"@de,
@@ -3239,6 +3465,7 @@ destatispersonal:08.690.6955 a skos:Concept ;
 
 destatispersonal:08.690.6965 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.213 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6965" ;
     skos:prefLabel "Versorgungs-/Entsorgungstechnik"@de,
@@ -3249,7 +3476,8 @@ destatispersonal:08.690.6970 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6970" ;
     skos:prefLabel "Steuerungs-, Mess- und Regelungstechnik"@de,
-        "Control, Measurement And Regulation Technology"@en .
+        "Control, Measurement And Regulation Technology"@en ;
+    skos:relatedMatch destatisstudierende:08.63.144 .
 
 destatispersonal:08.690.6975 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
@@ -3260,6 +3488,7 @@ destatispersonal:08.690.6975 a skos:Concept ;
 
 destatispersonal:08.690.6976 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.225 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6976" ;
     skos:prefLabel "Textiltechnik"@de,
@@ -3267,10 +3496,13 @@ destatispersonal:08.690.6976 a skos:Concept ;
 
 destatispersonal:08.690.6985 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.457 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6985" ;
     skos:prefLabel "Umwelttechnik (einschl. Recycling)"@de,
-        "Environmental Technology (incl. Recycling)"@en .
+        "Environmental Technology (incl. Recycling)"@en ;
+    skos:relatedMatch destatisstudierende:08.63.141,
+        destatisstudierende:08.68.077 .
 
 destatispersonal:08.690.6995 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
@@ -3284,10 +3516,12 @@ destatispersonal:08.690.7010 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7010" ;
     skos:prefLabel "Medizintechnik"@de,
-        "Medical Technology"@en .
+        "Medical Technology"@en ;
+    skos:relatedMatch destatisstudierende:08.63.215 .
 
 destatispersonal:08.690.7020 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.224 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7020" ;
     skos:prefLabel "Physikalische Technik/Mechanische Verfahrenstechnik"@de,
@@ -3295,6 +3529,7 @@ destatispersonal:08.690.7020 a skos:Concept ;
 
 destatispersonal:08.690.7030 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.219 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7030" ;
     skos:prefLabel "Kunststofftechnik"@de,
@@ -3302,6 +3537,7 @@ destatispersonal:08.690.7030 a skos:Concept ;
 
 destatispersonal:08.690.7040 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.082 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7040" ;
     skos:prefLabel "Holztechnik"@de,
@@ -3309,6 +3545,7 @@ destatispersonal:08.690.7040 a skos:Concept ;
 
 destatispersonal:08.690.7190 a skos:Concept ;
     skos:broader destatispersonal:08.690 ;
+    skos:closeMatch destatisstudierende:08.63.212 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7190" ;
     skos:prefLabel "Feinwerktechnik (mechanisch)"@de,
@@ -3316,6 +3553,7 @@ destatispersonal:08.690.7190 a skos:Concept ;
 
 destatispersonal:08.710.7100 a skos:Concept ;
     skos:broader destatispersonal:08.710 ;
+    skos:closeMatch destatisstudierende:08.64.048 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7100" ;
     skos:prefLabel "Elektrotechnik allgemein"@de,
@@ -3323,6 +3561,7 @@ destatispersonal:08.710.7100 a skos:Concept ;
 
 destatispersonal:08.710.7110 a skos:Concept ;
     skos:broader destatispersonal:08.710 ;
+    skos:closeMatch destatisstudierende:08.64.048 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7110" ;
     skos:prefLabel "Allgemeine Elektrotechnik"@de,
@@ -3330,6 +3569,7 @@ destatispersonal:08.710.7110 a skos:Concept ;
 
 destatispersonal:08.710.7120 a skos:Concept ;
     skos:broader destatispersonal:08.710 ;
+    skos:closeMatch destatisstudierende:08.64.316 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7120" ;
     skos:prefLabel "Elektrische Energietechnik"@de,
@@ -3344,6 +3584,7 @@ destatispersonal:08.710.7125 a skos:Concept ;
 
 destatispersonal:08.710.7130 a skos:Concept ;
     skos:broader destatispersonal:08.710 ;
+    skos:closeMatch destatisstudierende:08.64.222 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7130" ;
     skos:prefLabel "Kommunikations- und Informationstechnik"@de,
@@ -3351,6 +3592,7 @@ destatispersonal:08.710.7130 a skos:Concept ;
 
 destatispersonal:08.710.7140 a skos:Concept ;
     skos:broader destatispersonal:08.710 ;
+    skos:closeMatch destatisstudierende:08.64.286 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7140" ;
     skos:prefLabel "Mikrosystemtechnik"@de,
@@ -3358,6 +3600,7 @@ destatispersonal:08.710.7140 a skos:Concept ;
 
 destatispersonal:08.710.7150 a skos:Concept ;
     skos:broader destatispersonal:08.710 ;
+    skos:closeMatch destatisstudierende:08.64.088 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7150" ;
     skos:prefLabel "Optoelektronik"@de,
@@ -3393,6 +3636,7 @@ destatispersonal:08.720.7200 a skos:Concept ;
 
 destatispersonal:08.720.7210 a skos:Concept ;
     skos:broader destatispersonal:08.720 ;
+    skos:closeMatch destatisstudierende:08.65.142 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7210" ;
     skos:prefLabel "Schiffsbetriebstechnik"@de,
@@ -3400,6 +3644,7 @@ destatispersonal:08.720.7210 a skos:Concept ;
 
 destatispersonal:08.720.7215 a skos:Concept ;
     skos:broader destatispersonal:08.720 ;
+    skos:closeMatch destatisstudierende:08.65.089 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7215" ;
     skos:prefLabel "Verkehrsingenieurwesen"@de,
@@ -3407,6 +3652,7 @@ destatispersonal:08.720.7215 a skos:Concept ;
 
 destatispersonal:08.720.7220 a skos:Concept ;
     skos:broader destatispersonal:08.720 ;
+    skos:closeMatch destatisstudierende:08.65.142 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7220" ;
     skos:prefLabel "Schiffbau, Meerestechnik"@de,
@@ -3414,6 +3660,7 @@ destatispersonal:08.720.7220 a skos:Concept ;
 
 destatispersonal:08.720.7230 a skos:Concept ;
     skos:broader destatispersonal:08.720 ;
+    skos:closeMatch destatisstudierende:08.65.223 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7230" ;
     skos:prefLabel "Nautik, Seefahrt"@de,
@@ -3428,6 +3675,7 @@ destatispersonal:08.720.7240 a skos:Concept ;
 
 destatispersonal:08.720.7245 a skos:Concept ;
     skos:broader destatispersonal:08.720 ;
+    skos:closeMatch destatisstudierende:08.65.235 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7245" ;
     skos:prefLabel "Fahrzeugtechnik"@de,
@@ -3435,6 +3683,7 @@ destatispersonal:08.720.7245 a skos:Concept ;
 
 destatispersonal:08.720.7246 a skos:Concept ;
     skos:broader destatispersonal:08.720 ;
+    skos:closeMatch destatisstudierende:08.65.057 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7246" ;
     skos:prefLabel "Luft- und Raumfahrttechnik"@de,
@@ -3442,6 +3691,7 @@ destatispersonal:08.720.7246 a skos:Concept ;
 
 destatispersonal:08.730.7300 a skos:Concept ;
     skos:broader destatispersonal:08.730 ;
+    skos:closeMatch destatisstudierende:08.66.013 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7300" ;
     skos:prefLabel "Architektur allgemein"@de,
@@ -3491,6 +3741,7 @@ destatispersonal:08.730.7350 a skos:Concept ;
 
 destatispersonal:08.730.7390 a skos:Concept ;
     skos:broader destatispersonal:08.730 ;
+    skos:closeMatch destatisstudierende:08.66.242 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7390" ;
     skos:prefLabel "Innenarchitektur"@de,
@@ -3505,6 +3756,7 @@ destatispersonal:08.730.7395 a skos:Concept ;
 
 destatispersonal:08.740.7400 a skos:Concept ;
     skos:broader destatispersonal:08.740 ;
+    skos:closeMatch destatisstudierende:08.67.134 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7400" ;
     skos:prefLabel "Raumplanung allgemein"@de,
@@ -3512,6 +3764,7 @@ destatispersonal:08.740.7400 a skos:Concept ;
 
 destatispersonal:08.740.7410 a skos:Concept ;
     skos:broader destatispersonal:08.740 ;
+    skos:closeMatch destatisstudierende:08.67.134 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7410" ;
     skos:prefLabel "Grundlagen der Raumplanung"@de,
@@ -3547,6 +3800,7 @@ destatispersonal:08.740.7450 a skos:Concept ;
 
 destatispersonal:08.740.7460 a skos:Concept ;
     skos:broader destatispersonal:08.740 ;
+    skos:closeMatch destatisstudierende:08.67.458 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7460" ;
     skos:prefLabel "Umweltschutz"@de,
@@ -3554,6 +3808,7 @@ destatispersonal:08.740.7460 a skos:Concept ;
 
 destatispersonal:08.750.7500 a skos:Concept ;
     skos:broader destatispersonal:08.750 ;
+    skos:closeMatch destatisstudierende:08.68.017 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7500" ;
     skos:prefLabel "Bauingenieurwesen allgemein"@de,
@@ -3568,6 +3823,7 @@ destatispersonal:08.750.7510 a skos:Concept ;
 
 destatispersonal:08.750.7520 a skos:Concept ;
     skos:broader destatispersonal:08.750 ;
+    skos:closeMatch destatisstudierende:08.68.094 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7520" ;
     skos:prefLabel "Wasserbau, -wesen"@de,
@@ -3596,6 +3852,7 @@ destatispersonal:08.750.7550 a skos:Concept ;
 
 destatispersonal:08.750.7560 a skos:Concept ;
     skos:broader destatispersonal:08.750 ;
+    skos:closeMatch destatisstudierende:08.68.197 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7560" ;
     skos:prefLabel "Holzbau"@de,
@@ -3617,6 +3874,7 @@ destatispersonal:08.750.7580 a skos:Concept ;
 
 destatispersonal:08.760.7600 a skos:Concept ;
     skos:broader destatispersonal:08.760 ;
+    skos:closeMatch destatisstudierende:08.69.171 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7600" ;
     skos:prefLabel "Vermessungswesen allgemein"@de,
@@ -3624,6 +3882,7 @@ destatispersonal:08.760.7600 a skos:Concept ;
 
 destatispersonal:08.760.7610 a skos:Concept ;
     skos:broader destatispersonal:08.760 ;
+    skos:closeMatch destatisstudierende:08.69.280 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7610" ;
     skos:prefLabel "Kartographie"@de,
@@ -3638,6 +3897,7 @@ destatispersonal:08.760.7620 a skos:Concept ;
 
 destatispersonal:08.765.2990 a skos:Concept ;
     skos:broader destatispersonal:08.765 ;
+    skos:closeMatch destatisstudierende:08.71.277 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "2990" ;
     skos:prefLabel "Wirtschaftsinformatik (für Informatiker)"@de,
@@ -3645,6 +3905,7 @@ destatispersonal:08.765.2990 a skos:Concept ;
 
 destatispersonal:08.765.3500 a skos:Concept ;
     skos:broader destatispersonal:08.765 ;
+    skos:closeMatch destatisstudierende:08.71.079 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3500" ;
     skos:prefLabel "Informatik allgemein"@de,
@@ -3666,6 +3927,7 @@ destatispersonal:08.765.3520 a skos:Concept ;
 
 destatispersonal:08.765.3530 a skos:Concept ;
     skos:broader destatispersonal:08.765 ;
+    skos:closeMatch destatisstudierende:08.71.123 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3530" ;
     skos:prefLabel "Ingenieurinformatik/Technische Informatik"@de,
@@ -3673,6 +3935,7 @@ destatispersonal:08.765.3530 a skos:Concept ;
 
 destatispersonal:08.765.3540 a skos:Concept ;
     skos:broader destatispersonal:08.765 ;
+    skos:closeMatch destatisstudierende:08.71.221 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3540" ;
     skos:prefLabel "Bioinformatik"@de,
@@ -3680,6 +3943,7 @@ destatispersonal:08.765.3540 a skos:Concept ;
 
 destatispersonal:08.765.3550 a skos:Concept ;
     skos:broader destatispersonal:08.765 ;
+    skos:closeMatch destatisstudierende:08.71.200 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "3550" ;
     skos:prefLabel "Computer- und Kommunikationstechniken"@de,
@@ -3701,6 +3965,7 @@ destatispersonal:08.765.3570 a skos:Concept ;
 
 destatispersonal:08.770.6990 a skos:Concept ;
     skos:broader destatispersonal:08.770 ;
+    skos:closeMatch destatisstudierende:08.72.177 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "6990" ;
     skos:prefLabel "Werkstofftechnik"@de,
@@ -3708,6 +3973,7 @@ destatispersonal:08.770.6990 a skos:Concept ;
 
 destatispersonal:08.770.7700 a skos:Concept ;
     skos:broader destatispersonal:08.770 ;
+    skos:closeMatch destatisstudierende:08.72.294 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7700" ;
     skos:prefLabel "Materialwissenschaft"@de,
@@ -3715,6 +3981,8 @@ destatispersonal:08.770.7700 a skos:Concept ;
 
 destatispersonal:09.780.7800 a skos:Concept ;
     skos:broader destatispersonal:09.780 ;
+    skos:closeMatch destatisstudierende:09.74.040,
+        destatisstudierende:09.74.092 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7800" ;
     skos:prefLabel "Kunst, Kunstwissenschaften allgemein"@de,
@@ -3722,6 +3990,7 @@ destatispersonal:09.780.7800 a skos:Concept ;
 
 destatispersonal:09.780.7810 a skos:Concept ;
     skos:broader destatispersonal:09.780 ;
+    skos:closeMatch destatisstudierende:09.74.092 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7810" ;
     skos:prefLabel "Kunstgeschichte"@de,
@@ -3729,6 +3998,7 @@ destatispersonal:09.780.7810 a skos:Concept ;
 
 destatispersonal:09.780.7820 a skos:Concept ;
     skos:broader destatispersonal:09.780 ;
+    skos:closeMatch destatisstudierende:09.74.091 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7820" ;
     skos:prefLabel "Kunsterziehung"@de,
@@ -3736,6 +4006,7 @@ destatispersonal:09.780.7820 a skos:Concept ;
 
 destatispersonal:09.780.7830 a skos:Concept ;
     skos:broader destatispersonal:09.780 ;
+    skos:closeMatch destatisstudierende:09.74.101 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7830" ;
     skos:prefLabel "Restaurierungskunde"@de,
@@ -3757,6 +4028,7 @@ destatispersonal:09.790.7900 a skos:Concept ;
 
 destatispersonal:09.790.7920 a skos:Concept ;
     skos:broader destatispersonal:09.790 ;
+    skos:closeMatch destatisstudierende:09.75.204 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7920" ;
     skos:prefLabel "Malerei"@de,
@@ -3764,6 +4036,7 @@ destatispersonal:09.790.7920 a skos:Concept ;
 
 destatispersonal:09.790.7930 a skos:Concept ;
     skos:broader destatispersonal:09.790 ;
+    skos:closeMatch destatisstudierende:09.75.205 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7930" ;
     skos:prefLabel "Plastik, Bildhauerei"@de,
@@ -3771,6 +4044,7 @@ destatispersonal:09.790.7930 a skos:Concept ;
 
 destatispersonal:09.790.7940 a skos:Concept ;
     skos:broader destatispersonal:09.790 ;
+    skos:closeMatch destatisstudierende:09.75.023 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7940" ;
     skos:prefLabel "Graphik"@de,
@@ -3785,6 +4059,7 @@ destatispersonal:09.790.7950 a skos:Concept ;
 
 destatispersonal:09.790.7960 a skos:Concept ;
     skos:broader destatispersonal:09.790 ;
+    skos:closeMatch destatisstudierende:09.75.287 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "7960" ;
     skos:prefLabel "Neue Medien"@de,
@@ -3799,6 +4074,7 @@ destatispersonal:09.800.8000 a skos:Concept ;
 
 destatispersonal:09.800.8010 a skos:Concept ;
     skos:broader destatispersonal:09.800 ;
+    skos:closeMatch destatisstudierende:09.76.203 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8010" ;
     skos:prefLabel "Industriedesign/Produktgestaltung"@de,
@@ -3820,6 +4096,7 @@ destatispersonal:09.800.8030 a skos:Concept ;
 
 destatispersonal:09.800.8035 a skos:Concept ;
     skos:broader destatispersonal:09.800 ;
+    skos:closeMatch destatisstudierende:09.76.176 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8035" ;
     skos:prefLabel "Werkerziehung (Gestaltung)"@de,
@@ -3827,6 +4104,7 @@ destatispersonal:09.800.8035 a skos:Concept ;
 
 destatispersonal:09.800.8040 a skos:Concept ;
     skos:broader destatispersonal:09.800 ;
+    skos:closeMatch destatisstudierende:09.76.116 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8040" ;
     skos:prefLabel "Textildesign"@de,
@@ -3834,6 +4112,7 @@ destatispersonal:09.800.8040 a skos:Concept ;
 
 destatispersonal:09.800.8050 a skos:Concept ;
     skos:broader destatispersonal:09.800 ;
+    skos:closeMatch destatisstudierende:09.76.007 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8050" ;
     skos:prefLabel "Angewandte Kunst"@de,
@@ -3855,6 +4134,7 @@ destatispersonal:09.800.8070 a skos:Concept ;
 
 destatispersonal:09.800.8075 a skos:Concept ;
     skos:broader destatispersonal:09.800 ;
+    skos:closeMatch destatisstudierende:09.76.159 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8075" ;
     skos:prefLabel "Edelstein- und Schmuckdesign"@de,
@@ -3862,6 +4142,7 @@ destatispersonal:09.800.8075 a skos:Concept ;
 
 destatispersonal:09.800.8076 a skos:Concept ;
     skos:broader destatispersonal:09.800 ;
+    skos:closeMatch destatisstudierende:09.76.069 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8076" ;
     skos:prefLabel "Graphikdesign/Kommunikationsgestaltung"@de,
@@ -3869,6 +4150,7 @@ destatispersonal:09.800.8076 a skos:Concept ;
 
 destatispersonal:09.820.8200 a skos:Concept ;
     skos:broader destatispersonal:09.820 ;
+    skos:closeMatch destatisstudierende:09.77.035 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8200" ;
     skos:prefLabel "Darst. Kunst, Film und Fernsehen, Theaterwissenschaft allgemein"@de,
@@ -3883,6 +4165,7 @@ destatispersonal:09.820.8210 a skos:Concept ;
 
 destatispersonal:09.820.8220 a skos:Concept ;
     skos:broader destatispersonal:09.820 ;
+    skos:closeMatch destatisstudierende:09.77.102 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8220" ;
     skos:prefLabel "Schauspiel"@de,
@@ -3893,7 +4176,8 @@ destatispersonal:09.820.8225 a skos:Concept ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8225" ;
     skos:prefLabel "Tanzwissenschaft"@de,
-        "Dance Studies"@en .
+        "Dance Studies"@en ;
+    skos:relatedMatch destatisstudierende:09.77.106 .
 
 destatispersonal:09.820.8230 a skos:Concept ;
     skos:broader destatispersonal:09.820 ;
@@ -3904,6 +4188,7 @@ destatispersonal:09.820.8230 a skos:Concept ;
 
 destatispersonal:09.820.8240 a skos:Concept ;
     skos:broader destatispersonal:09.820 ;
+    skos:closeMatch destatisstudierende:09.77.155 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8240" ;
     skos:prefLabel "Theaterwissenschaft"@de,
@@ -3911,6 +4196,7 @@ destatispersonal:09.820.8240 a skos:Concept ;
 
 destatispersonal:09.820.8250 a skos:Concept ;
     skos:broader destatispersonal:09.820 ;
+    skos:closeMatch destatisstudierende:09.77.054 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8250" ;
     skos:prefLabel "Film und Fernsehen"@de,
@@ -3939,6 +4225,7 @@ destatispersonal:09.830.8300 a skos:Concept ;
 
 destatispersonal:09.830.8310 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.080 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8310" ;
     skos:prefLabel "Instrumentalmusik"@de,
@@ -3946,6 +4233,7 @@ destatispersonal:09.830.8310 a skos:Concept ;
 
 destatispersonal:09.830.8315 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.164 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8315" ;
     skos:prefLabel "Jazz und Popularmusik"@de,
@@ -3953,6 +4241,7 @@ destatispersonal:09.830.8315 a skos:Concept ;
 
 destatispersonal:09.830.8320 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.230 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8320" ;
     skos:prefLabel "Gesang"@de,
@@ -3960,6 +4249,7 @@ destatispersonal:09.830.8320 a skos:Concept ;
 
 destatispersonal:09.830.8325 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.193 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8325" ;
     skos:prefLabel "Kirchenmusik"@de,
@@ -3967,6 +4257,7 @@ destatispersonal:09.830.8325 a skos:Concept ;
 
 destatispersonal:09.830.8330 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.191 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8330" ;
     skos:prefLabel "Komposition"@de,
@@ -3974,6 +4265,7 @@ destatispersonal:09.830.8330 a skos:Concept ;
 
 destatispersonal:09.830.8340 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.192 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8340" ;
     skos:prefLabel "Dirigieren"@de,
@@ -3981,6 +4273,7 @@ destatispersonal:09.830.8340 a skos:Concept ;
 
 destatispersonal:09.830.8350 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.114 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8350" ;
     skos:prefLabel "Musikwissenschaft, -geschichte"@de,
@@ -3988,6 +4281,7 @@ destatispersonal:09.830.8350 a skos:Concept ;
 
 destatispersonal:09.830.8360 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.113 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8360" ;
     skos:prefLabel "Musikerziehung"@de,
@@ -3995,6 +4289,7 @@ destatispersonal:09.830.8360 a skos:Concept ;
 
 destatispersonal:09.830.8363 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.165 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8363" ;
     skos:prefLabel "Orchestermusik"@de,
@@ -4002,6 +4297,7 @@ destatispersonal:09.830.8363 a skos:Concept ;
 
 destatispersonal:09.830.8364 a skos:Concept ;
     skos:broader destatispersonal:09.830 ;
+    skos:closeMatch destatisstudierende:09.78.163 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "8364" ;
     skos:prefLabel "Rhythmik"@de,
@@ -4015,6 +4311,7 @@ destatispersonal:09.830.8365 a skos:Concept ;
         "Other Music Practice"@en .
 
 destatispersonal:10 a skos:Concept ;
+    skos:exactMatch destatisstudierende:10 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "10" ;
     skos:prefLabel "Außerhalb der Studienbereichsgliederung/Sonstige Fächer"@de,
@@ -4282,6 +4579,7 @@ destatispersonal:15.950.9500 a skos:Concept ;
 
 destatispersonal:15.950.9510 a skos:Concept ;
     skos:broader destatispersonal:15.950 ;
+    skos:closeMatch destatisstudierende:10.83.196 ;
     skos:inScheme destatispersonal:scheme ;
     skos:notation "9510" ;
     skos:prefLabel "Studienkolleg"@de,
@@ -4555,6 +4853,7 @@ destatispersonal:20.990.9930 a skos:Concept ;
 
 destatispersonal:01.195 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.18 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.195.1950 ;
     skos:notation "195" ;
@@ -4563,6 +4862,7 @@ destatispersonal:01.195 a skos:Concept ;
 
 destatispersonal:01.197 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.19 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.197.0130 ;
     skos:notation "197" ;
@@ -4595,6 +4895,7 @@ destatispersonal:07.540 a skos:Concept ;
 
 destatispersonal:08.675 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.70 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.675.6755 ;
     skos:notation "675" ;
@@ -4654,6 +4955,7 @@ destatispersonal:05.440 a skos:Concept ;
 
 destatispersonal:08.770 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.72 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.770.6990,
         destatispersonal:08.770.7700 ;
@@ -4682,6 +4984,7 @@ destatispersonal:03.220 a skos:Concept ;
 
 destatispersonal:03.240 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.27 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.240.2400,
         destatispersonal:03.240.2410,
@@ -4692,6 +4995,7 @@ destatispersonal:03.240 a skos:Concept ;
 
 destatispersonal:07.650 a skos:Concept ;
     skos:broader destatispersonal:07 ;
+    skos:exactMatch destatisstudierende:07.60 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:07.650.6500,
         destatispersonal:07.650.6510,
@@ -4702,6 +5006,7 @@ destatispersonal:07.650 a skos:Concept ;
 
 destatispersonal:08.760 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.69 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.760.7600,
         destatispersonal:08.760.7610,
@@ -4712,6 +5017,7 @@ destatispersonal:08.760 a skos:Concept ;
 
 destatispersonal:01.070 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.06 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.070.0700,
         destatispersonal:01.070.0710,
@@ -4723,6 +5029,7 @@ destatispersonal:01.070 a skos:Concept ;
 
 destatispersonal:01.110 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.10 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.110.1100,
         destatispersonal:01.110.1110,
@@ -4734,6 +5041,7 @@ destatispersonal:01.110 a skos:Concept ;
 
 destatispersonal:01.160 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.14 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.160.1580,
         destatispersonal:01.160.1590,
@@ -4756,6 +5064,7 @@ destatispersonal:02.200 a skos:Concept ;
 
 destatispersonal:04.330 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.36 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.330.3300,
         destatispersonal:04.330.3315,
@@ -4788,6 +5097,7 @@ destatispersonal:15.940 a skos:Concept ;
         "Social Facilities"@en .
 
 destatispersonal:20 a skos:Concept ;
+    skos:exactMatch destatisstudierende:20 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:20.970,
         destatispersonal:20.980,
@@ -4811,6 +5121,7 @@ destatispersonal:20.990 a skos:Concept ;
 
 destatispersonal:03.230 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.25 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.230.2300,
         destatispersonal:03.230.2350,
@@ -4859,6 +5170,7 @@ destatispersonal:07.610 a skos:Concept ;
 
 destatispersonal:07.640 a skos:Concept ;
     skos:broader destatispersonal:07 ;
+    skos:exactMatch destatisstudierende:07.59 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:07.640.6400,
         destatispersonal:07.640.6410,
@@ -4870,6 +5182,7 @@ destatispersonal:07.640 a skos:Concept ;
         "Forestry, Timber Industry"@en .
 
 destatispersonal:09 a skos:Concept ;
+    skos:exactMatch destatisstudierende:09 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:09.780,
         destatispersonal:09.790,
@@ -4883,6 +5196,7 @@ destatispersonal:09 a skos:Concept ;
 
 destatispersonal:09.780 a skos:Concept ;
     skos:broader destatispersonal:09 ;
+    skos:exactMatch destatisstudierende:09.74 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:09.780.7800,
         destatispersonal:09.780.7810,
@@ -4907,6 +5221,7 @@ destatispersonal:15.950 a skos:Concept ;
 
 destatispersonal:01.040 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.04 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.040.0400,
         destatispersonal:01.040.0410,
@@ -4920,6 +5235,7 @@ destatispersonal:01.040 a skos:Concept ;
 
 destatispersonal:03.235 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.26 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.235.2320,
         destatispersonal:03.235.2340,
@@ -4933,6 +5249,7 @@ destatispersonal:03.235 a skos:Concept ;
 
 destatispersonal:04.390 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.41 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.390.3900,
         destatispersonal:04.390.3910,
@@ -4945,6 +5262,7 @@ destatispersonal:04.390 a skos:Concept ;
         "Pharmacy"@en .
 
 destatispersonal:05 a skos:Concept ;
+    skos:exactMatch destatisstudierende:05 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:05.440,
         destatispersonal:05.445,
@@ -4972,6 +5290,7 @@ destatispersonal:05.445 a skos:Concept ;
 
 destatispersonal:07.615 a skos:Concept ;
     skos:broader destatispersonal:07 ;
+    skos:exactMatch destatisstudierende:07.57 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:07.615.6310,
         destatispersonal:07.615.6315,
@@ -4985,6 +5304,7 @@ destatispersonal:07.615 a skos:Concept ;
 
 destatispersonal:09.790 a skos:Concept ;
     skos:broader destatispersonal:09 ;
+    skos:exactMatch destatisstudierende:09.75 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:09.790.7900,
         destatispersonal:09.790.7920,
@@ -5011,6 +5331,7 @@ destatispersonal:15.880 a skos:Concept ;
 
 destatispersonal:01.080 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.07 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.080.0800,
         destatispersonal:01.080.0810,
@@ -5053,6 +5374,7 @@ destatispersonal:08.670 a skos:Concept ;
 
 destatispersonal:08.740 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.67 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.740.7400,
         destatispersonal:08.740.7410,
@@ -5111,6 +5433,7 @@ destatispersonal:01.030 a skos:Concept ;
 
 destatispersonal:01.100 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.09 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.100.1000,
         destatispersonal:01.100.1020,
@@ -5126,6 +5449,7 @@ destatispersonal:01.100 a skos:Concept ;
 
 destatispersonal:01.120 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.11 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.120.1200,
         destatispersonal:01.120.1210,
@@ -5140,6 +5464,7 @@ destatispersonal:01.120 a skos:Concept ;
         "Romance Studies"@en .
 
 destatispersonal:04 a skos:Concept ;
+    skos:exactMatch destatisstudierende:04 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.330,
         destatispersonal:04.340,
@@ -5156,6 +5481,7 @@ destatispersonal:04 a skos:Concept ;
 
 destatispersonal:04.340 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.37 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.340.3400,
         destatispersonal:04.340.3440,
@@ -5171,6 +5497,7 @@ destatispersonal:04.340 a skos:Concept ;
 
 destatispersonal:04.360 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.39 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.360.3600,
         destatispersonal:04.360.3636,
@@ -5186,6 +5513,7 @@ destatispersonal:04.360 a skos:Concept ;
 
 destatispersonal:04.420 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.44 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.420.4200,
         destatispersonal:04.420.4205,
@@ -5201,6 +5529,7 @@ destatispersonal:04.420 a skos:Concept ;
 
 destatispersonal:08.720 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.65 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.720.7200,
         destatispersonal:08.720.7210,
@@ -5231,6 +5560,7 @@ destatispersonal:15.930 a skos:Concept ;
 
 destatispersonal:03.225 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.24 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.225.2250,
         destatispersonal:03.225.2255,
@@ -5246,6 +5576,7 @@ destatispersonal:03.225 a skos:Concept ;
         "Regional Studies"@en .
 
 destatispersonal:07 a skos:Concept ;
+    skos:exactMatch destatisstudierende:07 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:07.540,
         destatispersonal:07.550,
@@ -5295,6 +5626,7 @@ destatispersonal:08.730 a skos:Concept ;
 
 destatispersonal:08.750 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.68 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.750.7500,
         destatispersonal:08.750.7510,
@@ -5311,6 +5643,7 @@ destatispersonal:08.750 a skos:Concept ;
 
 destatispersonal:08.765 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.71 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.765.2990,
         destatispersonal:08.765.3500,
@@ -5359,6 +5692,7 @@ destatispersonal:15.920 a skos:Concept ;
 
 destatispersonal:03.315 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.32 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.315.1700,
         destatispersonal:03.315.1710,
@@ -5376,6 +5710,7 @@ destatispersonal:03.315 a skos:Concept ;
 
 destatispersonal:08.680 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.62 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.680.6800,
         destatispersonal:08.680.6810,
@@ -5393,6 +5728,7 @@ destatispersonal:08.680 a skos:Concept ;
 
 destatispersonal:08.710 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.64 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.710.7100,
         destatispersonal:08.710.7110,
@@ -5410,6 +5746,7 @@ destatispersonal:08.710 a skos:Concept ;
 
 destatispersonal:01.050 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.05 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.050.0500,
         destatispersonal:01.050.0510,
@@ -5428,6 +5765,7 @@ destatispersonal:01.050 a skos:Concept ;
 
 destatispersonal:07.620 a skos:Concept ;
     skos:broader destatispersonal:07 ;
+    skos:exactMatch destatisstudierende:07.58 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:07.620.6200,
         destatispersonal:07.620.6205,
@@ -5446,6 +5784,7 @@ destatispersonal:07.620 a skos:Concept ;
 
 destatispersonal:09.800 a skos:Concept ;
     skos:broader destatispersonal:09 ;
+    skos:exactMatch destatisstudierende:09.76 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:09.800.8000,
         destatispersonal:09.800.8010,
@@ -5463,6 +5802,7 @@ destatispersonal:09.800 a skos:Concept ;
         "Design (General)"@en .
 
 destatispersonal:15 a skos:Concept ;
+    skos:exactMatch destatisstudierende:15 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:15.850,
         destatispersonal:15.870,
@@ -5500,6 +5840,7 @@ destatispersonal:15.960 a skos:Concept ;
 
 destatispersonal:01.130 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.12 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.130.1300,
         destatispersonal:01.130.1310,
@@ -5518,6 +5859,7 @@ destatispersonal:01.130 a skos:Concept ;
         "Slavic Studies, Baltic Studies, Finno-Ugric Studies"@en .
 
 destatispersonal:03 a skos:Concept ;
+    skos:exactMatch destatisstudierende:03 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.220,
         destatispersonal:03.225,
@@ -5538,6 +5880,7 @@ destatispersonal:03 a skos:Concept ;
 
 destatispersonal:04.400 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.42 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.400.4000,
         destatispersonal:04.400.4010,
@@ -5557,6 +5900,7 @@ destatispersonal:04.400 a skos:Concept ;
 
 destatispersonal:04.410 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.43 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.410.4100,
         destatispersonal:04.410.4110,
@@ -5613,6 +5957,7 @@ destatispersonal:07.580 a skos:Concept ;
         "Clinical-practical Veterinary Medicine"@en .
 
 destatispersonal:08 a skos:Concept ;
+    skos:exactMatch destatisstudierende:08 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.670,
         destatispersonal:08.675,
@@ -5633,6 +5978,7 @@ destatispersonal:08 a skos:Concept ;
 
 destatispersonal:09.830 a skos:Concept ;
     skos:broader destatispersonal:09 ;
+    skos:exactMatch destatisstudierende:09.78 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:09.830.8300,
         destatispersonal:09.830.8310,
@@ -5671,6 +6017,7 @@ destatispersonal:20.970 a skos:Concept ;
 
 destatispersonal:03.320 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.33 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.320.1800,
         destatispersonal:03.320.1801,
@@ -5690,6 +6037,7 @@ destatispersonal:03.320 a skos:Concept ;
         "Educational Sciences"@en .
 
 destatispersonal:01 a skos:Concept ;
+    skos:exactMatch destatisstudierende:01 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.010,
         destatispersonal:01.020,
@@ -5714,6 +6062,7 @@ destatispersonal:01 a skos:Concept ;
 
 destatispersonal:04.370 a skos:Concept ;
     skos:broader destatispersonal:04 ;
+    skos:exactMatch destatisstudierende:04.40 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:04.370.3700,
         destatispersonal:04.370.3710,
@@ -5737,6 +6086,7 @@ destatispersonal:04.370 a skos:Concept ;
 
 destatispersonal:03.270 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.29 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.270.2610,
         destatispersonal:03.270.2700,
@@ -5761,6 +6111,7 @@ destatispersonal:03.270 a skos:Concept ;
 
 destatispersonal:03.290 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.30 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.290.2815,
         destatispersonal:03.290.2835,
@@ -5786,6 +6137,7 @@ destatispersonal:03.290 a skos:Concept ;
 
 destatispersonal:03.250 a skos:Concept ;
     skos:broader destatispersonal:03 ;
+    skos:exactMatch destatisstudierende:03.28 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:03.250.2500,
         destatispersonal:03.250.2510,
@@ -5813,6 +6165,7 @@ destatispersonal:03.250 a skos:Concept ;
 
 destatispersonal:08.690 a skos:Concept ;
     skos:broader destatispersonal:08 ;
+    skos:exactMatch destatisstudierende:08.63 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:08.690.6760,
         destatispersonal:08.690.6900,
@@ -5841,6 +6194,7 @@ destatispersonal:08.690 a skos:Concept ;
 
 destatispersonal:01.140 a skos:Concept ;
     skos:broader destatispersonal:01 ;
+    skos:exactMatch destatisstudierende:01.13 ;
     skos:inScheme destatispersonal:scheme ;
     skos:narrower destatispersonal:01.140.1400,
         destatispersonal:01.140.1410,

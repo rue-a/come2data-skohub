@@ -1,6 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix destatispersonal: <https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/personal-stellenstatistik/> .
-@prefix destatisstudierende: <https://rue-a.github.io/come2data-skohub/www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik/> .
+@prefix destatispersonal: <https://rue-a.github.io/come2data-skohub/personal/> .
+@prefix destatisstudierende: <https://rue-a.github.io/come2data-skohub/studierende/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 

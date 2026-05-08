@@ -15,7 +15,7 @@ Eine maschinenlesbare Version der Fächersystematik wurde von Destatis auf Anfra
 
 ### Erstellung des SKOS Dokuments `destatis_personal_skos.ttl`
 
-Das SKOS Dokument wurde mithile der Python Scripts `pers_tables2skos.py` 
+Das SKOS Dokument wird durch die Funktion `create_pers_skos` in `destatis_personal_23/pers_tables2skos.py` erzeugt. Sie wird vom Orchestrierungs-Script `destatis_mapping_pipeline.py` aufgerufen (siehe [Mapping](#mapping)).
 
 #### 1) Konvertierung der Originaldaten zu SKOS
 
@@ -43,7 +43,7 @@ Eine maschinenlesbare Version der Fächersystematik wurde von Destatis auf Anfra
 
 ### Erstellung des Dokuments `destatis_studierende_skos.ttl`
 
-Das SKOS Dokument wurde mithile der Python Scripts `stud_tables2skos.py` 
+Das SKOS Dokument wird durch die Funktion `create_stud_skos` in `destatis_studierende_23/stud_tables2skos.py` erzeugt. Sie wird vom Orchestrierungs-Script `destatis_mapping_pipeline.py` aufgerufen (siehe [Mapping](#mapping)).
 
 #### 1) Konvertierung der Originaldaten zu SKOS
 
@@ -62,7 +62,32 @@ Eine SKOS-Version der *Systematik der Fächergruppen, Studienbereiche und Studie
 
 ## Mapping
 
-Mithilfe der händisch erstellten Tabelle `mapping_table.csv` und `map_pers_stud.py` wurden die Konzepte der beiden Schemata aufeinander abgebildet. Die Ergebnisse dieser Abbildung befinden sich im Ordner `mapping_results`.
+Die Konzepte der beiden Schemata wurden mithilfe der händisch erstellten Tabelle `destatis_mapping/mapping_table.csv` aufeinander abgebildet. Dabei werden `skos:exactMatch`, `skos:closeMatch` und `skos:relatedMatch` Relationen in beide Richtungen ergänzt.
+
+Die Abbildungslogik ist in `destatis_mapping/mapping.py` (`create_mapping`) implementiert. Das Orchestrierungs-Script `destatis_mapping_pipeline.py` ruft alle drei Schritte nacheinander auf:
+
+```
+destatis_mapping_pipeline.py          ← Einstiegspunkt: Namespaces, Pfade, Aufruf der Teilschritte
+destatis_personal_23/
+    pers_tables2skos.py               ← create_pers_skos(namespace) → Graph
+destatis_studierende_23/
+    stud_tables2skos.py               ← create_stud_skos(namespace) → Graph
+destatis_mapping/
+    mapping.py                        ← create_mapping(...) → Graph
+    mapping_table.csv                 ← händisches Mapping der Konzepte
+```
+
+Die erzeugten SKOS-Dokumente werden im Ordner `published_vocabs/` abgelegt:
+
+- `destatis_personal_skos.ttl` — angereichertes Personal-Vokabular
+- `destatis_studierende_skos.ttl` — angereichertes Studierende-Vokabular
+- `destatis_combined_skos.ttl` — zusammengeführtes Gesamtvokabular
+
+Um alle drei Dateien neu zu erzeugen:
+
+```bash
+uv run destatis_mapping_pipeline.py
+```
 
 # Lizenz
 

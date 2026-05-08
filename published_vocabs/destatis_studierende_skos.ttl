@@ -3,6 +3,7 @@
 @prefix destatisstudierende: <https://rue-a.github.io/come2data-skohub/studierende/> .
 @prefix isced: <https://publications.europa.eu/resource/authority/snb/isced-f/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 destatisstudierende:01.01.004 a skos:Concept ;
@@ -3425,9 +3426,12 @@ destatisstudierende:08.63 a skos:Concept ;
 destatisstudierende:scheme a skos:ConceptScheme ;
     dcterms:created "2024-01-11"^^xsd:date ;
     dcterms:creator "Statistisches Bundesamt"@de ;
-    dcterms:license "© Statistisches Bundesamt (Destatis), 2025. Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenagabe gestatted."@de ;
+    dcterms:description "SKOS-Version der Systematik der Fächergruppen, Studienbereiche und Studienfächer (Destatis, 2023)."@de,
+        "SKOS version of the Classification System of Subject Groups, Study Areas, and Fields of Study (Destatis, 2023)."@en ;
+    dcterms:license <https://www.govdata.de/dl-de/by-2-0> ;
     dcterms:title "Systematik der Fächergruppen, Studienbereiche und Studienfächer"@de,
         "Classification System of Subject Groups, Study Areas, and Fields of Study"@en ;
+    vann:preferredNamespaceUri "https://rue-a.github.io/come2data-skohub/studierende/"^^xsd:string ;
     skos:hasTopConcept destatisstudierende:01,
         destatisstudierende:02,
         destatisstudierende:03,

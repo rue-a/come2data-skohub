@@ -4,6 +4,7 @@ from rdflib import Graph, Literal, Namespace, URIRef, XSD
 from rdflib.namespace import DCTERMS, RDF, SKOS
 
 ISCED = Namespace("https://publications.europa.eu/resource/authority/snb/isced-f/")
+VANN = Namespace("http://purl.org/vocab/vann/")
 
 
 def create_stud_skos(namespace: Namespace) -> Graph:
@@ -33,6 +34,7 @@ def create_stud_skos(namespace: Namespace) -> Graph:
     g = Graph()
     g.bind("skos", SKOS)
     g.bind("dcterms", DCTERMS)
+    g.bind("vann", VANN)
     g.bind("destatisstudierende", namespace)
     g.bind("isced", ISCED)
 
@@ -70,10 +72,34 @@ def create_stud_skos(namespace: Namespace) -> Graph:
         (
             namespace.scheme,
             DCTERMS.license,
+            URIRef("https://www.govdata.de/dl-de/by-2-0"),
+        )
+    )
+    g.add(
+        (
+            namespace.scheme,
+            DCTERMS.description,
             Literal(
-                "© Statistisches Bundesamt (Destatis), 2025. Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenagabe gestatted.",
+                "SKOS-Version der Systematik der Fächergruppen, Studienbereiche und Studienfächer (Destatis, 2023).",
                 lang="de",
             ),
+        )
+    )
+    g.add(
+        (
+            namespace.scheme,
+            DCTERMS.description,
+            Literal(
+                "SKOS version of the Classification System of Subject Groups, Study Areas, and Fields of Study (Destatis, 2023).",
+                lang="en",
+            ),
+        )
+    )
+    g.add(
+        (
+            namespace.scheme,
+            VANN.preferredNamespaceUri,
+            Literal(str(namespace), datatype=XSD.string),
         )
     )
 

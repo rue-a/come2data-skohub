@@ -2,6 +2,7 @@
 @prefix destatispersonal: <https://rue-a.github.io/come2data-skohub/personal/> .
 @prefix destatisstudierende: <https://rue-a.github.io/come2data-skohub/studierende/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 destatispersonal:08.710.7161 skos:closeMatch destatisstudierende:08.64.157 .
@@ -6293,9 +6294,12 @@ destatispersonal:05.490 a skos:Concept ;
 destatispersonal:scheme a skos:ConceptScheme ;
     dcterms:created "2024-01-11"^^xsd:date ;
     dcterms:creator "Statistisches Bundesamt"@de ;
-    dcterms:license "© Statistisches Bundesamt (Destatis), 2024. Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenagabe gestatted."@de ;
+    dcterms:description "SKOS-Version der Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete (Destatis, 2023)."@de,
+        "SKOS version of the Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise (Destatis, 2023)."@en ;
+    dcterms:license <https://www.govdata.de/dl-de/by-2-0> ;
     dcterms:title "Systematik der Fächergruppen, Lehr- und Forschungsbereiche und Fachgebiete"@de,
         "Classification System of Subject Groups, Teaching and Research Areas, and Fields of Expertise"@en ;
+    vann:preferredNamespaceUri "https://rue-a.github.io/come2data-skohub/personal/"^^xsd:string ;
     skos:hasTopConcept destatispersonal:01,
         destatispersonal:02,
         destatispersonal:03,

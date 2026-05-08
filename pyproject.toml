@@ -1,0 +1,11 @@
+[project]
+name = "come2data-skohub"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fuzzywuzzy>=0.18.0",
+    "pandas>=3.0.2",
+    "rdflib>=7.6.0",
+]

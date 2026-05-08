@@ -60,51 +60,51 @@ def get_de_pref_label(g: Graph, s):
     return label, notation
 
 
-unmatched = set()
+# unmatched = set()
 
-# Iterate over STUDIERENDE concepts and compare to PERSONAL concepts
-# (we only add mapping triples to the *combined* graph)
-for c_stud in set(g_studierende.subjects(SKOS.prefLabel, None)):
-    label_stud, notation_stud = get_de_pref_label(g_studierende, c_stud)
-    if not (label_stud and notation_stud):
-        continue
+# # Iterate over STUDIERENDE concepts and compare to PERSONAL concepts
+# # (we only add mapping triples to the *combined* graph)
+# for c_stud in set(g_studierende.subjects(SKOS.prefLabel, None)):
+#     label_stud, notation_stud = get_de_pref_label(g_studierende, c_stud)
+#     if not (label_stud and notation_stud):
+#         continue
 
-    matched = False
-    for c_pers in set(g_personal.subjects(SKOS.prefLabel, None)):
-        label_pers, notation_pers = get_de_pref_label(g_personal, c_pers)
+#     matched = False
+#     for c_pers in set(g_personal.subjects(SKOS.prefLabel, None)):
+#         label_pers, notation_pers = get_de_pref_label(g_personal, c_pers)
 
-        if not (label_pers and notation_pers):
-            continue
+#         if not (label_pers and notation_pers):
+#             continue
 
-        score = fuzz.token_sort_ratio(str(label_pers), str(label_stud))
-        if score >= MATCH_THRESHOLD:
-            matched = True
+#         score = fuzz.token_sort_ratio(str(label_pers), str(label_stud))
+#         if score >= MATCH_THRESHOLD:
+#             matched = True
 
-            np, ns = str(notation_pers), str(notation_stud)
+#             np, ns = str(notation_pers), str(notation_stud)
 
-            # Decide mapping strength based on code-length relationship
-            if len(np) == 2 and len(ns) == 2:
-                combined.add((c_stud, SKOS.exactMatch, c_pers))
-                combined.add((c_pers, SKOS.exactMatch, c_stud))
-                print(
-                    f"exactMatch (Top): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
-                )
-            elif len(np) == 3 and len(ns) == 3:
-                combined.add((c_stud, SKOS.exactMatch, c_pers))
-                combined.add((c_pers, SKOS.exactMatch, c_stud))
-                print(
-                    f"exactMatch (Mid): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
-                )
-            elif len(np) == 4 and len(ns) == 4:
-                combined.add((c_stud, SKOS.closeMatch, c_pers))
-                combined.add((c_pers, SKOS.closeMatch, c_stud))
-                print(
-                    f"closeMatch (Bottom): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
-                )
-            break
+#             # Decide mapping strength based on code-length relationship
+#             if len(np) == 2 and len(ns) == 2:
+#                 combined.add((c_stud, SKOS.exactMatch, c_pers))
+#                 combined.add((c_pers, SKOS.exactMatch, c_stud))
+#                 print(
+#                     f"exactMatch (Top): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
+#                 )
+#             elif len(np) == 3 and len(ns) == 3:
+#                 combined.add((c_stud, SKOS.exactMatch, c_pers))
+#                 combined.add((c_pers, SKOS.exactMatch, c_stud))
+#                 print(
+#                     f"exactMatch (Mid): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
+#                 )
+#             elif len(np) == 4 and len(ns) == 4:
+#                 combined.add((c_stud, SKOS.closeMatch, c_pers))
+#                 combined.add((c_pers, SKOS.closeMatch, c_stud))
+#                 print(
+#                     f"closeMatch (Bottom): {label_stud} ({notation_stud}) ↔ {label_pers} ({notation_pers})"
+#                 )
+#             break
 
-    if not matched:
-        unmatched.add((str(notation_stud), str(label_stud)))
+#     if not matched:
+#         unmatched.add((str(notation_stud), str(label_stud)))
 
 # Ensure output dir exists
 Path(OUT_COMBINED).parent.mkdir(parents=True, exist_ok=True)

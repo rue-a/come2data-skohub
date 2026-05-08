@@ -60,6 +60,10 @@ Die Tabelle mit den Studienfächern (`Studienfach_WS2024.xlsx`/`stf.csv`) enthä
 Eine SKOS-Version der *Systematik der Fächergruppen, Studienbereiche und Studienfächer* wird von der [DINI (Deutsche Initiative für Netzwerkinformation)](https://dini.de/) Arbeitsgruppe [KIM (Das Kompetenzzentrum Interoperable Metadaten)](https://dini.de/standards) unter https://github.com/dini-ag-kim/hochschulfaechersystematik gepflegt. Diese Version beinhaltet auch Übersetzungen der Konzeptlabels ins Englische und Ukrainische. Die Version wurde diesem Repositorium in der Version `v2025-02-03` als `hochschulfaechersystematik.ttl` hinzugefügt. 
 
 
+## Mapping/`results`
+
+Mithilfe der händisch erstellten Tabelle `mapping_table.csv` und `map_pers_stud.py` wurden die Konzepte der beiden Schemata aufeinander abgebildet. Die Ergebnisse dieser Abbildung befinden sich im Ordner `results`.
+
 # Lizenz
 
 Die in der Datei `LICENSE` abgedruckte Lizenz gilt der Software SkoHub Pages, nicht den Inhalten der mit der Software bereitgestellten SKOS-Dokumente. Für die Inhalte gilt je nach Ursprung:

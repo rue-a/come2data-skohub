@@ -13,9 +13,9 @@ CONCEPTS_STUD_DOMAIN = (
 )
 IN_PERSONAL = "destatis_personal_23/destatis_personal_skos.ttl"
 IN_STUD = "destatis_studierende_23/destatis_studierende_skos.ttl"
-OUT_PERSONAL = "published_vocabs/destatis_personal_skos.ttl"
-OUT_STUD = "published_vocabs/destatis_studierende_skos.ttl"
-OUT_COMBINED = "published_vocabs/destatis_combined_skos.ttl"
+OUT_PERSONAL = "results/destatis_personal_skos.ttl"
+OUT_STUD = "results/destatis_studierende_skos.ttl"
+OUT_COMBINED = "results/destatis_combined_skos.ttl"
 MAPPING_TABLE = "mapping_table.csv"
 
 # ----------------------------

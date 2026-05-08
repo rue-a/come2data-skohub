@@ -10,8 +10,6 @@ def create_mapping(
     ns_pers: Namespace,
     ns_stud: Namespace,
     mapping_table_path: str,
-    out_personal: str,
-    out_stud: str,
     out_combined: str,
 ) -> Graph:
     """
@@ -42,13 +40,29 @@ def create_mapping(
                 continue
 
             stud_uri = ns_stud[stud_id]
-            close_match_uris = [ns_pers[i] for i in _parse_ids(row["close_match_personal_ids"])]
-            exact_match_uris = [ns_pers[i] for i in _parse_ids(row["exact_match_personal_ids"])]
-            related_match_uris = [ns_pers[i] for i in _parse_ids(row["related_match_personal_ids"])]
+            close_match_uris = [
+                ns_pers[i] for i in _parse_ids(row["close_match_personal_ids"])
+            ]
+            exact_match_uris = [
+                ns_pers[i] for i in _parse_ids(row["exact_match_personal_ids"])
+            ]
+            related_match_uris = [
+                ns_pers[i] for i in _parse_ids(row["related_match_personal_ids"])
+            ]
 
-            _add_symmetric_matches(g_studierende, g_personal, stud_uri, SKOS.closeMatch, close_match_uris)
-            _add_symmetric_matches(g_studierende, g_personal, stud_uri, SKOS.exactMatch, exact_match_uris)
-            _add_symmetric_matches(g_studierende, g_personal, stud_uri, SKOS.relatedMatch, related_match_uris)
+            _add_symmetric_matches(
+                g_studierende, g_personal, stud_uri, SKOS.closeMatch, close_match_uris
+            )
+            _add_symmetric_matches(
+                g_studierende, g_personal, stud_uri, SKOS.exactMatch, exact_match_uris
+            )
+            _add_symmetric_matches(
+                g_studierende,
+                g_personal,
+                stud_uri,
+                SKOS.relatedMatch,
+                related_match_uris,
+            )
 
     g_combined = g_personal + g_studierende
 
@@ -59,12 +73,8 @@ def create_mapping(
         graph.bind("destatispersonal", ns_pers, override=True, replace=True)
         graph.bind("destatisstudierende", ns_stud, override=True, replace=True)
 
-    g_personal.serialize(out_personal, format="turtle")
-    g_studierende.serialize(out_stud, format="turtle")
     g_combined.serialize(out_combined, format="turtle")
 
-    print(f"Enriched personal vocabulary written to:    {out_personal}")
-    print(f"Enriched studierende vocabulary written to: {out_stud}")
     print(f"Combined vocabulary written to:             {out_combined}")
 
     return g_combined

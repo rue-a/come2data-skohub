@@ -1,4 +1,4 @@
 .venv
 uv.lock
-skohub
+skohub-vocabs
 __pycache__

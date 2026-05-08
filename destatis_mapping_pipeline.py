@@ -25,7 +25,5 @@ create_mapping(
     DESTATIS_PERS,
     DESTATIS_STUD,
     MAPPING_TABLE,
-    OUT_PERSONAL,
-    OUT_STUD,
     OUT_COMBINED,
 )
